@@ -4,10 +4,10 @@ title: About Me
 permalink: /about/
 ---
 
-This is where you put the contents of your *About* page. Like all your pages, it's in [Markdown](https://guides.github.com/features/mastering-markdown/) format.
+**About Me**
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
+![](RackMultipart20200516-4-1l0nt0t_html_ce45ea9a5627d7be.png)
 
+Welcome to my Blog, I am Darshpreet Singh currently pursuing Bachelor Of Technology in Computer Science &amp; Engineering.
 
-
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+I live in India, I have great skills in Mobile App Development using Flutter &amp; Native Android.
