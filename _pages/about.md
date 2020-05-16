@@ -6,8 +6,7 @@ permalink: /about/
 
 **About Me**
 
-![]({{site.baseurl}}/images/circle-cropped.png){:height="50%" width="50%"}
-
+<img src="https://darshpreet2000.github.io/Code-To-Help/images/circle-cropped.png" width="48">
 
 Welcome to my Blog, I am Darshpreet Singh currently pursuing Bachelor Of Technology in Computer Science &amp; Engineering.
 
