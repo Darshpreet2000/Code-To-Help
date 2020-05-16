@@ -6,7 +6,7 @@ permalink: /about/
 
 **About Me**
 
-![]({{site.baseurl}}/images/circle-cropped.png "https://github.com/Darshpreet2000/Code-To-Help")
+![]({{site.baseurl}}/images/circle-cropped.png)
 
 Welcome to my Blog, I am Darshpreet Singh currently pursuing Bachelor Of Technology in Computer Science &amp; Engineering.
 
