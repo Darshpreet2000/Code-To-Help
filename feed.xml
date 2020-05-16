@@ -1,4 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://darshpreet2000.github.io/My-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darshpreet2000.github.io/My-Blog/" rel="alternate" type="text/html" /><updated>2020-05-16T06:09:17-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/feed.xml</id><title type="html">GSoC Journey</title><subtitle>Blogs For My Coding Journey</subtitle><entry><title type="html">Community Bonding May 4 To May 8</title><link href="https://darshpreet2000.github.io/My-Blog/2020/05/15/Community-Bonding-May-4-to-May-8.html" rel="alternate" type="text/html" title="Community Bonding May 4 To May 8" /><published>2020-05-15T00:00:00-05:00</published><updated>2020-05-15T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2020/05/15/Community-Bonding-May-4-to-May-8</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2020/05/15/Community-Bonding-May-4-to-May-8.html">&lt;p&gt;I am very much Thankful to LibreHealth &amp;amp; Google for selecting me. I will narrate my story , how I got to know about GSoC , how I prepared for getting selected &amp;amp; my progress till May 8.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://darshpreet2000.github.io/My-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darshpreet2000.github.io/My-Blog/" rel="alternate" type="text/html" /><updated>2020-05-16T06:44:04-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/feed.xml</id><title type="html">GSoC Journey</title><subtitle>Blogs For My Coding Journey</subtitle><entry><title type="html">Community Bonding May 9 To May 15</title><link href="https://darshpreet2000.github.io/My-Blog/2020/05/16/Community-Bonding-May-9-to-May-15.html" rel="alternate" type="text/html" title="Community Bonding May 9 To May 15" /><published>2020-05-16T00:00:00-05:00</published><updated>2020-05-16T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2020/05/16/Community-Bonding-May-9-to-May-15</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2020/05/16/Community-Bonding-May-9-to-May-15.html">&lt;p&gt;&lt;strong&gt;Reading Documentation Of Flutter Packages&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In the second week of community bonding, I read documentation of Flutter packages such as &lt;strong&gt;flutter_map&lt;/strong&gt; &lt;a href=&quot;https://pub.dev/packages/flutter_map&quot;&gt;&lt;strong&gt;(Link)&lt;/strong&gt;&lt;/a&gt; which I will use to display OSM (Open Street Map ) in the app. I read its implementation from examples shown.&lt;/p&gt;
+
+&lt;p&gt;I read about Flutter &lt;strong&gt;GeoJSON&lt;/strong&gt; package which I will use to read geojson output from the Overpass API response.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;location&lt;/strong&gt; package &lt;strong&gt;&lt;a href=&quot;https://pub.dev/packages/location&quot;&gt;(Link)&lt;/a&gt;&lt;/strong&gt; It is another package which I will use to get current location of User.&lt;/p&gt;
+
+&lt;p&gt;I will get latitude &amp;amp; longitude of user which I will use in Overpass API to get Nearby Hospitals&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Using Overpass API to retrieve Nearby Hospitals&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I learned to use Overpass API to show nearby Hospitals, I have used Overpass turbo to test my API calls.&lt;/p&gt;
+
+&lt;p&gt;Overpass API uses a Query Language to get data from its Server. I read its documentation carefully. &lt;a href=&quot;https://wiki.openstreetmap.org/wiki/Overpass_API&quot;&gt;&lt;strong&gt;(Here)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I read its various examples, I will summarize my points here&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Base URL&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+&lt;tbody&gt;
+&lt;tr class=&quot;odd&quot;&gt;
+&lt;td&gt;&lt;a href=&quot;https://lz4.overpass-api.de/api/interpreter&quot;&gt;&lt;strong&gt;&lt;br /&gt;
+https://lz4.overpass-api.de/api/interpreter&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;around&quot;&gt;&lt;strong&gt;Around&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Around allows you to get all nodes near one or more given nodes.&lt;/p&gt;
+
+&lt;p&gt;Example&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lz4.overpass-api.de/api/interpreter?data=[out:json];%20\(%20node\(around:8000,39.435200,%20-74.605448\)[&amp;quot;amenity&amp;quot;=&amp;quot;hospital&amp;quot;];%20way\(around:8000,39.435200,%20-74.605448\)[&amp;quot;amenity&amp;quot;=&amp;quot;hospital&amp;quot;];%20\);%20/*added%20by%20auto%20repair*/%20\(._;\&amp;gt;;\);%20/*end%20of%20auto%20repair*/%20out%20body;%20\&amp;gt;;&quot;&gt;around:&lt;span class=&quot;underline&quot;&gt;1&lt;/span&gt;000&lt;/a&gt; in area of 1 Km.&lt;/p&gt;
+
+&lt;p&gt;Need to pass current location coordinates&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lz4.overpass-api.de/api/interpreter?data=[out:json];%20\(%20node\(around:8000,39.435200,%20-74.605448\)[&amp;quot;amenity&amp;quot;=&amp;quot;hospital&amp;quot;];%20way\(around:8000,39.435200,%20-74.605448\)[&amp;quot;amenity&amp;quot;=&amp;quot;hospital&amp;quot;];%20\);%20/*added%20by%20auto%20repair*/%20\(._;\&amp;gt;;\);%20/*end%20of%20auto%20repair*/%20out%20body;%20\&amp;gt;;&quot;&gt;(around:&lt;span class=&quot;underline&quot;&gt;1&lt;/span&gt;000,39.435200,%20-74.605448)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Amenity&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“amenity”=”hospital” , For searching hospitals&lt;/p&gt;
+
+&lt;p&gt;Complete Query&lt;/p&gt;
+
+&lt;p&gt;[out:json];&lt;/p&gt;
+
+&lt;p&gt;(&lt;/p&gt;
+
+&lt;p&gt;node(around:8000,39.435200, -74.605448)[“amenity”=”hospital”];&lt;/p&gt;
+
+&lt;p&gt;way(around:8000,39.435200, -74.605448)[“amenity”=”hospital”];&lt;/p&gt;
+
+&lt;p&gt;);&lt;/p&gt;
+
+&lt;p&gt;(._;&amp;gt;;);&lt;/p&gt;
+
+&lt;p&gt;out body;&lt;/p&gt;
+
+&lt;p&gt;&amp;gt;;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;GET REQUEST&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lz4.overpass-api.de/api/interpreter?data=[out:json];%20\(%20node\(around:8000,39.435200,%20-74.605448\)[&amp;quot;amenity&amp;quot;=&amp;quot;hospital&amp;quot;];%20way\(around:8000,39.435200,%20-74.605448\)[&amp;quot;amenity&amp;quot;=&amp;quot;hospital&amp;quot;];%20\);%20/*added%20by%20auto%20repair*/%20\(._;\&amp;gt;;\);%20/*end%20of%20auto%20repair*/%20out%20body;%20\&amp;gt;;&quot;&gt;https://lz4.overpass-api.de/api/interpreter?data=[out:json];%20(%20node(around:8000,39.435200,%20-74.605448)[%22amenity%22=%22hospital%22];%20way(around:8000,39.435200,%20-74.605448)[%22amenity%22=%22hospital%22];%20);%20/*added%20by%20auto%20repair*/%20(._;%3E;);%20/*end%20of%20auto%20repair*/%20out%20body;%20%3E;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I also discussed with my mentors my approach to scrap Hospitals Data &amp;amp; how I will store it on Github.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Discussion&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;My entire discussion can be seen here&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://forums.librehealth.io/t/project-develop-an-android-mobile-application-to-show-patient-friendly-costs-of-care/3685/14&quot;&gt;https://forums.librehealth.io/t/project-develop-an-android-mobile-application-to-show-patient-friendly-costs-of-care/3685/14&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Reading Documentation Of Flutter Packages</summary></entry><entry><title type="html">Community Bonding May 4 To May 8</title><link href="https://darshpreet2000.github.io/My-Blog/2020/05/15/Community-Bonding-May-4-to-May-8.html" rel="alternate" type="text/html" title="Community Bonding May 4 To May 8" /><published>2020-05-15T00:00:00-05:00</published><updated>2020-05-15T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2020/05/15/Community-Bonding-May-4-to-May-8</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2020/05/15/Community-Bonding-May-4-to-May-8.html">&lt;p&gt;I am very much Thankful to LibreHealth &amp;amp; Google for selecting me. I will narrate my story , how I got to know about GSoC , how I prepared for getting selected &amp;amp; my progress till May 8.&lt;/p&gt;
 
 &lt;h4 id=&quot;what-is-gsoc&quot;&gt;&lt;strong&gt;What is GSoC?&lt;/strong&gt;&lt;/h4&gt;
 
