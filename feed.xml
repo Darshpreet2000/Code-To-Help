@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://darshpreet2000.github.io/My-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darshpreet2000.github.io/My-Blog/" rel="alternate" type="text/html" /><updated>2020-05-16T06:44:04-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/feed.xml</id><title type="html">GSoC Journey</title><subtitle>Blogs For My Coding Journey</subtitle><entry><title type="html">Community Bonding May 9 To May 15</title><link href="https://darshpreet2000.github.io/My-Blog/2020/05/16/Community-Bonding-May-9-to-May-15.html" rel="alternate" type="text/html" title="Community Bonding May 9 To May 15" /><published>2020-05-16T00:00:00-05:00</published><updated>2020-05-16T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2020/05/16/Community-Bonding-May-9-to-May-15</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2020/05/16/Community-Bonding-May-9-to-May-15.html">&lt;p&gt;&lt;strong&gt;Reading Documentation Of Flutter Packages&lt;/strong&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://darshpreet2000.github.io/My-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darshpreet2000.github.io/My-Blog/" rel="alternate" type="text/html" /><updated>2020-05-16T06:49:32-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/feed.xml</id><title type="html">GSoC Journey</title><subtitle>Blogs For My Coding Journey</subtitle><entry><title type="html">Community Bonding May 9 To May 15</title><link href="https://darshpreet2000.github.io/My-Blog/2020/05/16/Community-Bonding-May-9-to-May-15.html" rel="alternate" type="text/html" title="Community Bonding May 9 To May 15" /><published>2020-05-16T00:00:00-05:00</published><updated>2020-05-16T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2020/05/16/Community-Bonding-May-9-to-May-15</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2020/05/16/Community-Bonding-May-9-to-May-15.html">&lt;h2 id=&quot;reading-documentation-of-flutter-packages&quot;&gt;Reading Documentation Of Flutter Packages&lt;/h2&gt;
 
 &lt;p&gt;In the second week of community bonding, I read documentation of Flutter packages such as &lt;strong&gt;flutter_map&lt;/strong&gt; &lt;a href=&quot;https://pub.dev/packages/flutter_map&quot;&gt;&lt;strong&gt;(Link)&lt;/strong&gt;&lt;/a&gt; which I will use to display OSM (Open Street Map ) in the app. I read its implementation from examples shown.&lt;/p&gt;
 
@@ -8,7 +8,7 @@
 
 &lt;p&gt;I will get latitude &amp;amp; longitude of user which I will use in Overpass API to get Nearby Hospitals&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Using Overpass API to retrieve Nearby Hospitals&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;using-overpass-api-to-retrieve-nearby-hospitals&quot;&gt;Using Overpass API to retrieve Nearby Hospitals&lt;/h2&gt;
 
 &lt;p&gt;I learned to use Overpass API to show nearby Hospitals, I have used Overpass turbo to test my API calls.&lt;/p&gt;
 
@@ -16,16 +16,9 @@
 
 &lt;p&gt;I read its various examples, I will summarize my points here&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Base URL&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;base-url&quot;&gt;Base URL&lt;/h3&gt;
 
-&lt;table&gt;
-&lt;tbody&gt;
-&lt;tr class=&quot;odd&quot;&gt;
-&lt;td&gt;&lt;a href=&quot;https://lz4.overpass-api.de/api/interpreter&quot;&gt;&lt;strong&gt;&lt;br /&gt;
-https://lz4.overpass-api.de/api/interpreter&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;https://lz4.overpass-api.de/api/interpreter&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;around&quot;&gt;&lt;strong&gt;Around&lt;/strong&gt;&lt;/h3&gt;
 
@@ -39,7 +32,7 @@ https://lz4.overpass-api.de/api/interpreter&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://lz4.overpass-api.de/api/interpreter?data=[out:json];%20\(%20node\(around:8000,39.435200,%20-74.605448\)[&amp;quot;amenity&amp;quot;=&amp;quot;hospital&amp;quot;];%20way\(around:8000,39.435200,%20-74.605448\)[&amp;quot;amenity&amp;quot;=&amp;quot;hospital&amp;quot;];%20\);%20/*added%20by%20auto%20repair*/%20\(._;\&amp;gt;;\);%20/*end%20of%20auto%20repair*/%20out%20body;%20\&amp;gt;;&quot;&gt;(around:&lt;span class=&quot;underline&quot;&gt;1&lt;/span&gt;000,39.435200,%20-74.605448)&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Amenity&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;amenity&quot;&gt;Amenity&lt;/h3&gt;
 
 &lt;p&gt;“amenity”=”hospital” , For searching hospitals&lt;/p&gt;
 
@@ -61,13 +54,13 @@ https://lz4.overpass-api.de/api/interpreter&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
 
 &lt;p&gt;&amp;gt;;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;GET REQUEST&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;get-request&quot;&gt;GET REQUEST&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://lz4.overpass-api.de/api/interpreter?data=[out:json];%20\(%20node\(around:8000,39.435200,%20-74.605448\)[&amp;quot;amenity&amp;quot;=&amp;quot;hospital&amp;quot;];%20way\(around:8000,39.435200,%20-74.605448\)[&amp;quot;amenity&amp;quot;=&amp;quot;hospital&amp;quot;];%20\);%20/*added%20by%20auto%20repair*/%20\(._;\&amp;gt;;\);%20/*end%20of%20auto%20repair*/%20out%20body;%20\&amp;gt;;&quot;&gt;https://lz4.overpass-api.de/api/interpreter?data=[out:json];%20(%20node(around:8000,39.435200,%20-74.605448)[%22amenity%22=%22hospital%22];%20way(around:8000,39.435200,%20-74.605448)[%22amenity%22=%22hospital%22];%20);%20/*added%20by%20auto%20repair*/%20(._;%3E;);%20/*end%20of%20auto%20repair*/%20out%20body;%20%3E;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I also discussed with my mentors my approach to scrap Hospitals Data &amp;amp; how I will store it on Github.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Discussion&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;discussion&quot;&gt;Discussion&lt;/h2&gt;
 
 &lt;p&gt;My entire discussion can be seen here&lt;/p&gt;
 

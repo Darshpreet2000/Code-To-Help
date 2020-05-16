@@ -100,7 +100,7 @@ window.onload = wrap_img;
     </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p><strong>Reading Documentation Of Flutter Packages</strong></p>
+    <h2 id="reading-documentation-of-flutter-packages">Reading Documentation Of Flutter Packages</h2>
 
 <p>In the second week of community bonding, I read documentation of Flutter packages such as <strong>flutter_map</strong> <a href="https://pub.dev/packages/flutter_map"><strong>(Link)</strong></a> which I will use to display OSM (Open Street Map ) in the app. I read its implementation from examples shown.</p>
 
@@ -110,7 +110,7 @@ window.onload = wrap_img;
 
 <p>I will get latitude &amp; longitude of user which I will use in Overpass API to get Nearby Hospitals</p>
 
-<p><strong>Using Overpass API to retrieve Nearby Hospitals</strong></p>
+<h2 id="using-overpass-api-to-retrieve-nearby-hospitals">Using Overpass API to retrieve Nearby Hospitals</h2>
 
 <p>I learned to use Overpass API to show nearby Hospitals, I have used Overpass turbo to test my API calls.</p>
 
@@ -118,16 +118,9 @@ window.onload = wrap_img;
 
 <p>I read its various examples, I will summarize my points here</p>
 
-<p><strong>Base URL</strong></p>
+<h3 id="base-url">Base URL</h3>
 
-<table>
-<tbody>
-<tr class="odd">
-<td><a href="https://lz4.overpass-api.de/api/interpreter"><strong><br />
-https://lz4.overpass-api.de/api/interpreter</strong></a></td>
-</tr>
-</tbody>
-</table>
+<p><a href="">https://lz4.overpass-api.de/api/interpreter</a></p>
 
 <h3 id="around"><strong>Around</strong></h3>
 
@@ -141,7 +134,7 @@ https://lz4.overpass-api.de/api/interpreter</strong></a></td>
 
 <p><a href="https://lz4.overpass-api.de/api/interpreter?data=[out:json];%20\(%20node\(around:8000,39.435200,%20-74.605448\)[&quot;amenity&quot;=&quot;hospital&quot;];%20way\(around:8000,39.435200,%20-74.605448\)[&quot;amenity&quot;=&quot;hospital&quot;];%20\);%20/*added%20by%20auto%20repair*/%20\(._;\&gt;;\);%20/*end%20of%20auto%20repair*/%20out%20body;%20\&gt;;">(around:<span class="underline">1</span>000,39.435200,%20-74.605448)</a></p>
 
-<p><strong>Amenity</strong></p>
+<h3 id="amenity">Amenity</h3>
 
 <p>“amenity”=”hospital” , For searching hospitals</p>
 
@@ -163,13 +156,13 @@ https://lz4.overpass-api.de/api/interpreter</strong></a></td>
 
 <p>&gt;;</p>
 
-<p><strong>GET REQUEST</strong></p>
+<h2 id="get-request">GET REQUEST</h2>
 
 <p><a href="https://lz4.overpass-api.de/api/interpreter?data=[out:json];%20\(%20node\(around:8000,39.435200,%20-74.605448\)[&quot;amenity&quot;=&quot;hospital&quot;];%20way\(around:8000,39.435200,%20-74.605448\)[&quot;amenity&quot;=&quot;hospital&quot;];%20\);%20/*added%20by%20auto%20repair*/%20\(._;\&gt;;\);%20/*end%20of%20auto%20repair*/%20out%20body;%20\&gt;;">https://lz4.overpass-api.de/api/interpreter?data=[out:json];%20(%20node(around:8000,39.435200,%20-74.605448)[%22amenity%22=%22hospital%22];%20way(around:8000,39.435200,%20-74.605448)[%22amenity%22=%22hospital%22];%20);%20/*added%20by%20auto%20repair*/%20(._;%3E;);%20/*end%20of%20auto%20repair*/%20out%20body;%20%3E;</a></p>
 
 <p>I also discussed with my mentors my approach to scrap Hospitals Data &amp; how I will store it on Github.</p>
 
-<p><strong>Discussion</strong></p>
+<h2 id="discussion">Discussion</h2>
 
 <p>My entire discussion can be seen here</p>
 
