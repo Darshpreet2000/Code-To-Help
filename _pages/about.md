@@ -6,7 +6,7 @@ permalink: /about/
 
 **About Me**
 
-![](/images/circle-cropped.png =250x)
+<img src="/images/circle-cropped.png" width="200">
 
 Welcome to my Blog, I am Darshpreet Singh currently pursuing Bachelor Of Technology in Computer Science &amp; Engineering.
 
