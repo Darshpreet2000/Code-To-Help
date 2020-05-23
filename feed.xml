@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://darshpreet2000.github.io/My-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darshpreet2000.github.io/My-Blog/" rel="alternate" type="text/html" /><updated>2020-05-20T02:45:14-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/feed.xml</id><title type="html">GSoC Journey</title><subtitle>Blogs For My Coding Journey</subtitle><entry><title type="html">Community Bonding May 9 To May 15</title><link href="https://darshpreet2000.github.io/My-Blog/2020/05/15/Community-Bonding-May-9-to-May-15.html" rel="alternate" type="text/html" title="Community Bonding May 9 To May 15" /><published>2020-05-15T00:00:00-05:00</published><updated>2020-05-15T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2020/05/15/Community-Bonding-May-9-to-May-15</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2020/05/15/Community-Bonding-May-9-to-May-15.html">&lt;h2 id=&quot;reading-documentation-of-flutter-packages&quot;&gt;Reading Documentation Of Flutter Packages&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://darshpreet2000.github.io/My-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darshpreet2000.github.io/My-Blog/" rel="alternate" type="text/html" /><updated>2020-05-22T23:02:39-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/feed.xml</id><title type="html">GSoC Journey</title><subtitle>Blogs For My Coding Journey</subtitle><entry><title type="html">Community Bonding May 16 To May 22</title><link href="https://darshpreet2000.github.io/My-Blog/2020/05/23/Community-Bonding-May-16-To-May-22.html" rel="alternate" type="text/html" title="Community Bonding May 16 To May 22" /><published>2020-05-23T00:00:00-05:00</published><updated>2020-05-23T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2020/05/23/Community-Bonding-May-16-To-May-22</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2020/05/23/Community-Bonding-May-16-To-May-22.html">&lt;h1 id=&quot;learning-about-ci-pipeline-in-gitlab&quot;&gt;Learning About CI Pipeline in GitLab&lt;/h1&gt;
+
+&lt;p&gt;I have read documentation of GitLab CI (Continuous Pipeline) which I will use to update CDM stored in GitLab periodically. The pipeline will scrap data from the stored links &amp;amp; then process the data using a process script which I will make to process it to standard columns. Then the pipeline will push the changes to the GitLab Repository.&lt;/p&gt;
+
+&lt;p&gt;I have created a pipeline &lt;a href=&quot;https://gitlab.com/Darshpreet2000/scraphospitalcdm/-/blob/master/.gitlab-ci.yml&quot;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I need to make changes in it to also process the data. I will read documentation of it carefully&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.gitlab.com/ee/ci/pipelines/&quot;&gt;https://docs.gitlab.com/ee/ci/pipelines/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;changed-ui-of-home-screen--search-screen-of-app&quot;&gt;Changed UI of home screen &amp;amp; Search Screen of App&lt;/h2&gt;
+
+&lt;p&gt;I have changes only home screen &amp;amp; search screen UI . Now, I have used flutter gradient in home screen toolbar.&lt;/p&gt;
+
+&lt;p&gt;I have also forked the repo from LibreHealth GitLab Repository&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://Darshpreet2000.github.io/My-Blog/assets/img/2020-05-23-Community-Bonding-May-16-To-May-22/media/image1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I have scrapped data of few hospitals &amp;amp; tried to use CI Pipeline to update them &amp;amp; the pipeline is working correctly.&lt;/p&gt;
+
+&lt;p&gt;I have searched the web for US govt data which contain all hospitals of state. I got New York &amp;amp; California Hospitals CDM ,for rest of state I manually have to save links.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-do-i-plan-to-do-next-week&quot;&gt;&lt;strong&gt;What do I plan to do next week?&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;I will give my mentors Detailed project plan with Milestones for my coding period.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Analyzing CDM of hospitals &amp;amp; reading documentation for flutter Sqflite package&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Preparing up the development environment for start of coding session.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Learning About CI Pipeline in GitLab</summary></entry><entry><title type="html">Community Bonding May 9 To May 15</title><link href="https://darshpreet2000.github.io/My-Blog/2020/05/15/Community-Bonding-May-9-to-May-15.html" rel="alternate" type="text/html" title="Community Bonding May 9 To May 15" /><published>2020-05-15T00:00:00-05:00</published><updated>2020-05-15T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2020/05/15/Community-Bonding-May-9-to-May-15</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2020/05/15/Community-Bonding-May-9-to-May-15.html">&lt;h2 id=&quot;reading-documentation-of-flutter-packages&quot;&gt;Reading Documentation Of Flutter Packages&lt;/h2&gt;
 
 &lt;p&gt;In the second week of community bonding, I read documentation of Flutter packages such as &lt;strong&gt;flutter_map&lt;/strong&gt; &lt;a href=&quot;https://pub.dev/packages/flutter_map&quot;&gt;&lt;strong&gt;(Link)&lt;/strong&gt;&lt;/a&gt; which I will use to display OSM (Open Street Map ) in the app. I read its implementation from examples shown.&lt;/p&gt;
 
