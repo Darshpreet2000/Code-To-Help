@@ -1,32 +1,47 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://darshpreet2000.github.io/My-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darshpreet2000.github.io/My-Blog/" rel="alternate" type="text/html" /><updated>2020-06-06T00:27:52-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/feed.xml</id><title type="html">GSoC Journey</title><subtitle>Blogs For My Coding Journey</subtitle><entry><title type="html">Week 1 June 01 To June 05</title><link href="https://darshpreet2000.github.io/My-Blog/2020/06/05/Week-1-June-01-To-June-05.html" rel="alternate" type="text/html" title="Week 1 June 01  To June 05" /><published>2020-06-05T00:00:00-05:00</published><updated>2020-06-05T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2020/06/05/Week-1-June-01--To-June-05</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2020/06/05/Week-1-June-01-To-June-05.html">&lt;h2 id=&quot;building-ui-screens-of-app&quot;&gt;Building UI Screens of App&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://darshpreet2000.github.io/My-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darshpreet2000.github.io/My-Blog/" rel="alternate" type="text/html" /><updated>2020-06-06T00:38:32-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/feed.xml</id><title type="html">GSoC Journey</title><subtitle>Blogs For My Coding Journey</subtitle><entry><title type="html">Week 1 June 01 To June 05</title><link href="https://darshpreet2000.github.io/My-Blog/2020/06/05/Week-1-June-01-To-June-05.html" rel="alternate" type="text/html" title="Week 1 June 01  To June 05" /><published>2020-06-05T00:00:00-05:00</published><updated>2020-06-05T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2020/06/05/Week-1-June-01--To-June-05</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2020/06/05/Week-1-June-01-To-June-05.html">&lt;h2 id=&quot;coding-period-started&quot;&gt;&lt;strong&gt;Coding Period Started&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;With the beginning of this month, GSoC Coding Period begins, I started working actively, I also had Video call with my mentor last week &amp;amp; we discussed a lot about this project &amp;amp; program. My mentors guided me to first work on frontend of App ( Developing UI Screens ) with dummy data &amp;amp; later work on backend.&lt;/p&gt;
+
+&lt;h2 id=&quot;developing-ui-screens-of-app&quot;&gt;&lt;strong&gt;Developing&lt;/strong&gt; UI Screens of App&lt;/h2&gt;
 
 &lt;p&gt;This week I made UI screens of App with Dummy Data, I added Navigation Drawer, Bottom Navigation in app. I made UI of each screen. Some screens UI are pending but, I will do it by next week.&lt;/p&gt;
 
 &lt;p&gt;I will discuss here each screen I made with Dummy Data for now&lt;/p&gt;
 
-&lt;h3 id=&quot;home-screen&quot;&gt;Home Screen&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;home-screen&quot;&gt;Home Screen&lt;/h3&gt;
 
-&lt;p&gt;This screen will display nearby hospitals with images, It contains a search bar with settings icon which displays settings to change radius to display nearby hospitals.&lt;/p&gt;
+    &lt;p&gt;This screen will display nearby hospitals with images, It contains a search bar with settings icon which displays settings to change radius to display nearby hospitals.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;I have tried to make search bar similar to Google Play Store Search Bar.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://Darshpreet2000.github.io/My-Blog/assets/img/2020-06-05-Week-1-June-01--To-June-05/media/image1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;search-screen&quot;&gt;Search Screen&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;search-screen&quot;&gt;Search Screen&lt;/h3&gt;
 
-&lt;p&gt;It contains a search bar by which user can search for any procedure, It displays list of procedures&lt;/p&gt;
+    &lt;p&gt;It contains a search bar by which user can search for any procedure, It displays list of procedures&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;settings-screen&quot;&gt;Settings Screen&lt;/h3&gt;
 
-&lt;h3 id=&quot;settings-screen&quot;&gt;Settings Screen&lt;/h3&gt;
+    &lt;p&gt;It displays a slider which can control radius of UI.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;saved-screens&quot;&gt;Saved Screens&lt;/h3&gt;
 
-&lt;p&gt;It displays a slider which can control radius of UI.&lt;/p&gt;
+    &lt;p&gt;It will display list of chargemasters which are saved in local storage as SQL Database of App&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;view-cdm-statewise&quot;&gt;View CDM Statewise&lt;/h3&gt;
 
-&lt;h3 id=&quot;saved-screens&quot;&gt;Saved Screens&lt;/h3&gt;
-
-&lt;p&gt;It will display list of chargemasters which are saved in local storage as SQL Database of App&lt;/p&gt;
-
-&lt;h3 id=&quot;view-cdm-statewise&quot;&gt;View CDM Statewise&lt;/h3&gt;
-
-&lt;p&gt;User can view CDM of any hospital of any state&lt;/p&gt;
+    &lt;p&gt;User can view CDM of any hospital of any state&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;I have added Navigation Drawer which contains the following screens&lt;/p&gt;
 
@@ -62,7 +77,7 @@
 
 &lt;p&gt;I have to scrap CDM of Alaska State which I will do by Sunday &amp;amp; will send a Merge Request Soon,&lt;/p&gt;
 
-&lt;h2 id=&quot;ui-sample-screen&quot;&gt;UI Sample Screen&lt;/h2&gt;
+&lt;h2 id=&quot;ui-sample-screens&quot;&gt;UI Sample Screens&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://Darshpreet2000.github.io/My-Blog/assets/img/2020-06-05-Week-1-June-01--To-June-05/media/image2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -72,7 +87,7 @@
 
 &lt;h2 id=&quot;my-entire-discussion-with-mentors-can-be-seen-here&quot;&gt;My Entire discussion with mentors can be seen here&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://forums.librehealth.io/t/project-develop-an-android-mobile-application-to-show-patient-friendly-costs-of-care/3685/44&quot;&gt;https://forums.librehealth.io/t/project-develop-an-android-mobile-application-to-show-patient-friendly-costs-of-care/3685/44&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Building UI Screens of App</summary></entry><entry><title type="html">Community Boding May 23 To May 29</title><link href="https://darshpreet2000.github.io/My-Blog/2020/05/30/Community-Boding-May-23-To-May-29.html" rel="alternate" type="text/html" title="Community Boding May 23 To May 29" /><published>2020-05-30T00:00:00-05:00</published><updated>2020-05-30T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2020/05/30/Community-Boding-May-23-To-May-29</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2020/05/30/Community-Boding-May-23-To-May-29.html">&lt;p&gt;&lt;strong&gt;Searching CMS Data for Hospitals&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://forums.librehealth.io/t/project-develop-an-android-mobile-application-to-show-patient-friendly-costs-of-care/3685/44&quot;&gt;https://forums.librehealth.io/t/project-develop-an-android-mobile-application-to-show-patient-friendly-costs-of-care/3685/44&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Coding Period Started</summary></entry><entry><title type="html">Community Boding May 23 To May 29</title><link href="https://darshpreet2000.github.io/My-Blog/2020/05/30/Community-Boding-May-23-To-May-29.html" rel="alternate" type="text/html" title="Community Boding May 23 To May 29" /><published>2020-05-30T00:00:00-05:00</published><updated>2020-05-30T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2020/05/30/Community-Boding-May-23-To-May-29</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2020/05/30/Community-Boding-May-23-To-May-29.html">&lt;p&gt;&lt;strong&gt;Searching CMS Data for Hospitals&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;This week I found CMS Data which contains inpatient &amp;amp; outpatient procedures &amp;amp; charges of 3000 Hospitals. I will use these datasets , but these don’t contain complete data. They have only about 150 procedures per Hospital.&lt;/p&gt;
 
