@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://darshpreet2000.github.io/My-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darshpreet2000.github.io/My-Blog/" rel="alternate" type="text/html" /><updated>2020-06-06T00:57:16-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/feed.xml</id><title type="html">GSoC Journey</title><subtitle>Blogs For My Coding Journey</subtitle><entry><title type="html">Week 1 June 01 To June 05</title><link href="https://darshpreet2000.github.io/My-Blog/2020/06/05/Week-1-June-01-To-June-05.html" rel="alternate" type="text/html" title="Week 1 June 01  To June 05" /><published>2020-06-05T00:00:00-05:00</published><updated>2020-06-05T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2020/06/05/Week-1-June-01--To-June-05</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2020/06/05/Week-1-June-01-To-June-05.html">&lt;h2 id=&quot;coding-period-started&quot;&gt;Coding Period Started&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://darshpreet2000.github.io/My-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darshpreet2000.github.io/My-Blog/" rel="alternate" type="text/html" /><updated>2020-06-06T01:00:51-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/feed.xml</id><title type="html">GSoC Journey</title><subtitle>Blogs For My Coding Journey</subtitle><entry><title type="html">Week 1 June 01 To June 05</title><link href="https://darshpreet2000.github.io/My-Blog/2020/06/05/Week-1-June-01-To-June-05.html" rel="alternate" type="text/html" title="Week 1 June 01  To June 05" /><published>2020-06-05T00:00:00-05:00</published><updated>2020-06-05T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2020/06/05/Week-1-June-01--To-June-05</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2020/06/05/Week-1-June-01-To-June-05.html">&lt;h2 id=&quot;coding-period-started&quot;&gt;Coding Period Started&lt;/h2&gt;
 
 &lt;p&gt;With the beginning of this month, GSoC Coding Period begins, I started working actively, I also had Video call with my mentor last week &amp;amp; we discussed a lot about this project &amp;amp; program. My mentors suggested me to first work on frontend of App ( Developing UI Screens ) with dummy data &amp;amp; later work on backend.&lt;/p&gt;
 
@@ -16,7 +16,7 @@
 
 &lt;p&gt;I have tried to make search bar similar to Google Play Store Search Bar.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://Darshpreet2000.github.io/My-Blog/assets/img/2020-06-05-Week-1-June-01--To-June-05/media/image2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://Darshpreet2000.github.io/My-Blog/assets/img/2020-06-05-Week-1-June-01--To-June-05/media/image1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;search-screen&quot;&gt;Search Screen&lt;/h3&gt;
 
@@ -91,13 +91,13 @@
 
 &lt;h2 id=&quot;ui-sample-screens&quot;&gt;UI Sample Screens&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://Darshpreet2000.github.io/My-Blog/assets/img/2020-06-05-Week-1-June-01--To-June-05/media/image3.png&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;https://Darshpreet2000.github.io/My-Blog/assets/img/2020-06-05-Week-1-June-01--To-June-05/media/image1.png&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;https://Darshpreet2000.github.io/My-Blog/assets/img/2020-06-05-Week-1-June-01--To-June-05/media/image4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://Darshpreet2000.github.io/My-Blog/assets/img/2020-06-05-Week-1-June-01--To-June-05/media/image2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;h2&gt;&lt;img src=&quot;https://Darshpreet2000.github.io/My-Blog/assets/img/2020-06-05-Week-1-June-01--To-June-05/media/image6.png&quot; alt=&quot;&quot; /&gt;&lt;/h2&gt;
+    &lt;h2&gt;&lt;img src=&quot;https://Darshpreet2000.github.io/My-Blog/assets/img/2020-06-05-Week-1-June-01--To-June-05/media/image5.png&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;https://Darshpreet2000.github.io/My-Blog/assets/img/2020-06-05-Week-1-June-01--To-June-05/media/image6.png&quot; alt=&quot;&quot; /&gt;&lt;/h2&gt;
 
-    &lt;h2 id=&quot;-1&quot;&gt;&lt;img src=&quot;https://Darshpreet2000.github.io/My-Blog/assets/img/2020-06-05-Week-1-June-01--To-June-05/media/image5.png&quot; alt=&quot;&quot; /&gt;&lt;/h2&gt;
+    &lt;p&gt;##&lt;/p&gt;
 
     &lt;p&gt;##&lt;/p&gt;
 
