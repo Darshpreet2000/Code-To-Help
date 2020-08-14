@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Coding Period: Week 11 | GSoC Journey</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Coding Period: Week 11" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Writing Unit tests of App &amp; Completing its README.md" />
+<meta property="og:description" content="Writing Unit tests of App &amp; Completing its README.md" />
+<link rel="canonical" href="https://darshpreet2000.github.io/My-Blog/2020/08/14/Week-11-Aug-08-To-Aug-14.html" />
+<meta property="og:url" content="https://darshpreet2000.github.io/My-Blog/2020/08/14/Week-11-Aug-08-To-Aug-14.html" />
+<meta property="og:site_name" content="GSoC Journey" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-08-14T00:00:00-05:00" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://darshpreet2000.github.io/My-Blog/2020/08/14/Week-11-Aug-08-To-Aug-14.html"},"description":"Writing Unit tests of App &amp; Completing its README.md","@type":"BlogPosting","url":"https://darshpreet2000.github.io/My-Blog/2020/08/14/Week-11-Aug-08-To-Aug-14.html","headline":"Coding Period: Week 11","dateModified":"2020-08-14T00:00:00-05:00","datePublished":"2020-08-14T00:00:00-05:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/My-Blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://darshpreet2000.github.io/My-Blog/feed.xml" title="GSoC Journey" /><link rel="shortcut icon" type="image/x-icon" href="/My-Blog/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Coding Period: Week 11 | GSoC Journey</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Coding Period: Week 11" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Writing Unit tests of App &amp; Completing its README.md" />
+<meta property="og:description" content="Writing Unit tests of App &amp; Completing its README.md" />
+<link rel="canonical" href="https://darshpreet2000.github.io/My-Blog/2020/08/14/Week-11-Aug-08-To-Aug-14.html" />
+<meta property="og:url" content="https://darshpreet2000.github.io/My-Blog/2020/08/14/Week-11-Aug-08-To-Aug-14.html" />
+<meta property="og:site_name" content="GSoC Journey" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-08-14T00:00:00-05:00" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://darshpreet2000.github.io/My-Blog/2020/08/14/Week-11-Aug-08-To-Aug-14.html"},"description":"Writing Unit tests of App &amp; Completing its README.md","@type":"BlogPosting","url":"https://darshpreet2000.github.io/My-Blog/2020/08/14/Week-11-Aug-08-To-Aug-14.html","headline":"Coding Period: Week 11","dateModified":"2020-08-14T00:00:00-05:00","datePublished":"2020-08-14T00:00:00-05:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"><link type="application/atom+xml" rel="alternate" href="https://darshpreet2000.github.io/My-Blog/feed.xml" title="GSoC Journey" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head><body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/My-Blog/">GSoC Journey</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/My-Blog/about/">About Me</a><a class="page-link" href="/My-Blog/search/">Search</a><a class="page-link" href="/My-Blog/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Coding Period: Week 11</h1><p class="page-description">Writing Unit tests of App & Completing its README.md</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-08-14T00:00:00-05:00" itemprop="datePublished">
+        Aug 14, 2020
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      1 min read
+    
+</span></p>
+
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/Darshpreet2000/My-Blog/tree/master/_notebooks/2020-08-14-Week-11-Aug-08 -To-Aug-14.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/My-Blog/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/Darshpreet2000/My-Blog/master?filepath=_notebooks%2F2020-08-14-Week-11-Aug-08+-To-Aug-14.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/My-Blog/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/Darshpreet2000/My-Blog/blob/master/_notebooks/2020-08-14-Week-11-Aug-08 -To-Aug-14.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/My-Blog/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2020-08-14-Week-11-Aug-08 -To-Aug-14.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Decreased-size-of-scraper-repository">Decreased size of scraper repository<a class="anchor-link" href="#Decreased-size-of-scraper-repository"> </a></h3><p>I reduced the repository size from 600 MB to around 14 MB using <a href="https://rtyley.github.io/bfg-repo-cleaner/">BFG Repo Cleaner</a>, it is a tool which cleans large blobs in git repository commits, I ran it to clear all blobs greater than 10 Kb &amp; then I achieved 14 MB size, Well it is not the original size but a lot better than previous one.</p>
+<h3 id="Fixed-CI-pipeline">Fixed CI pipeline<a class="anchor-link" href="#Fixed-CI-pipeline"> </a></h3><p>The problem with CI pipeline was with authentication, I &amp; my mentors fixed this issue correctly,Now we have used an access token instead of SSH earlier.Data is pushed in master branch of Gitlab repository</p>
+<h3 id="Wrote-Unit-tests-of-App">Wrote Unit tests of App<a class="anchor-link" href="#Wrote-Unit-tests-of-App"> </a></h3><p>I worked a lot on this during this week, I have used flutter's two popular packages,</p>
+<ul>
+<li><p><a href="https://pub.dev/packages/bloc_test">bloc_test</a>  This is very useful for testing blocx which are used in BLoC architecture.</p>
+</li>
+<li><p><a href="https://pub.dev/packages/mockito">mockito</a> - Used flutter's mockito package which is used for mocking repository, I used it for testing mocking all repository &amp; all API clients</p>
+</li>
+</ul>
+<p>Wrote Unit Tests for</p>
+<ul>
+<li>Home Screen</li>
+<li>Download CDM screen,</li>
+<li>Saved CDM Screen</li>
+<li>View CDM</li>
+<li>Search Screen</li>
+<li>View CDM Statewise screen</li>
+<li>Compare Hospital Screen</li>
+<li>Also Wrote unit tests for Overpass API, GitLab API, Medicare Hospital Compare API</li>
+</ul>
+<h3 id="Completing-README.md-for-App">Completing README.md for App<a class="anchor-link" href="#Completing-README.md-for-App"> </a></h3><p>Readme of app is now completed, I have also modified readme of scraper as suggested by Mentor Mua to display links of hospitals in a table. I viewed a lot of Open Source projects Repositories to get idea.</p>
+<p><a href="https://gitlab.com/Darshpreet2000/lh-toolkit-cost-of-care-app-data-scraper/-/blob/fix-issue/README.md">https://gitlab.com/Darshpreet2000/lh-toolkit-cost-of-care-app-data-scraper/-/blob/fix-issue/README.md</a></p>
+<h3 id="What-do-I-plan-to-do-next-week?">What do I plan to do next week?<a class="anchor-link" href="#What-do-I-plan-to-do-next-week?"> </a></h3><ul>
+<li><p>I need to test app more to ensure each &amp; every component is working correctly</p>
+</li>
+<li><p>Finding &amp; fixing bugs in app.</p>
+</li>
+<li><p>Discussing with @mua_rachmann for REST server, App icon, Intro slides</p>
+</li>
+<li><p>Completing Unit tests for other screens</p>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="Darshpreet2000/My-Blog"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/My-Blog/2020/08/14/Week-11-Aug-08-To-Aug-14.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/My-Blog/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/My-Blog/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/My-Blog/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Blogs For My Coding Journey</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/fastai" title="fastai"><svg class="svg-icon grey"><use xlink:href="/My-Blog/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/fastdotai" title="fastdotai"><svg class="svg-icon grey"><use xlink:href="/My-Blog/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
