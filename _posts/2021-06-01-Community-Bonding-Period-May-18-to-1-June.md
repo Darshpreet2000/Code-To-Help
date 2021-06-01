@@ -8,6 +8,7 @@ badges: true
 comments: true
 hide: false
 search_exclude: true
+layout: post
 ---
 
 ## Community Bonding Period May 18 to 1 June
