@@ -483,4 +483,13 @@ table td { text-overflow: ellipsis; overflow: hidden; max-width: 15em; }
 
 .highlight .gd { color: #ff5555; }
 
+.docimage1 { display: block; margin-left: auto; margin-right: auto; width: 50%; }
+
+.docimage2 { display: block; margin-left: auto; margin-right: auto; width: 40%; }
+
+@media screen and (max-width: 800px) { .docimage1 { width: 100%; }
+  .docimage2 { width: 80%; } }
+
+.wrapper { max-width: 80% !important; }
+
 /*# sourceMappingURL=style.css.map */
