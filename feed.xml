@@ -1,4 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://darshpreet2000.github.io/My-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darshpreet2000.github.io/My-Blog/" rel="alternate" type="text/html" /><updated>2021-06-01T07:10:21-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/feed.xml</id><title type="html">GSoC Journey</title><subtitle>Blogs For My Coding Journey</subtitle><entry><title type="html">Community Bonding Period May 18 to 1 June</title><link href="https://darshpreet2000.github.io/My-Blog/2021/06/01/Community-Bonding-Period-May-18-to-1-June.html" rel="alternate" type="text/html" title="Community Bonding Period May 18 to 1 June" /><published>2021-06-01T00:00:00-05:00</published><updated>2021-06-01T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/06/01/Community-Bonding-Period-May-18-to-1-June</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/06/01/Community-Bonding-Period-May-18-to-1-June.html">&lt;h2 id=&quot;community-bonding-period-may-18-to-1-june&quot;&gt;Community Bonding Period May 18 to 1 June&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://darshpreet2000.github.io/My-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darshpreet2000.github.io/My-Blog/" rel="alternate" type="text/html" /><updated>2021-06-06T05:05:53-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/feed.xml</id><title type="html">GSoC Journey</title><subtitle>Blogs For My Coding Journey</subtitle><entry><title type="html">Community Bonding Period June 1 to June 6</title><link href="https://darshpreet2000.github.io/My-Blog/2021/06/06/Community-Bonding-Period-June-01-to-June-06.html" rel="alternate" type="text/html" title="Community Bonding Period June 1 to June 6" /><published>2021-06-06T00:00:00-05:00</published><updated>2021-06-06T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/06/06/Community-Bonding-Period-June-01-to-June-06</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/06/06/Community-Bonding-Period-June-01-to-June-06.html">&lt;h2 id=&quot;community-bonding-period-june-1-to-june-6&quot;&gt;Community Bonding Period June 1 to June 6&lt;/h2&gt;
+
+&lt;p&gt;Coding period is about to begin tomorrow &amp;amp; I have done preparations to start coding, During this week I had completely set up DHIS2 with program rules/Stages&lt;/p&gt;
+
+&lt;p&gt;Few thing I want to Discuss&lt;/p&gt;
+
+&lt;h3 id=&quot;baby-classification-logic&quot;&gt;Baby Classification Logic&lt;/h3&gt;
+
+&lt;p&gt;Earlier I thought to do Classification in app only , but now I learned about program rules which run automatically and can classify baby easily, Moreover these rules are very much configurable so users can configure these according to their requirements&lt;/p&gt;
+
+&lt;p&gt;Currently I used ECEB Action plan to classify Baby’s health in 3 categories - Normal/Problem/Danger&lt;/p&gt;
+
+&lt;p&gt;Example of Classification Logic For Danger&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;#{ECEB_Severe_Jaundice} || #{ECEB_Assess_Temperature}&amp;lt;= 35.5 || #{ECEB_Assess_Temperature} &amp;gt;= 37.5  || #{ECEB_Weight} &amp;lt; 1500 || #{ECEB_Chest_Indrawing} ||#{ECEB_Not_Feeding} || #{ECEB_Fast_Breathing} || #{ECEB_Convulsions}&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;If any of the above condition is true then the health is in danger.&lt;/p&gt;
+
+&lt;p&gt;The program rule has an acion - It classifies health by filling data element ECEB_Classification after evaluating the above expressions.&lt;/p&gt;
+
+&lt;h3 id=&quot;creating-an-initial-screen-to-fetch-all-data-elementsprogram-ids-from-dhis2&quot;&gt;Creating an Initial Screen to fetch all data elements/program ids from dhis2&lt;/h3&gt;
+
+&lt;p&gt;For doing API call related to a program/event we need its unique id beforehand, As these ids are not constant on every DHIS2 , I need to first design a screen which fetches all the variables/Stage/Programs ID from the dhis2. Then the user will be able to use the app.&lt;/p&gt;
+
+&lt;h3 id=&quot;on-call-doctors-program&quot;&gt;On Call Doctor’s Program&lt;/h3&gt;
+
+&lt;p&gt;This is an Event Program, Doctor’s schedule is added as an event with data elements name, date, start time, end time, Doctor’s Image.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/images/on_call_doctors.png&quot; width=&quot;60%&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;what-progress-i-made-this-week&quot;&gt;What progress I made this week?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Created program rules for Normal/Problem/Danger&lt;/li&gt;
+  &lt;li&gt;Created On Call Doctor’s Program&lt;/li&gt;
+  &lt;li&gt;Created Stage 4 &amp;amp; Stage 5 in DHIS2 &amp;amp; modified previous stages according to ECEB action plan&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;what-i-have-planned-to-do-next-week&quot;&gt;What I have planned to do next week?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Developing Register baby screen UI&lt;/li&gt;
+  &lt;li&gt;Developing Assessments Screen UI of App&lt;/li&gt;
+  &lt;li&gt;Adding Dark Mode in App&lt;/li&gt;
+  &lt;li&gt;Adding navigation drawer in app with menus ( Doctor’s Schedule, Messaging, Share App, Report Bug)&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Community Bonding Period June 1 to June 6</summary></entry><entry><title type="html">Community Bonding Period May 18 to 1 June</title><link href="https://darshpreet2000.github.io/My-Blog/2021/06/01/Community-Bonding-Period-May-18-to-1-June.html" rel="alternate" type="text/html" title="Community Bonding Period May 18 to 1 June" /><published>2021-06-01T00:00:00-05:00</published><updated>2021-06-01T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/06/01/Community-Bonding-Period-May-18-to-1-June</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/06/01/Community-Bonding-Period-May-18-to-1-June.html">&lt;h2 id=&quot;community-bonding-period-may-18-to-1-june&quot;&gt;Community Bonding Period May 18 to 1 June&lt;/h2&gt;
 
 &lt;p&gt;Hello Everyone,&lt;/p&gt;
 
@@ -714,43 +759,6 @@ So, this will done by tomorrow.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://data.cms.gov/Medicare-Outpatient/Provider-Outpatient-Hospital-Charge-Data-by-APC-CY/fmbt-qrrw&quot;&gt;https://data.cms.gov/Medicare-Outpatient/Provider-Outpatient-Hospital-Charge-Data-by-APC-CY/fmbt-qrrw&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&quot;For-App&quot;&gt;For App&lt;a class=&quot;anchor-link&quot; href=&quot;#For-App&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;1.Completing view CDM Statewise screen.&lt;/p&gt;
 &lt;p&gt;2.Working on Compare Hospitals Functionality of App&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Coding Period: Week 6</title><link href="https://darshpreet2000.github.io/My-Blog/2020/07/10/Week-6-June-04-To-July-10.html" rel="alternate" type="text/html" title="Coding Period: Week 6" /><published>2020-07-10T00:00:00-05:00</published><updated>2020-07-10T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2020/07/10/Week-6-June-04--To-July-10</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2020/07/10/Week-6-June-04-To-July-10.html">&lt;!--
-#################################################
-### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
-#################################################
-# file to edit: _notebooks/2020-07-10-Week-6-June-04 -To-July-10.ipynb
---&gt;
-
-&lt;div class=&quot;container&quot; id=&quot;notebook-container&quot;&gt;
-        
-    
-    
-&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
-
-&lt;/div&gt;
-    
-
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
-&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h2 id=&quot;Wrote-Readme.md-of-scraper&quot;&gt;Wrote Readme.md of scraper&lt;a class=&quot;anchor-link&quot; href=&quot;#Wrote-Readme.md-of-scraper&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;p&gt;I worked on readme.md of scraper, I wrote in detail about project &amp;amp; then how to setup project in your system. I have written the commands which will be needed for scraping data. Then user needs to process the scraped CDM.&lt;/p&gt;
-&lt;p&gt;Till now I have scraped &amp;amp; processed data of three states Alaska, Indiana, New York.&lt;/p&gt;
-&lt;h2 id=&quot;Scraped-CDM-of-California&quot;&gt;Scraped CDM of California&lt;a class=&quot;anchor-link&quot; href=&quot;#Scraped-CDM-of-California&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;p&gt;I made scrapy spider which gets data from this (Link) , This data is provided by California State Health Department. I have to make &quot;process.py&quot; scripts for each hospital.&lt;/p&gt;
-&lt;h2 id=&quot;Changed-Code-Organisation&quot;&gt;Changed Code Organisation&lt;a class=&quot;anchor-link&quot; href=&quot;#Changed-Code-Organisation&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Separated “process.py” from “Data” Directory, so that user don’t need to clone large repository. I have made changes in all process.py scripts.&lt;/p&gt;
-&lt;h2 id=&quot;Working-on-changes-suggested-by-Mentor-Mua&quot;&gt;Working on changes suggested by Mentor Mua&lt;a class=&quot;anchor-link&quot; href=&quot;#Working-on-changes-suggested-by-Mentor-Mua&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;p&gt;I am currently working on changes suggested by Mentor Mua on Cost Of Care App, I will make Merge Request by tomorrow&lt;/p&gt;
-&lt;h2 id=&quot;Setting-Gitlab-CI&quot;&gt;Setting Gitlab CI&lt;a class=&quot;anchor-link&quot; href=&quot;#Setting-Gitlab-CI&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;p&gt;I have tried a lot but chromedriver &amp;amp; chromebrowser are not working in Linux CI Pipeline, I am getting exception in pipeline,but its working on my windows, maybe I am not installing them properly , I will search more on this, &amp;amp; will discuss with my mentors&lt;/p&gt;
-&lt;h2 id=&quot;What-do-I-plan-to-do-next-week?&quot;&gt;What do I plan to do next week?&lt;a class=&quot;anchor-link&quot; href=&quot;#What-do-I-plan-to-do-next-week?&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;h4 id=&quot;For-Web-Scraper&quot;&gt;For Web Scraper&lt;a class=&quot;anchor-link&quot; href=&quot;#For-Web-Scraper&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;Generating “process.py” script for each hospital&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&quot;For-App&quot;&gt;For App&lt;a class=&quot;anchor-link&quot; href=&quot;#For-App&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;Working on View CDM Statewise screen.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&quot;GitLab-CI-Pipeline&quot;&gt;GitLab CI Pipeline&lt;a class=&quot;anchor-link&quot; href=&quot;#GitLab-CI-Pipeline&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;I have to setup chromedriver &amp;amp; chromebrowser in CI Pipeline &amp;amp; then make this project run properly&lt;/li&gt;
-&lt;/ul&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
