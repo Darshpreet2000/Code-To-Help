@@ -37,11 +37,18 @@ I Added a navigation drawer in app, It has the following items & header with Lib
 
 ### Screen Shots
 
-
-|  |  | 
-| ------ | ------ |
-|<img src="https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/images/week1c.png" height="500" width="300"> |  <img src="https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/images/week1a.png" height="500" width="300"> |
-| <img src="https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/images/week1b.png" height="500" width="300"> |  |
+<table style="width:100%">
+  <tr>
+   <img src="https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/images/week1c.png" height="500" width="250">
+  </tr>
+  <tr>
+    <img src="https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/images/week1a.png" height="500" width="250"> 
+  </tr>
+  <tr>
+   <img src="https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/images/week1b.png" height="500" width="250"> 
+  </tr>
+</table>
+ 
 
 ### What progress I made this week?
 
