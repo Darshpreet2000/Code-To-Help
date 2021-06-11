@@ -1,4 +1,59 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://darshpreet2000.github.io/My-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darshpreet2000.github.io/My-Blog/" rel="alternate" type="text/html" /><updated>2021-06-11T10:29:38-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/feed.xml</id><title type="html">GSoC Journey</title><subtitle>Blogs For My Coding Journey</subtitle><entry><title type="html">Community Bonding Period June 1 to June 6</title><link href="https://darshpreet2000.github.io/My-Blog/2021/06/06/Community-Bonding-Period-June-01-to-June-06.html" rel="alternate" type="text/html" title="Community Bonding Period June 1 to June 6" /><published>2021-06-06T00:00:00-05:00</published><updated>2021-06-06T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/06/06/Community-Bonding-Period-June-01-to-June-06</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/06/06/Community-Bonding-Period-June-01-to-June-06.html">&lt;h2 id=&quot;community-bonding-period-june-1-to-june-6&quot;&gt;Community Bonding Period June 1 to June 6&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://darshpreet2000.github.io/My-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darshpreet2000.github.io/My-Blog/" rel="alternate" type="text/html" /><updated>2021-06-11T10:33:37-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/feed.xml</id><title type="html">GSoC Journey</title><subtitle>Blogs For My Coding Journey</subtitle><entry><title type="html">Coding Period: Week 1 June 07 To June 11</title><link href="https://darshpreet2000.github.io/My-Blog/2021/06/11/Week-1-June-07-To-June-11.html" rel="alternate" type="text/html" title="Coding Period: Week 1 June 07 To June 11" /><published>2021-06-11T00:00:00-05:00</published><updated>2021-06-11T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/06/11/Week-1-June-07--To-June-11</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/06/11/Week-1-June-07-To-June-11.html">&lt;h3 id=&quot;developing-ui-of-register-baby-screen&quot;&gt;Developing UI of Register Baby Screen&lt;/h3&gt;
+
+&lt;p&gt;I worked on creating UI of register baby screen, I have used the following packages&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Flutter Customizable Slider for weight, temperature input &lt;a href=&quot;https://pub.dev/packages/syncfusion_flutter_sliders&quot;&gt;(Link)&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Flutter Date Time Picker to pick baby’s birth date &amp;amp; time &lt;a href=&quot;https://pub.dev/packages/flutter_datetime_picker&quot;&gt;(Link)&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Flutter Bloc Architecture to handle state management &lt;a href=&quot;https://pub.dev/packages/flutter_bloc&quot;&gt;(Link)&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I have created toggle buttons for baby’s information input such as gender, mode of delivery etc. These toggle buttons uses boolean variable for their state management.&lt;/p&gt;
+
+&lt;p&gt;I have created a model class for storing Baby’s health information, This class’s object is created &amp;amp; data is filled when user enter’s data is register baby’s screen.&lt;/p&gt;
+
+&lt;h3 id=&quot;creating-navigation-drawer-in-app&quot;&gt;Creating Navigation Drawer in App&lt;/h3&gt;
+
+&lt;p&gt;I Added a navigation drawer in app, It has the following items &amp;amp; header with LibreHealth’s Logo.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Doctor’s Schedule&lt;/li&gt;
+  &lt;li&gt;Messaging&lt;/li&gt;
+  &lt;li&gt;About&lt;/li&gt;
+  &lt;li&gt;Share App&lt;/li&gt;
+  &lt;li&gt;Report Bug&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;screen-shots&quot;&gt;Screen Shots&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/images/week1a.png&quot; height=&quot;500&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/images/week1b.png&quot; height=&quot;500&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/images/week1c.png&quot; height=&quot;500&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;what-progress-i-made-this-week&quot;&gt;What progress I made this week?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Developed UI of Register Baby Screen&lt;/li&gt;
+  &lt;li&gt;Created Sliders for weight, temperature etc.&lt;/li&gt;
+  &lt;li&gt;Created Model Class for storing Baby’s Information&lt;/li&gt;
+  &lt;li&gt;Created Bloc for register baby screen&lt;/li&gt;
+  &lt;li&gt;Created App Drawer with items ( Doctor’s Schedule, Messaging, Share App, Report Bug)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;what-i-have-planned-to-do-next-week&quot;&gt;What I have planned to do next week?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Developing Assessments Screen UI for all stages&lt;/li&gt;
+  &lt;li&gt;Using Sliver App Bar for floating app bars&lt;/li&gt;
+  &lt;li&gt;Adding Dark Mode in App&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Developing UI of Register Baby Screen</summary></entry><entry><title type="html">Community Bonding Period June 1 to June 6</title><link href="https://darshpreet2000.github.io/My-Blog/2021/06/06/Community-Bonding-Period-June-01-to-June-06.html" rel="alternate" type="text/html" title="Community Bonding Period June 1 to June 6" /><published>2021-06-06T00:00:00-05:00</published><updated>2021-06-06T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/06/06/Community-Bonding-Period-June-01-to-June-06</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/06/06/Community-Bonding-Period-June-01-to-June-06.html">&lt;h2 id=&quot;community-bonding-period-june-1-to-june-6&quot;&gt;Community Bonding Period June 1 to June 6&lt;/h2&gt;
 
 &lt;p&gt;Coding period is about to begin tomorrow &amp;amp; I have done preparations to start coding, During this week I had completely set up DHIS2 with program rules/Stages&lt;/p&gt;
 
@@ -716,49 +771,6 @@ This feature I created for those who want to test this app and are not a residen
 &lt;li&gt;&lt;p&gt;Discussing with mentors for GUI of scraper&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Coding Period: Week 7</title><link href="https://darshpreet2000.github.io/My-Blog/2020/07/17/Week-7-July-11-To-July-17.html" rel="alternate" type="text/html" title="Coding Period: Week 7" /><published>2020-07-17T00:00:00-05:00</published><updated>2020-07-17T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2020/07/17/Week-7-July-11--To-July-17</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2020/07/17/Week-7-July-11-To-July-17.html">&lt;!--
-#################################################
-### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
-#################################################
-# file to edit: _notebooks/2020-07-17-Week-7-July-11 -To-July-17.ipynb
---&gt;
-
-&lt;div class=&quot;container&quot; id=&quot;notebook-container&quot;&gt;
-        
-    
-    
-&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
-
-&lt;/div&gt;
-    
-
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
-&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h2 id=&quot;Showing-Progress-Indicator-while-downloading-CDM&quot;&gt;Showing Progress Indicator while downloading CDM&lt;a class=&quot;anchor-link&quot; href=&quot;#Showing-Progress-Indicator-while-downloading-CDM&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The progress indicator shows percent 0-60 for downloading CDM, Rest of 60-100 percent are used for inserting downloaded large CSV to 
-SQL Database in App&lt;/p&gt;
-&lt;p&gt;This task was really challenging for me, it involves a lot of state change &amp;amp; also I first have to get original file size using GitLab API.&lt;/p&gt;
-&lt;p&gt;I have used BLoC Architecture properly for handling states of progress indicator.&lt;/p&gt;
-&lt;p&gt;Color of progress indicator change from red-orange-green.&lt;/p&gt;
-&lt;h3 id=&quot;ScreenShots&quot;&gt;ScreenShots&lt;a class=&quot;anchor-link&quot; href=&quot;#ScreenShots&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;https://github.com/Darshpreet2000/My-Blog/blob/master/images/progressLow.jpeg?raw=true&quot; alt=&quot;download_cdm&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://github.com/Darshpreet2000/My-Blog/blob/master/images/progressHigh.jpeg?raw=true&quot; alt=&quot;download_cdm&quot; /&gt;&lt;/p&gt;
-&lt;h2 id=&quot;Working-on-Gitlab-CI-Pipeline&quot;&gt;Working on Gitlab CI Pipeline&lt;a class=&quot;anchor-link&quot; href=&quot;#Working-on-Gitlab-CI-Pipeline&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;p&gt;I was able to successfully install chromedriver &amp;amp; chromebrowser on Linux CI, but it was not working earlier because there was no display in CI terminal for bowser to display, I was getting an excaption, After searching a lot on StackOverFlow , I found a solution to use pyvirtualdisplay &amp;amp; now it is working correctly.&lt;/p&gt;
-&lt;p&gt;The CI Pipeline Scraps CDM &amp;amp; make a &quot;Data&quot; directory which contains CDM &amp;amp; after running &quot;process.py&quot; it makes &quot;CDM&quot; directory which contains CDM in proper columns.&lt;/p&gt;
-&lt;h2 id=&quot;Making-Process-Scripts-for-California-Hospitals&quot;&gt;Making Process Scripts for California Hospitals&lt;a class=&quot;anchor-link&quot; href=&quot;#Making-Process-Scripts-for-California-Hospitals&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;p&gt;There are around 370 hospitals in california, Till now I have completed process script of around 250 Hospitals, for rest work I will surely complete by tomorrow.&lt;/p&gt;
-&lt;p&gt;This task is very time consuming &amp;amp; also boring, I have to check column names, rows to skip in each CDM.&lt;/p&gt;
-&lt;p&gt;I will create its MR by tomorrow.&lt;/p&gt;
-&lt;h2 id=&quot;View-CDM-Statewise-Screen&quot;&gt;View CDM Statewise Screen&lt;a class=&quot;anchor-link&quot; href=&quot;#View-CDM-Statewise-Screen&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This task is pending from last week, I will complete it in this weekend , I just have to get available states using Gitlab API, &amp;amp; then show the data in list view, Opening each state will work as &quot;View CDM Screen&quot; which is already created.
-So, this will done by tomorrow.&lt;/p&gt;
-&lt;h2 id=&quot;What-do-I-plan-to-do-next-week?&quot;&gt;What do I plan to do next week?&lt;a class=&quot;anchor-link&quot; href=&quot;#What-do-I-plan-to-do-next-week?&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;h3 id=&quot;For-Web-Scraper&quot;&gt;For Web Scraper&lt;a class=&quot;anchor-link&quot; href=&quot;#For-Web-Scraper&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;1.Scraping &amp;amp; making process script for following data.&lt;/p&gt;
-&lt;p&gt;Inpatient Data of 3000 Hospitals&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://data.cms.gov/Medicare-Inpatient/Inpatient-Prospective-Payment-System-IPPS-Provider/tcsp-6e99&quot;&gt;https://data.cms.gov/Medicare-Inpatient/Inpatient-Prospective-Payment-System-IPPS-Provider/tcsp-6e99&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Outpatient Data of Hospitals&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://data.cms.gov/Medicare-Outpatient/Provider-Outpatient-Hospital-Charge-Data-by-APC-CY/fmbt-qrrw&quot;&gt;https://data.cms.gov/Medicare-Outpatient/Provider-Outpatient-Hospital-Charge-Data-by-APC-CY/fmbt-qrrw&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;For-App&quot;&gt;For App&lt;a class=&quot;anchor-link&quot; href=&quot;#For-App&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;1.Completing view CDM Statewise screen.&lt;/p&gt;
-&lt;p&gt;2.Working on Compare Hospitals Functionality of App&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
