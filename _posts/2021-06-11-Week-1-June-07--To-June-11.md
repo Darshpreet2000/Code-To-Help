@@ -39,9 +39,9 @@ I Added a navigation drawer in app, It has the following items & header with Lib
 
 |  |  |
 | ------ | ------ |
-| <img src="https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/images/week1a.png" height="500"> | <img src="https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/images/week1b.png" height="500"> |
+| <img src="https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/images/week1a.png" height="500" width="400"> | <img src="https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/images/week1b.png" height="500" width="400"> |
 | 
-<img src="https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/images/week1c.png" height="500"> |  |
+<img src="https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/images/week1c.png" height="500" width="400"> |  |
 
 
 ### What progress I made this week?
