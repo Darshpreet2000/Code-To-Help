@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://darshpreet2000.github.io/My-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darshpreet2000.github.io/My-Blog/" rel="alternate" type="text/html" /><updated>2021-06-18T06:32:48-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/feed.xml</id><title type="html">GSoC Journey</title><subtitle>Blogs For My Coding Journey</subtitle><entry><title type="html">Coding Period: Week 2 June 12 To June 18</title><link href="https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-1-June-12-To-June-18.html" rel="alternate" type="text/html" title="Coding Period: Week 2 June 12 To June 18" /><published>2021-06-18T00:00:00-05:00</published><updated>2021-06-18T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-1-June-12--To-June-18</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-1-June-12-To-June-18.html">&lt;h3 id=&quot;creating-login-user-functionality&quot;&gt;Creating Login User functionality&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://darshpreet2000.github.io/My-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darshpreet2000.github.io/My-Blog/" rel="alternate" type="text/html" /><updated>2021-06-18T06:39:04-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/feed.xml</id><title type="html">GSoC Journey</title><subtitle>Blogs For My Coding Journey</subtitle><entry><title type="html">Coding Period: Week 2 June 12 To June 18</title><link href="https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-1-June-12-To-June-18.html" rel="alternate" type="text/html" title="Coding Period: Week 2 June 12 To June 18" /><published>2021-06-18T00:00:00-05:00</published><updated>2021-06-18T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-1-June-12--To-June-18</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-1-June-12-To-June-18.html">&lt;h3 id=&quot;creating-login-user-functionality&quot;&gt;Creating Login User functionality&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Used flutter Bloc architecture for state management&lt;/li&gt;
@@ -51,10 +51,10 @@
    &lt;img src=&quot;https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/images/week2h.png&quot; height=&quot;500&quot; width=&quot;250&quot; /&gt; 
   &lt;/tr&gt;
    &lt;tr&gt;
-   &lt;img src=&quot;https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/images/weeki.png&quot; height=&quot;500&quot; width=&quot;250&quot; /&gt; 
+   &lt;img src=&quot;https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/images/week2i.png&quot; height=&quot;500&quot; width=&quot;250&quot; /&gt; 
   &lt;/tr&gt;
    &lt;tr&gt;
-   &lt;img src=&quot;https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/images/weekj.png&quot; height=&quot;500&quot; width=&quot;250&quot; /&gt; 
+   &lt;img src=&quot;https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/images/week2j.png&quot; height=&quot;500&quot; width=&quot;250&quot; /&gt; 
   &lt;/tr&gt;
 &lt;/table&gt;
 
