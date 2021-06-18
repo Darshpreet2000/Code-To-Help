@@ -54,10 +54,10 @@ According to the Classification the appropriate assessment will be shown to user
    <img src="https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/images/week2h.png" height="500" width="250"> 
   </tr>
    <tr>
-   <img src="https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/images/weeki.png" height="500" width="250"> 
+   <img src="https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/images/week2i.png" height="500" width="250"> 
   </tr>
    <tr>
-   <img src="https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/images/weekj.png" height="500" width="250"> 
+   <img src="https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/images/week2j.png" height="500" width="250"> 
   </tr>
 </table>
  
