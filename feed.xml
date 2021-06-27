@@ -1,4 +1,59 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://darshpreet2000.github.io/My-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darshpreet2000.github.io/My-Blog/" rel="alternate" type="text/html" /><updated>2021-06-18T06:39:04-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/feed.xml</id><title type="html">GSoC Journey</title><subtitle>Blogs For My Coding Journey</subtitle><entry><title type="html">Coding Period: Week 2 June 12 To June 18</title><link href="https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-1-June-12-To-June-18.html" rel="alternate" type="text/html" title="Coding Period: Week 2 June 12 To June 18" /><published>2021-06-18T00:00:00-05:00</published><updated>2021-06-18T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-1-June-12--To-June-18</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-1-June-12-To-June-18.html">&lt;h3 id=&quot;creating-login-user-functionality&quot;&gt;Creating Login User functionality&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://darshpreet2000.github.io/My-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darshpreet2000.github.io/My-Blog/" rel="alternate" type="text/html" /><updated>2021-06-27T08:12:11-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/feed.xml</id><title type="html">GSoC Journey</title><subtitle>Blogs For My Coding Journey</subtitle><entry><title type="html">Coding Period: Week 3 June 19 To June 27</title><link href="https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-3-June-19-To-June-27.html" rel="alternate" type="text/html" title="Coding Period: Week 3 June 19 To June 27" /><published>2021-06-18T00:00:00-05:00</published><updated>2021-06-18T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-3-June-19--To-June-27</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-3-June-19-To-June-27.html">&lt;h3 id=&quot;internationalized-flutter-app-by-adding-support-for-other-languages&quot;&gt;Internationalized Flutter app by adding support for other languages&lt;/h3&gt;
+
+&lt;p&gt;Created .arb (Application Resource Bundle) file which contains key-value pair strings, I localized all the string text using till now in app.
+For now I have added translations for 3 languages only&lt;/p&gt;
+
+&lt;h3 id=&quot;added-metadata-of-eceb--on-call-doctors-programs&quot;&gt;Added metadata of ECEB &amp;amp; on call doctors programs&lt;/h3&gt;
+
+&lt;p&gt;DHIS2 provides a metadata repository containing metadata packages with various content. A metadata package is a DHIS2-compliant JSON document which describes a set of metadata objects. I exported this metadata for the ECEB &amp;amp; On call doctors program. Users who will use this app will need to import this metadata in their dhis2.&lt;/p&gt;
+
+&lt;h3 id=&quot;unit-testing-for-authentication-screen&quot;&gt;Unit testing for authentication screen&lt;/h3&gt;
+
+&lt;p&gt;Unit tests are handy for verifying the behavior of a single function, method, or class. I created unit test for the auth functionality.&lt;/p&gt;
+
+&lt;p&gt;Test Cases for Hive Storage&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;User loggedIn return true&lt;/li&gt;
+  &lt;li&gt;Not LoggedIn return false&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Flutter BloC test cases&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;yield AuthenticationLoaded on successful login&lt;/li&gt;
+  &lt;li&gt;yield AuthenticationError on unsuccessful login&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Auth Client Test Cases&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;response code 200 - successful login&lt;/li&gt;
+  &lt;li&gt;response code 401 - unauthorized (wrong credentials)&lt;/li&gt;
+  &lt;li&gt;Socket Exception - no internet connection&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;register-baby-screen-functionality&quot;&gt;Register Baby screen functionality&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Baby able to get registered using app &amp;amp; their data is stored using api in DHIS2.&lt;/li&gt;
+  &lt;li&gt;This feature works offline also, data is synced when user is online next time&lt;/li&gt;
+  &lt;li&gt;Created a refresh bloc for state management&lt;/li&gt;
+  &lt;li&gt;Added Snackbars for showing info related to syncing&lt;/li&gt;
+  &lt;li&gt;stored the list in hive storage&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;what-progress-i-made-this-week&quot;&gt;What progress I made this week?&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Internationalized Flutter app by adding support for other languages&lt;/li&gt;
+  &lt;li&gt;Added metadata of ECEB &amp;amp; on call doctors programs&lt;/li&gt;
+  &lt;li&gt;Unit testing for authentication screen&lt;/li&gt;
+  &lt;li&gt;Register Baby screen functionality (using DHIS2 API)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;what-do-i-plan-to-do-next-week&quot;&gt;What do I plan to do next week?&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Implementing User Profile Screen functionality&lt;/li&gt;
+  &lt;li&gt;Baby Health Assessments Capture Functionality&lt;/li&gt;
+  &lt;li&gt;Fetching List Of Babies screen in App using API&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Internationalized Flutter app by adding support for other languages</summary></entry><entry><title type="html">Coding Period: Week 2 June 12 To June 18</title><link href="https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-2-June-12-To-June-18.html" rel="alternate" type="text/html" title="Coding Period: Week 2 June 12 To June 18" /><published>2021-06-18T00:00:00-05:00</published><updated>2021-06-18T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-2-June-12--To-June-18</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-2-June-12-To-June-18.html">&lt;h3 id=&quot;creating-login-user-functionality&quot;&gt;Creating Login User functionality&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Used flutter Bloc architecture for state management&lt;/li&gt;
@@ -788,46 +843,6 @@ This feature I created for those who want to test this app and are not a residen
 &lt;li&gt;Writing Unit Test of Home Screen, Download CDM screen, Saved CDM Screen&lt;/li&gt;
 &lt;li&gt;Developing &amp;amp; discussing REST API with flask&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Coding Period: Week 9</title><link href="https://darshpreet2000.github.io/My-Blog/2020/07/31/Week-9-July-25-To-July-31.html" rel="alternate" type="text/html" title="Coding Period: Week 9" /><published>2020-07-31T00:00:00-05:00</published><updated>2020-07-31T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2020/07/31/Week-9-July-25--To-July-31</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2020/07/31/Week-9-July-25-To-July-31.html">&lt;!--
-#################################################
-### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
-#################################################
-# file to edit: _notebooks/2020-07-31-Week-9-July-25 -To-July-31.ipynb
---&gt;
-
-&lt;div class=&quot;container&quot; id=&quot;notebook-container&quot;&gt;
-        
-    
-    
-&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
-
-&lt;/div&gt;
-    
-
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
-&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Working-on-Compare-Hospitals-List-Screen&quot;&gt;Working on Compare Hospitals List Screen&lt;a class=&quot;anchor-link&quot; href=&quot;#Working-on-Compare-Hospitals-List-Screen&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;I have use medicare Open Data API to fetch hospitals statewise available for comparision. After fetching I am displaying it as list of Strings with compare button which is a boolean.&lt;/p&gt;
-&lt;p&gt;User can select 2 hospitals to compare , I have added snackbar to show if user has selected more than 2 hospitals&lt;/p&gt;
-&lt;h4 id=&quot;ScreenShots&quot;&gt;ScreenShots&lt;a class=&quot;anchor-link&quot; href=&quot;#ScreenShots&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;img src=&quot;https://github.com/Darshpreet2000/My-Blog/blob/master/images/compare_3.jpeg?raw=true&quot; alt=&quot;download_cdm&quot; /&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Worked-on-Compare-Hospital-Screen&quot;&gt;Worked on Compare Hospital Screen&lt;a class=&quot;anchor-link&quot; href=&quot;#Worked-on-Compare-Hospital-Screen&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;This Screen compares two hospitals, Again I have used medicare API, I am calling GET Request two times one for each hospital.&lt;/p&gt;
-&lt;h4 id=&quot;ScreenShots&quot;&gt;ScreenShots&lt;a class=&quot;anchor-link&quot; href=&quot;#ScreenShots&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;img src=&quot;https://github.com/Darshpreet2000/My-Blog/blob/master/images/compare_2.jpeg?raw=true&quot; alt=&quot;download_cdm&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://github.com/Darshpreet2000/My-Blog/blob/master/images/compare_1.jpeg?raw=true&quot; alt=&quot;download_cdm&quot; /&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Search-Functionality-in-View-CDM-Screen&quot;&gt;Search Functionality in View CDM Screen&lt;a class=&quot;anchor-link&quot; href=&quot;#Search-Functionality-in-View-CDM-Screen&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Used SearchDelegate provided by flutter, I have created search functionality using it. This will query database &amp;amp; will get results &amp;amp; show it to user.&lt;/p&gt;
-&lt;h4 id=&quot;ScreenShots&quot;&gt;ScreenShots&lt;a class=&quot;anchor-link&quot; href=&quot;#ScreenShots&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;img src=&quot;https://github.com/Darshpreet2000/My-Blog/blob/master/images/view_cdm.jpeg?raw=true&quot; alt=&quot;download_cdm&quot; /&gt;&lt;/p&gt;
-&lt;h3 id=&quot;What-do-I-plan-to-do-next-week?&quot;&gt;What do I plan to do next week?&lt;a class=&quot;anchor-link&quot; href=&quot;#What-do-I-plan-to-do-next-week?&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Working on Share App, About, Report a bug, Screens&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Writing Readme of App&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Using Flutter Cache Manager to store CDM while downloading&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Writing Unit Test of Home Screen&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
