@@ -29,7 +29,7 @@ layout: post
 - On Tap of baby list item the app opens assessments screen & start fetching assessments
 - List item color changes with classification of baby - Danger (Red), Problem (Yellow), Normal (Green)
 
-Merge Request Link https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/-/merge_requests/10
+[Merge Request Link](https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/-/merge_requests/10) 
 
 
 ### User Profile Screen Functionality
@@ -38,7 +38,7 @@ Merge Request Link https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mh
 - saving data in hive storage after fetching item
 - fetching & displaying the notification date & time for each notification
 
-Merge Request Link https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/-/merge_requests/9
+[Merge Request Link](https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/-/merge_requests/9) 
 
 
 ### Localized strings in assessments phases UI
@@ -46,10 +46,10 @@ Merge Request Link https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mh
 - All strings used in assessments phases UI are now localized
 - localized strings are saved in app_en.arb file 
 
-Merge Request Link https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/-/merge_requests/8
+[Merge Request Link](https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/-/merge_requests/8) 
 
 
-#### What progress have you made this week?
+### What progress have you made this week?
 
 * Implemented User Profile Screen functionality  
 * Implemented fetching list of babies from dhis2 & displaying in screen
@@ -57,7 +57,7 @@ Merge Request Link https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mh
 * localized strings in assessments phase
 * Phase 1 assessments capturing functionality
 
-#### What do I plan to do next week?
+### What do I plan to do next week?
 
 * Phase - 2, 3, 4  assessments capturing functionality
 * Adding Search, Sort Functionality in List Of Babies screen
