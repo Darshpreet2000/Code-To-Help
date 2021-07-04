@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://darshpreet2000.github.io/My-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darshpreet2000.github.io/My-Blog/" rel="alternate" type="text/html" /><updated>2021-07-04T13:01:51-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/feed.xml</id><title type="html">GSoC Journey</title><subtitle>Blogs For My Coding Journey</subtitle><entry><title type="html">Coding Period: Week 4 June 28 To July 4</title><link href="https://darshpreet2000.github.io/My-Blog/2021/07/04/Week-4-June-28-To-July-04.html" rel="alternate" type="text/html" title="Coding Period: Week 4 June 28 To July 4" /><published>2021-07-04T00:00:00-05:00</published><updated>2021-07-04T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/07/04/Week-4-June-28--To-July-04</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/07/04/Week-4-June-28-To-July-04.html">&lt;h3 id=&quot;stage-1-assessments-capture-functionality&quot;&gt;Stage 1 Assessments Capture Functionality&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://darshpreet2000.github.io/My-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darshpreet2000.github.io/My-Blog/" rel="alternate" type="text/html" /><updated>2021-07-04T13:07:31-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/feed.xml</id><title type="html">GSoC Journey</title><subtitle>Blogs For My Coding Journey</subtitle><entry><title type="html">Coding Period: Week 4 June 28 To July 4</title><link href="https://darshpreet2000.github.io/My-Blog/2021/07/04/Week-4-June-28-To-July-04.html" rel="alternate" type="text/html" title="Coding Period: Week 4 June 28 To July 4" /><published>2021-07-04T00:00:00-05:00</published><updated>2021-07-04T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/07/04/Week-4-June-28--To-July-04</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/07/04/Week-4-June-28-To-July-04.html">&lt;h3 id=&quot;stage-1-assessments-capture-functionality&quot;&gt;Stage 1 Assessments Capture Functionality&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Fetching &amp;amp; Capturing Stage - 1 Assessments , with this feature user is able to view the captured assessments &amp;amp; also capture the assessments and push the data to DHIS2.&lt;/li&gt;
@@ -19,7 +19,7 @@
   &lt;li&gt;List item color changes with classification of baby - Danger (Red), Problem (Yellow), Normal (Green)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Merge Request Link https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/-/merge_requests/10&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/-/merge_requests/10&quot;&gt;Merge Request Link&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;user-profile-screen-functionality&quot;&gt;User Profile Screen Functionality&lt;/h3&gt;
 
@@ -29,7 +29,7 @@
   &lt;li&gt;fetching &amp;amp; displaying the notification date &amp;amp; time for each notification&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Merge Request Link https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/-/merge_requests/9&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/-/merge_requests/9&quot;&gt;Merge Request Link&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;localized-strings-in-assessments-phases-ui&quot;&gt;Localized strings in assessments phases UI&lt;/h3&gt;
 
@@ -38,9 +38,9 @@
   &lt;li&gt;localized strings are saved in app_en.arb file&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Merge Request Link https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/-/merge_requests/8&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/-/merge_requests/8&quot;&gt;Merge Request Link&lt;/a&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;what-progress-have-you-made-this-week&quot;&gt;What progress have you made this week?&lt;/h4&gt;
+&lt;h3 id=&quot;what-progress-have-you-made-this-week&quot;&gt;What progress have you made this week?&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Implemented User Profile Screen functionality&lt;/li&gt;
@@ -50,7 +50,7 @@
   &lt;li&gt;Phase 1 assessments capturing functionality&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;what-do-i-plan-to-do-next-week&quot;&gt;What do I plan to do next week?&lt;/h4&gt;
+&lt;h3 id=&quot;what-do-i-plan-to-do-next-week&quot;&gt;What do I plan to do next week?&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Phase - 2, 3, 4  assessments capturing functionality&lt;/li&gt;
