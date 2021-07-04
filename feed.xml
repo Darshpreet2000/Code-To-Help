@@ -1,59 +1,63 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://darshpreet2000.github.io/My-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darshpreet2000.github.io/My-Blog/" rel="alternate" type="text/html" /><updated>2021-06-27T08:12:11-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/feed.xml</id><title type="html">GSoC Journey</title><subtitle>Blogs For My Coding Journey</subtitle><entry><title type="html">Coding Period: Week 3 June 19 To June 27</title><link href="https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-3-June-19-To-June-27.html" rel="alternate" type="text/html" title="Coding Period: Week 3 June 19 To June 27" /><published>2021-06-18T00:00:00-05:00</published><updated>2021-06-18T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-3-June-19--To-June-27</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-3-June-19-To-June-27.html">&lt;h3 id=&quot;internationalized-flutter-app-by-adding-support-for-other-languages&quot;&gt;Internationalized Flutter app by adding support for other languages&lt;/h3&gt;
-
-&lt;p&gt;Created .arb (Application Resource Bundle) file which contains key-value pair strings, I localized all the string text using till now in app.
-For now I have added translations for 3 languages only&lt;/p&gt;
-
-&lt;h3 id=&quot;added-metadata-of-eceb--on-call-doctors-programs&quot;&gt;Added metadata of ECEB &amp;amp; on call doctors programs&lt;/h3&gt;
-
-&lt;p&gt;DHIS2 provides a metadata repository containing metadata packages with various content. A metadata package is a DHIS2-compliant JSON document which describes a set of metadata objects. I exported this metadata for the ECEB &amp;amp; On call doctors program. Users who will use this app will need to import this metadata in their dhis2.&lt;/p&gt;
-
-&lt;h3 id=&quot;unit-testing-for-authentication-screen&quot;&gt;Unit testing for authentication screen&lt;/h3&gt;
-
-&lt;p&gt;Unit tests are handy for verifying the behavior of a single function, method, or class. I created unit test for the auth functionality.&lt;/p&gt;
-
-&lt;p&gt;Test Cases for Hive Storage&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;User loggedIn return true&lt;/li&gt;
-  &lt;li&gt;Not LoggedIn return false&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Flutter BloC test cases&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;yield AuthenticationLoaded on successful login&lt;/li&gt;
-  &lt;li&gt;yield AuthenticationError on unsuccessful login&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Auth Client Test Cases&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;response code 200 - successful login&lt;/li&gt;
-  &lt;li&gt;response code 401 - unauthorized (wrong credentials)&lt;/li&gt;
-  &lt;li&gt;Socket Exception - no internet connection&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;register-baby-screen-functionality&quot;&gt;Register Baby screen functionality&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://darshpreet2000.github.io/My-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darshpreet2000.github.io/My-Blog/" rel="alternate" type="text/html" /><updated>2021-07-04T13:01:51-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/feed.xml</id><title type="html">GSoC Journey</title><subtitle>Blogs For My Coding Journey</subtitle><entry><title type="html">Coding Period: Week 4 June 28 To July 4</title><link href="https://darshpreet2000.github.io/My-Blog/2021/07/04/Week-4-June-28-To-July-04.html" rel="alternate" type="text/html" title="Coding Period: Week 4 June 28 To July 4" /><published>2021-07-04T00:00:00-05:00</published><updated>2021-07-04T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/07/04/Week-4-June-28--To-July-04</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/07/04/Week-4-June-28-To-July-04.html">&lt;h3 id=&quot;stage-1-assessments-capture-functionality&quot;&gt;Stage 1 Assessments Capture Functionality&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Baby able to get registered using app &amp;amp; their data is stored using api in DHIS2.&lt;/li&gt;
-  &lt;li&gt;This feature works offline also, data is synced when user is online next time&lt;/li&gt;
-  &lt;li&gt;Created a refresh bloc for state management&lt;/li&gt;
-  &lt;li&gt;Added Snackbars for showing info related to syncing&lt;/li&gt;
-  &lt;li&gt;stored the list in hive storage&lt;/li&gt;
+  &lt;li&gt;Fetching &amp;amp; Capturing Stage - 1 Assessments , with this feature user is able to view the captured assessments &amp;amp; also capture the assessments and push the data to DHIS2.&lt;/li&gt;
+  &lt;li&gt;This works offline also, data is sent to server when user refreshes on having internet next time&lt;/li&gt;
+  &lt;li&gt;Created a BLoC to handle assessments&lt;/li&gt;
+  &lt;li&gt;Created Stage - 1 model class which parses and converts to JSON format for parsing and converting data&lt;/li&gt;
+  &lt;li&gt;added required ID’s in static variables in dhis2_config.dart file&lt;/li&gt;
+  &lt;li&gt;created a client to send data, created a repository to handle data from client&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;what-progress-i-made-this-week&quot;&gt;What progress I made this week?&lt;/h3&gt;
+&lt;h3 id=&quot;fetching-list-of-babies-enrolled-in-program&quot;&gt;Fetching list of babies enrolled in program&lt;/h3&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;Internationalized Flutter app by adding support for other languages&lt;/li&gt;
-  &lt;li&gt;Added metadata of ECEB &amp;amp; on call doctors programs&lt;/li&gt;
-  &lt;li&gt;Unit testing for authentication screen&lt;/li&gt;
-  &lt;li&gt;Register Baby screen functionality (using DHIS2 API)&lt;/li&gt;
+  &lt;li&gt;Created a BLoC for fetching list of babies enrolled in a program&lt;/li&gt;
+  &lt;li&gt;Creating a client &amp;amp; repository class for fetching &amp;amp; saving data locally&lt;/li&gt;
+  &lt;li&gt;Sorting the list by time to categorize recently &amp;amp; past registered babies&lt;/li&gt;
+  &lt;li&gt;On Tap of baby list item the app opens assessments screen &amp;amp; start fetching assessments&lt;/li&gt;
+  &lt;li&gt;List item color changes with classification of baby - Danger (Red), Problem (Yellow), Normal (Green)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;what-do-i-plan-to-do-next-week&quot;&gt;What do I plan to do next week?&lt;/h3&gt;
+&lt;p&gt;Merge Request Link https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/-/merge_requests/10&lt;/p&gt;
+
+&lt;h3 id=&quot;user-profile-screen-functionality&quot;&gt;User Profile Screen Functionality&lt;/h3&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;Implementing User Profile Screen functionality&lt;/li&gt;
-  &lt;li&gt;Baby Health Assessments Capture Functionality&lt;/li&gt;
-  &lt;li&gt;Fetching List Of Babies screen in App using API&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Internationalized Flutter app by adding support for other languages</summary></entry><entry><title type="html">Coding Period: Week 2 June 12 To June 18</title><link href="https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-2-June-12-To-June-18.html" rel="alternate" type="text/html" title="Coding Period: Week 2 June 12 To June 18" /><published>2021-06-18T00:00:00-05:00</published><updated>2021-06-18T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-2-June-12--To-June-18</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-2-June-12-To-June-18.html">&lt;h3 id=&quot;creating-login-user-functionality&quot;&gt;Creating Login User functionality&lt;/h3&gt;
+  &lt;li&gt;Fetching list of users notification from dhis2&lt;/li&gt;
+  &lt;li&gt;saving data in hive storage after fetching item&lt;/li&gt;
+  &lt;li&gt;fetching &amp;amp; displaying the notification date &amp;amp; time for each notification&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Merge Request Link https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/-/merge_requests/9&lt;/p&gt;
+
+&lt;h3 id=&quot;localized-strings-in-assessments-phases-ui&quot;&gt;Localized strings in assessments phases UI&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;All strings used in assessments phases UI are now localized&lt;/li&gt;
+  &lt;li&gt;localized strings are saved in app_en.arb file&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Merge Request Link https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/-/merge_requests/8&lt;/p&gt;
+
+&lt;h4 id=&quot;what-progress-have-you-made-this-week&quot;&gt;What progress have you made this week?&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Implemented User Profile Screen functionality&lt;/li&gt;
+  &lt;li&gt;Implemented fetching list of babies from dhis2 &amp;amp; displaying in screen&lt;/li&gt;
+  &lt;li&gt;Cache the data after fetching from dhis2&lt;/li&gt;
+  &lt;li&gt;localized strings in assessments phase&lt;/li&gt;
+  &lt;li&gt;Phase 1 assessments capturing functionality&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;what-do-i-plan-to-do-next-week&quot;&gt;What do I plan to do next week?&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Phase - 2, 3, 4  assessments capturing functionality&lt;/li&gt;
+  &lt;li&gt;Adding Search, Sort Functionality in List Of Babies screen&lt;/li&gt;
+  &lt;li&gt;Adding sort functionality , settings UI, activity logs in profile screen&lt;/li&gt;
+  &lt;li&gt;Update functionality in profile screen&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Stage 1 Assessments Capture Functionality</summary></entry><entry><title type="html">Coding Period: Week 2 June 12 To June 18</title><link href="https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-2-June-12-To-June-18.html" rel="alternate" type="text/html" title="Coding Period: Week 2 June 12 To June 18" /><published>2021-06-18T00:00:00-05:00</published><updated>2021-06-18T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-2-June-12--To-June-18</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-2-June-12-To-June-18.html">&lt;h3 id=&quot;creating-login-user-functionality&quot;&gt;Creating Login User functionality&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Used flutter Bloc architecture for state management&lt;/li&gt;
@@ -149,7 +153,62 @@ For now I have added translations for 3 languages only&lt;/p&gt;
   &lt;li&gt;Register Baby screen functionality (using DHIS2 API)&lt;/li&gt;
   &lt;li&gt;Implementing User Profile Screen functionality (using DHIS2 API)&lt;/li&gt;
   &lt;li&gt;Making the above features work also when user is offline and sending data when user is online next time&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Creating Login User functionality</summary></entry><entry><title type="html">Coding Period: Week 1 June 07 To June 11</title><link href="https://darshpreet2000.github.io/My-Blog/2021/06/11/Week-1-June-07-To-June-11.html" rel="alternate" type="text/html" title="Coding Period: Week 1 June 07 To June 11" /><published>2021-06-11T00:00:00-05:00</published><updated>2021-06-11T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/06/11/Week-1-June-07--To-June-11</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/06/11/Week-1-June-07-To-June-11.html">&lt;h3 id=&quot;developing-ui-of-register-baby-screen&quot;&gt;Developing UI of Register Baby Screen&lt;/h3&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Creating Login User functionality</summary></entry><entry><title type="html">Coding Period: Week 3 June 19 To June 27</title><link href="https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-3-June-19-To-June-27.html" rel="alternate" type="text/html" title="Coding Period: Week 3 June 19 To June 27" /><published>2021-06-18T00:00:00-05:00</published><updated>2021-06-18T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-3-June-19--To-June-27</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-3-June-19-To-June-27.html">&lt;h3 id=&quot;internationalized-flutter-app-by-adding-support-for-other-languages&quot;&gt;Internationalized Flutter app by adding support for other languages&lt;/h3&gt;
+
+&lt;p&gt;Created .arb (Application Resource Bundle) file which contains key-value pair strings, I localized all the string text using till now in app.
+For now I have added translations for 3 languages only&lt;/p&gt;
+
+&lt;h3 id=&quot;added-metadata-of-eceb--on-call-doctors-programs&quot;&gt;Added metadata of ECEB &amp;amp; on call doctors programs&lt;/h3&gt;
+
+&lt;p&gt;DHIS2 provides a metadata repository containing metadata packages with various content. A metadata package is a DHIS2-compliant JSON document which describes a set of metadata objects. I exported this metadata for the ECEB &amp;amp; On call doctors program. Users who will use this app will need to import this metadata in their dhis2.&lt;/p&gt;
+
+&lt;h3 id=&quot;unit-testing-for-authentication-screen&quot;&gt;Unit testing for authentication screen&lt;/h3&gt;
+
+&lt;p&gt;Unit tests are handy for verifying the behavior of a single function, method, or class. I created unit test for the auth functionality.&lt;/p&gt;
+
+&lt;p&gt;Test Cases for Hive Storage&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;User loggedIn return true&lt;/li&gt;
+  &lt;li&gt;Not LoggedIn return false&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Flutter BloC test cases&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;yield AuthenticationLoaded on successful login&lt;/li&gt;
+  &lt;li&gt;yield AuthenticationError on unsuccessful login&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Auth Client Test Cases&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;response code 200 - successful login&lt;/li&gt;
+  &lt;li&gt;response code 401 - unauthorized (wrong credentials)&lt;/li&gt;
+  &lt;li&gt;Socket Exception - no internet connection&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;register-baby-screen-functionality&quot;&gt;Register Baby screen functionality&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Baby able to get registered using app &amp;amp; their data is stored using api in DHIS2.&lt;/li&gt;
+  &lt;li&gt;This feature works offline also, data is synced when user is online next time&lt;/li&gt;
+  &lt;li&gt;Created a refresh bloc for state management&lt;/li&gt;
+  &lt;li&gt;Added Snackbars for showing info related to syncing&lt;/li&gt;
+  &lt;li&gt;stored the list in hive storage&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;what-progress-i-made-this-week&quot;&gt;What progress I made this week?&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Internationalized Flutter app by adding support for other languages&lt;/li&gt;
+  &lt;li&gt;Added metadata of ECEB &amp;amp; on call doctors programs&lt;/li&gt;
+  &lt;li&gt;Unit testing for authentication screen&lt;/li&gt;
+  &lt;li&gt;Register Baby screen functionality (using DHIS2 API)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;what-do-i-plan-to-do-next-week&quot;&gt;What do I plan to do next week?&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Implementing User Profile Screen functionality&lt;/li&gt;
+  &lt;li&gt;Baby Health Assessments Capture Functionality&lt;/li&gt;
+  &lt;li&gt;Fetching List Of Babies screen in App using API&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Internationalized Flutter app by adding support for other languages</summary></entry><entry><title type="html">Coding Period: Week 1 June 07 To June 11</title><link href="https://darshpreet2000.github.io/My-Blog/2021/06/11/Week-1-June-07-To-June-11.html" rel="alternate" type="text/html" title="Coding Period: Week 1 June 07 To June 11" /><published>2021-06-11T00:00:00-05:00</published><updated>2021-06-11T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/06/11/Week-1-June-07--To-June-11</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/06/11/Week-1-June-07-To-June-11.html">&lt;h3 id=&quot;developing-ui-of-register-baby-screen&quot;&gt;Developing UI of Register Baby Screen&lt;/h3&gt;
 
 &lt;p&gt;I worked on creating UI of register baby screen, I have used the following packages&lt;/p&gt;
 
@@ -792,56 +851,6 @@ This feature I created for those who want to test this app and are not a residen
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Completing Unit tests for other screens&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Coding Period: Week 10</title><link href="https://darshpreet2000.github.io/My-Blog/2020/08/08/Week-10-Aug-01-To-Aug-07.html" rel="alternate" type="text/html" title="Coding Period: Week 10" /><published>2020-08-08T00:00:00-05:00</published><updated>2020-08-08T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2020/08/08/Week-10-Aug-01--To-Aug-07</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2020/08/08/Week-10-Aug-01-To-Aug-07.html">&lt;!--
-#################################################
-### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
-#################################################
-# file to edit: _notebooks/2020-08-08-Week-10-Aug-01 -To-Aug-07.ipynb
---&gt;
-
-&lt;div class=&quot;container&quot; id=&quot;notebook-container&quot;&gt;
-        
-    
-    
-&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
-
-&lt;/div&gt;
-    
-
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
-&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Fixing-issues&quot;&gt;Fixing issues&lt;a class=&quot;anchor-link&quot; href=&quot;#Fixing-issues&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;I worked on different issues created by mentor Mua,&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Adding Search &amp;amp; Filter Functionality in View CDM Screen&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I have to make same functionality as in search screen&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Searching while typing&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;For this I have to listen textcontroller &amp;amp; have search in database whenever user enters any word&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Improving UI of CDM List tile&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I have decreased font size of CDM List tile, Added different color background to category&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://github.com/Darshpreet2000/My-Blog/blob/master/images/new_ui.jpeg?raw=true&quot; alt=&quot;download_cdm&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Fixed Bug CDM not getting saved immediately after downloading&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This was small problem, I just need to call Saved screen bloc to refresh data&lt;/p&gt;
-&lt;h3 id=&quot;Working-on-Share-App-&amp;amp;-About-App&quot;&gt;Working on Share App &amp;amp; About App&lt;a class=&quot;anchor-link&quot; href=&quot;#Working-on-Share-App-&amp;amp;-About-App&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;With the share app feature in navigation drawer user can share app using social media platforms, About feature displays an intro about the project &amp;amp; it also contains a link to this project Repository.&lt;/p&gt;
-&lt;h4 id=&quot;ScreenShots&quot;&gt;ScreenShots&lt;a class=&quot;anchor-link&quot; href=&quot;#ScreenShots&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;img src=&quot;https://github.com/Darshpreet2000/My-Blog/blob/master/images/about_screen.jpeg?raw=true&quot; alt=&quot;download_cdm&quot; /&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Writing-Readme.md-for-App&quot;&gt;Writing Readme.md for App&lt;a class=&quot;anchor-link&quot; href=&quot;#Writing-Readme.md-for-App&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;This is in progress, I have searched &amp;amp; viewed a lot of readme of many open source projects to get idea about it, I will complete this readme by Sunday&lt;/p&gt;
-&lt;h3 id=&quot;Searching-on-internet-on-how-to-make-Git-Repo-Smaller&quot;&gt;Searching on internet on how to make Git Repo Smaller&lt;a class=&quot;anchor-link&quot; href=&quot;#Searching-on-internet-on-how-to-make-Git-Repo-Smaller&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The scraper repo is very large but it doesn't contains any large file, its size is only 1 MB but on cloning we have to clone around 500 MB, it is because Git History of commit is very large. I want to discuss with mentor mua about it&lt;/p&gt;
-&lt;h3 id=&quot;What-do-I-plan-to-do-next-week?&quot;&gt;What do I plan to do next week?&lt;a class=&quot;anchor-link&quot; href=&quot;#What-do-I-plan-to-do-next-week?&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;Decreasing size of data scraper repository&lt;/li&gt;
-&lt;li&gt;Completing readme of App&lt;/li&gt;
-&lt;li&gt;Writing Unit Test of Home Screen, Download CDM screen, Saved CDM Screen&lt;/li&gt;
-&lt;li&gt;Developing &amp;amp; discussing REST API with flask&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;/div&gt;
