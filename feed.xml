@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://darshpreet2000.github.io/My-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darshpreet2000.github.io/My-Blog/" rel="alternate" type="text/html" /><updated>2021-07-11T12:45:50-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/feed.xml</id><title type="html">GSoC Journey</title><subtitle>Blogs For My Coding Journey</subtitle><entry><title type="html">Coding Period: Week 5 July 5 To July 11</title><link href="https://darshpreet2000.github.io/My-Blog/2021/07/11/Week-5-July-5-To-July-11.html" rel="alternate" type="text/html" title="Coding Period: Week 5 July 5 To July 11" /><published>2021-07-11T00:00:00-05:00</published><updated>2021-07-11T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/07/11/Week-5-July-5-To-July-11</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/07/11/Week-5-July-5-To-July-11.html">&lt;h4 id=&quot;stage-2-assessments-capture-with-classification&quot;&gt;Stage 2 Assessments Capture with Classification&lt;/h4&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://darshpreet2000.github.io/My-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darshpreet2000.github.io/My-Blog/" rel="alternate" type="text/html" /><updated>2021-07-11T12:49:12-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/feed.xml</id><title type="html">GSoC Journey</title><subtitle>Blogs For My Coding Journey</subtitle><entry><title type="html">Coding Period: Week 5 July 5 To July 11</title><link href="https://darshpreet2000.github.io/My-Blog/2021/07/11/Week-5-July-5-To-July-11.html" rel="alternate" type="text/html" title="Coding Period: Week 5 July 5 To July 11" /><published>2021-07-11T00:00:00-05:00</published><updated>2021-07-11T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/07/11/Week-5-July-5-To-July-11</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/07/11/Week-5-July-5-To-July-11.html">&lt;h4 id=&quot;stage-2-assessments-capture-with-classification&quot;&gt;Stage 2 Assessments Capture with Classification&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Created stage-2 assessments capture with clasifying baby’s health using program rules&lt;/li&gt;
@@ -80,20 +80,19 @@
 &lt;/ul&gt;
 
 &lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;By Birth Time&lt;/th&gt;
-      &lt;th&gt;By Status&lt;/th&gt;
-      &lt;th&gt;By Location&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/fc83bc45c8d404a4dd52adeb89377f93/Screenshot_1625831445.png&quot; alt=&quot;Screenshot_1625831445&quot; /&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/ee65c0679d6c38b6ad4d9904be912437/Screenshot_1625831527.png&quot; alt=&quot;Screenshot_1625831527&quot; /&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/ea78d27d5a92f6cddbba69be7720eb9e/Screenshot_1625831549.png&quot; alt=&quot;Screenshot_1625831549&quot; /&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;By Birth Time&lt;/th&gt;
+&lt;th&gt;By Status&lt;/th&gt;
+&lt;th&gt;By Location&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+
+&lt;tr&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/fc83bc45c8d404a4dd52adeb89377f93/Screenshot_1625831445.png&quot; width=&quot;300&quot; /&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/ee65c0679d6c38b6ad4d9904be912437/Screenshot_1625831527.png&quot; alt=&quot;Screenshot_1625831527&quot; /&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/ea78d27d5a92f6cddbba69be7720eb9e/Screenshot_1625831549.png&quot; width=&quot;300&quot; /&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 
 &lt;h4 id=&quot;search-list-of-babies-by-mothers-name&quot;&gt;Search List of babies by mother’s name&lt;/h4&gt;
