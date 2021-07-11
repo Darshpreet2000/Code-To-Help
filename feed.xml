@@ -1,4 +1,141 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://darshpreet2000.github.io/My-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darshpreet2000.github.io/My-Blog/" rel="alternate" type="text/html" /><updated>2021-07-04T13:07:31-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/feed.xml</id><title type="html">GSoC Journey</title><subtitle>Blogs For My Coding Journey</subtitle><entry><title type="html">Coding Period: Week 4 June 28 To July 4</title><link href="https://darshpreet2000.github.io/My-Blog/2021/07/04/Week-4-June-28-To-July-04.html" rel="alternate" type="text/html" title="Coding Period: Week 4 June 28 To July 4" /><published>2021-07-04T00:00:00-05:00</published><updated>2021-07-04T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/07/04/Week-4-June-28--To-July-04</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/07/04/Week-4-June-28-To-July-04.html">&lt;h3 id=&quot;stage-1-assessments-capture-functionality&quot;&gt;Stage 1 Assessments Capture Functionality&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://darshpreet2000.github.io/My-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darshpreet2000.github.io/My-Blog/" rel="alternate" type="text/html" /><updated>2021-07-11T12:31:41-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/feed.xml</id><title type="html">GSoC Journey</title><subtitle>Blogs For My Coding Journey</subtitle><entry><title type="html">Coding Period: Week 5 July 5 To July 11</title><link href="https://darshpreet2000.github.io/My-Blog/2021/07/11/Week-5-July-5-To-July-11.html" rel="alternate" type="text/html" title="Coding Period: Week 5 July 5 To July 11" /><published>2021-07-11T00:00:00-05:00</published><updated>2021-07-11T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/07/11/Week-5-July-5-To-July-11</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/07/11/Week-5-July-5-To-July-11.html">&lt;h4 id=&quot;stage-2-assessments-capture-with-classification&quot;&gt;Stage 2 Assessments Capture with Classification&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Created stage-2 assessments capture with clasifying baby’s health using program rules&lt;/li&gt;
+  &lt;li&gt;Health is classified in three categories (Normal, Problem, Danger)&lt;/li&gt;
+  &lt;li&gt;App takes all data entered by user in stage 2 &amp;amp; then evaluate program rules for classifying health&lt;/li&gt;
+  &lt;li&gt;After classifying health the color of assessments screen changes according to the category&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;stage-2-notifications-showing-feature&quot;&gt;Stage 2 Notifications showing feature&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Used &lt;a href=&quot;https://pub.dev/packages/awesome_notifications&quot;&gt;awesome_notifications&lt;/a&gt; package for displaying notification&lt;/li&gt;
+  &lt;li&gt;Displaying scheduled notifications reminder if user has not completed assessments&lt;/li&gt;
+  &lt;li&gt;Displaying notification on stage assessments opening&lt;/li&gt;
+  &lt;li&gt;Created Offline Notification showing functionality
+    &lt;ol&gt;
+      &lt;li&gt;Showing notification when baby is registered to complete phase -1  assessments&lt;/li&gt;
+      &lt;li&gt;If user forgets to do phase 1 assessment then reminding by notification again after 60 minutes&lt;/li&gt;
+      &lt;li&gt;Notification feature works offline using scheduled notification featur&lt;/li&gt;
+      &lt;li&gt;Package used for showing notification https://pub.dev/packages/awesome_notifications&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;screenshots-of-notifications&quot;&gt;Screenshots of notifications&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;on register baby notification&lt;/th&gt;
+      &lt;th&gt;reminder after 60 minutes&lt;/th&gt;
+      &lt;th&gt;reminder after 60 minutes&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/494aaa7f344e5e1bf33d0014ad4056d5/Screenshot_1625675204.png&quot; width=&quot;300&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/ff8b3c74f1478fcce18f16830c6c3689/Screenshot_1625674080.png&quot; width=&quot;300&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/cf060d2501960c3aa0b6a9dbaa7fb953/Screenshot_1625674090.png&quot; width=&quot;300&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;unit-testing-assessments-bloc-client-repository-phase-1&quot;&gt;Unit testing assessments bloc, client, repository, phase-1&lt;/h4&gt;
+&lt;p&gt;Test Cases&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Flutter Assessment BloC test
+    &lt;ul&gt;
+      &lt;li&gt;Test Cases&lt;/li&gt;
+      &lt;li&gt;yield AssessmentsInitial on successful fetching of data&lt;/li&gt;
+      &lt;li&gt;yields AssessmentsError on unsuccessful fetching of data&lt;/li&gt;
+      &lt;li&gt;yields AssessmentsAdded on successful adding of phase 1&lt;/li&gt;
+      &lt;li&gt;yields AssessmentsError when ward name is empty while adding of phase 1 assessments&lt;/li&gt;
+      &lt;li&gt;yields AssessmentsError when assessments are not completed while adding of phase 1 assessments
+&lt;br /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;AssessmentsRepository testing
+    &lt;ul&gt;
+      &lt;li&gt;Test Cases&lt;/li&gt;
+      &lt;li&gt;Throws exception if wardname is empty&lt;/li&gt;
+      &lt;li&gt;Throws exception if assessments are incomplete&lt;/li&gt;
+      &lt;li&gt;Marks phase-1 as complete if everything is correctly filled&lt;/li&gt;
+      &lt;li&gt;Adds stage-1 assessments if list is empty
+&lt;br /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Assessment Client Test
+    &lt;ul&gt;
+      &lt;li&gt;Test Cases&lt;/li&gt;
+      &lt;li&gt;returns response with 200 code on successful fetching of assessments&lt;/li&gt;
+      &lt;li&gt;throws fetch data exception on no internet connection&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;searching--sorting-functionality-on-list-of-babies-screen&quot;&gt;Searching &amp;amp; sorting functionality on list of babies screen&lt;/h4&gt;
+
+&lt;h4 id=&quot;sort-list-of-babies-by&quot;&gt;Sort List of babies by&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Time (Birth Time)&lt;/li&gt;
+  &lt;li&gt;Status ( Classificiation - Normal, Problem, Danger ) (Danger &amp;amp; Problem have high priority)&lt;/li&gt;
+  &lt;li&gt;Location ( Ward Name)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;By Birth Time&lt;/th&gt;
+      &lt;th&gt;By Status&lt;/th&gt;
+      &lt;th&gt;By Location&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/fc83bc45c8d404a4dd52adeb89377f93/Screenshot_1625831445.png&quot; alt=&quot;Screenshot_1625831445&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/ee65c0679d6c38b6ad4d9904be912437/Screenshot_1625831527.png&quot; alt=&quot;Screenshot_1625831527&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/ea78d27d5a92f6cddbba69be7720eb9e/Screenshot_1625831549.png&quot; alt=&quot;Screenshot_1625831549&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;search-list-of-babies-by-mothers-name&quot;&gt;Search List of babies by mother’s name&lt;/h4&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Search Oni&lt;/th&gt;
+      &lt;th&gt;Search test&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/48bbcab698dbc6610f1556f6c41b2cd5/Screenshot_1625831565.png&quot; width=&quot;300&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/65c9af1c4bc3a95455b5eade5abfdda1/Screenshot_1625831575.png&quot; width=&quot;300&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;what-progress-have-you-made-this-week&quot;&gt;What progress have you made this week?&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Adding Search, Sort Functionality in List Of Babies screen&lt;/li&gt;
+  &lt;li&gt;Unit Testing Assessments Bloc, Client, Repository, Phase 1&lt;/li&gt;
+  &lt;li&gt;Created Phase-1 Notifications showing functionality&lt;/li&gt;
+  &lt;li&gt;Created Phase-2 Assessments Capture with notifications&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;what-do-i-plan-to-do-next-week&quot;&gt;What do I plan to do next week?&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Phase - 3, 4  assessments capturing functionality&lt;/li&gt;
+  &lt;li&gt;Showing summary in Home Screen&lt;/li&gt;
+  &lt;li&gt;Developing settings screen of app&lt;/li&gt;
+  &lt;li&gt;Unit Testing phase - 2 , 3 , 4&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Stage 2 Assessments Capture with Classification</summary></entry><entry><title type="html">Coding Period: Week 4 June 28 To July 4</title><link href="https://darshpreet2000.github.io/My-Blog/2021/07/04/Week-4-June-28-To-July-04.html" rel="alternate" type="text/html" title="Coding Period: Week 4 June 28 To July 4" /><published>2021-07-04T00:00:00-05:00</published><updated>2021-07-04T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/07/04/Week-4-June-28--To-July-04</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/07/04/Week-4-June-28-To-July-04.html">&lt;h3 id=&quot;stage-1-assessments-capture-functionality&quot;&gt;Stage 1 Assessments Capture Functionality&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Fetching &amp;amp; Capturing Stage - 1 Assessments , with this feature user is able to view the captured assessments &amp;amp; also capture the assessments and push the data to DHIS2.&lt;/li&gt;
@@ -57,7 +194,62 @@
   &lt;li&gt;Adding Search, Sort Functionality in List Of Babies screen&lt;/li&gt;
   &lt;li&gt;Adding sort functionality , settings UI, activity logs in profile screen&lt;/li&gt;
   &lt;li&gt;Update functionality in profile screen&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Stage 1 Assessments Capture Functionality</summary></entry><entry><title type="html">Coding Period: Week 2 June 12 To June 18</title><link href="https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-2-June-12-To-June-18.html" rel="alternate" type="text/html" title="Coding Period: Week 2 June 12 To June 18" /><published>2021-06-18T00:00:00-05:00</published><updated>2021-06-18T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-2-June-12--To-June-18</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-2-June-12-To-June-18.html">&lt;h3 id=&quot;creating-login-user-functionality&quot;&gt;Creating Login User functionality&lt;/h3&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Stage 1 Assessments Capture Functionality</summary></entry><entry><title type="html">Coding Period: Week 3 June 19 To June 27</title><link href="https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-3-June-19-To-June-27.html" rel="alternate" type="text/html" title="Coding Period: Week 3 June 19 To June 27" /><published>2021-06-18T00:00:00-05:00</published><updated>2021-06-18T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-3-June-19--To-June-27</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-3-June-19-To-June-27.html">&lt;h3 id=&quot;internationalized-flutter-app-by-adding-support-for-other-languages&quot;&gt;Internationalized Flutter app by adding support for other languages&lt;/h3&gt;
+
+&lt;p&gt;Created .arb (Application Resource Bundle) file which contains key-value pair strings, I localized all the string text using till now in app.
+For now I have added translations for 3 languages only&lt;/p&gt;
+
+&lt;h3 id=&quot;added-metadata-of-eceb--on-call-doctors-programs&quot;&gt;Added metadata of ECEB &amp;amp; on call doctors programs&lt;/h3&gt;
+
+&lt;p&gt;DHIS2 provides a metadata repository containing metadata packages with various content. A metadata package is a DHIS2-compliant JSON document which describes a set of metadata objects. I exported this metadata for the ECEB &amp;amp; On call doctors program. Users who will use this app will need to import this metadata in their dhis2.&lt;/p&gt;
+
+&lt;h3 id=&quot;unit-testing-for-authentication-screen&quot;&gt;Unit testing for authentication screen&lt;/h3&gt;
+
+&lt;p&gt;Unit tests are handy for verifying the behavior of a single function, method, or class. I created unit test for the auth functionality.&lt;/p&gt;
+
+&lt;p&gt;Test Cases for Hive Storage&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;User loggedIn return true&lt;/li&gt;
+  &lt;li&gt;Not LoggedIn return false&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Flutter BloC test cases&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;yield AuthenticationLoaded on successful login&lt;/li&gt;
+  &lt;li&gt;yield AuthenticationError on unsuccessful login&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Auth Client Test Cases&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;response code 200 - successful login&lt;/li&gt;
+  &lt;li&gt;response code 401 - unauthorized (wrong credentials)&lt;/li&gt;
+  &lt;li&gt;Socket Exception - no internet connection&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;register-baby-screen-functionality&quot;&gt;Register Baby screen functionality&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Baby able to get registered using app &amp;amp; their data is stored using api in DHIS2.&lt;/li&gt;
+  &lt;li&gt;This feature works offline also, data is synced when user is online next time&lt;/li&gt;
+  &lt;li&gt;Created a refresh bloc for state management&lt;/li&gt;
+  &lt;li&gt;Added Snackbars for showing info related to syncing&lt;/li&gt;
+  &lt;li&gt;stored the list in hive storage&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;what-progress-i-made-this-week&quot;&gt;What progress I made this week?&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Internationalized Flutter app by adding support for other languages&lt;/li&gt;
+  &lt;li&gt;Added metadata of ECEB &amp;amp; on call doctors programs&lt;/li&gt;
+  &lt;li&gt;Unit testing for authentication screen&lt;/li&gt;
+  &lt;li&gt;Register Baby screen functionality (using DHIS2 API)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;what-do-i-plan-to-do-next-week&quot;&gt;What do I plan to do next week?&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Implementing User Profile Screen functionality&lt;/li&gt;
+  &lt;li&gt;Baby Health Assessments Capture Functionality&lt;/li&gt;
+  &lt;li&gt;Fetching List Of Babies screen in App using API&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Internationalized Flutter app by adding support for other languages</summary></entry><entry><title type="html">Coding Period: Week 2 June 12 To June 18</title><link href="https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-2-June-12-To-June-18.html" rel="alternate" type="text/html" title="Coding Period: Week 2 June 12 To June 18" /><published>2021-06-18T00:00:00-05:00</published><updated>2021-06-18T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-2-June-12--To-June-18</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-2-June-12-To-June-18.html">&lt;h3 id=&quot;creating-login-user-functionality&quot;&gt;Creating Login User functionality&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Used flutter Bloc architecture for state management&lt;/li&gt;
@@ -153,62 +345,7 @@
   &lt;li&gt;Register Baby screen functionality (using DHIS2 API)&lt;/li&gt;
   &lt;li&gt;Implementing User Profile Screen functionality (using DHIS2 API)&lt;/li&gt;
   &lt;li&gt;Making the above features work also when user is offline and sending data when user is online next time&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Creating Login User functionality</summary></entry><entry><title type="html">Coding Period: Week 3 June 19 To June 27</title><link href="https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-3-June-19-To-June-27.html" rel="alternate" type="text/html" title="Coding Period: Week 3 June 19 To June 27" /><published>2021-06-18T00:00:00-05:00</published><updated>2021-06-18T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-3-June-19--To-June-27</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-3-June-19-To-June-27.html">&lt;h3 id=&quot;internationalized-flutter-app-by-adding-support-for-other-languages&quot;&gt;Internationalized Flutter app by adding support for other languages&lt;/h3&gt;
-
-&lt;p&gt;Created .arb (Application Resource Bundle) file which contains key-value pair strings, I localized all the string text using till now in app.
-For now I have added translations for 3 languages only&lt;/p&gt;
-
-&lt;h3 id=&quot;added-metadata-of-eceb--on-call-doctors-programs&quot;&gt;Added metadata of ECEB &amp;amp; on call doctors programs&lt;/h3&gt;
-
-&lt;p&gt;DHIS2 provides a metadata repository containing metadata packages with various content. A metadata package is a DHIS2-compliant JSON document which describes a set of metadata objects. I exported this metadata for the ECEB &amp;amp; On call doctors program. Users who will use this app will need to import this metadata in their dhis2.&lt;/p&gt;
-
-&lt;h3 id=&quot;unit-testing-for-authentication-screen&quot;&gt;Unit testing for authentication screen&lt;/h3&gt;
-
-&lt;p&gt;Unit tests are handy for verifying the behavior of a single function, method, or class. I created unit test for the auth functionality.&lt;/p&gt;
-
-&lt;p&gt;Test Cases for Hive Storage&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;User loggedIn return true&lt;/li&gt;
-  &lt;li&gt;Not LoggedIn return false&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Flutter BloC test cases&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;yield AuthenticationLoaded on successful login&lt;/li&gt;
-  &lt;li&gt;yield AuthenticationError on unsuccessful login&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Auth Client Test Cases&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;response code 200 - successful login&lt;/li&gt;
-  &lt;li&gt;response code 401 - unauthorized (wrong credentials)&lt;/li&gt;
-  &lt;li&gt;Socket Exception - no internet connection&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;register-baby-screen-functionality&quot;&gt;Register Baby screen functionality&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Baby able to get registered using app &amp;amp; their data is stored using api in DHIS2.&lt;/li&gt;
-  &lt;li&gt;This feature works offline also, data is synced when user is online next time&lt;/li&gt;
-  &lt;li&gt;Created a refresh bloc for state management&lt;/li&gt;
-  &lt;li&gt;Added Snackbars for showing info related to syncing&lt;/li&gt;
-  &lt;li&gt;stored the list in hive storage&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;what-progress-i-made-this-week&quot;&gt;What progress I made this week?&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Internationalized Flutter app by adding support for other languages&lt;/li&gt;
-  &lt;li&gt;Added metadata of ECEB &amp;amp; on call doctors programs&lt;/li&gt;
-  &lt;li&gt;Unit testing for authentication screen&lt;/li&gt;
-  &lt;li&gt;Register Baby screen functionality (using DHIS2 API)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;what-do-i-plan-to-do-next-week&quot;&gt;What do I plan to do next week?&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Implementing User Profile Screen functionality&lt;/li&gt;
-  &lt;li&gt;Baby Health Assessments Capture Functionality&lt;/li&gt;
-  &lt;li&gt;Fetching List Of Babies screen in App using API&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Internationalized Flutter app by adding support for other languages</summary></entry><entry><title type="html">Coding Period: Week 1 June 07 To June 11</title><link href="https://darshpreet2000.github.io/My-Blog/2021/06/11/Week-1-June-07-To-June-11.html" rel="alternate" type="text/html" title="Coding Period: Week 1 June 07 To June 11" /><published>2021-06-11T00:00:00-05:00</published><updated>2021-06-11T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/06/11/Week-1-June-07--To-June-11</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/06/11/Week-1-June-07-To-June-11.html">&lt;h3 id=&quot;developing-ui-of-register-baby-screen&quot;&gt;Developing UI of Register Baby Screen&lt;/h3&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Creating Login User functionality</summary></entry><entry><title type="html">Coding Period: Week 1 June 07 To June 11</title><link href="https://darshpreet2000.github.io/My-Blog/2021/06/11/Week-1-June-07-To-June-11.html" rel="alternate" type="text/html" title="Coding Period: Week 1 June 07 To June 11" /><published>2021-06-11T00:00:00-05:00</published><updated>2021-06-11T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/06/11/Week-1-June-07--To-June-11</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/06/11/Week-1-June-07-To-June-11.html">&lt;h3 id=&quot;developing-ui-of-register-baby-screen&quot;&gt;Developing UI of Register Baby Screen&lt;/h3&gt;
 
 &lt;p&gt;I worked on creating UI of register baby screen, I have used the following packages&lt;/p&gt;
 
@@ -798,60 +935,6 @@ This feature I created for those who want to test this app and are not a residen
 &lt;h3 id=&quot;Working-on-Updating-all-CDM-from-App&quot;&gt;Working on Updating all CDM from App&lt;a class=&quot;anchor-link&quot; href=&quot;#Working-on-Updating-all-CDM-from-App&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;App should update its saved CDM from gitlab every month, I have to work on this feature, I will complete it by tomorrow.&lt;/p&gt;
 &lt;h3 id=&quot;What-do-I-plan-to-do-After-GSoC?&quot;&gt;What do I plan to do After GSoC?&lt;a class=&quot;anchor-link&quot; href=&quot;#What-do-I-plan-to-do-After-GSoC?&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;I will continue to contribute to LibreHealth for this project. I will assist the new members who are willing to contribute for this project. I will actively take part in the discussions and I will contribute by creating, Solving issues and adding improvements to this app.&lt;/p&gt;
 &lt;h3 id=&quot;Have-you-had-any-blockers-or-issues-that-are-impending-your-project?&quot;&gt;Have you had any blockers or issues that are impending your project?&lt;a class=&quot;anchor-link&quot; href=&quot;#Have-you-had-any-blockers-or-issues-that-are-impending-your-project?&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Project is almost done, I only need to discuss report a bug feature with @mua_rachmann &amp;amp; make a CI pipeline for App&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Coding Period: Week 11</title><link href="https://darshpreet2000.github.io/My-Blog/2020/08/14/Week-11-Aug-08-To-Aug-14.html" rel="alternate" type="text/html" title="Coding Period: Week 11" /><published>2020-08-14T00:00:00-05:00</published><updated>2020-08-14T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2020/08/14/Week-11-Aug-08--To-Aug-14</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2020/08/14/Week-11-Aug-08-To-Aug-14.html">&lt;!--
-#################################################
-### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
-#################################################
-# file to edit: _notebooks/2020-08-14-Week-11-Aug-08 -To-Aug-14.ipynb
---&gt;
-
-&lt;div class=&quot;container&quot; id=&quot;notebook-container&quot;&gt;
-        
-    
-    
-&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
-
-&lt;/div&gt;
-    
-
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
-&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Decreased-size-of-scraper-repository&quot;&gt;Decreased size of scraper repository&lt;a class=&quot;anchor-link&quot; href=&quot;#Decreased-size-of-scraper-repository&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;I reduced the repository size from 600 MB to around 14 MB using &lt;a href=&quot;https://rtyley.github.io/bfg-repo-cleaner/&quot;&gt;BFG Repo Cleaner&lt;/a&gt;, it is a tool which cleans large blobs in git repository commits, I ran it to clear all blobs greater than 10 Kb &amp;amp; then I achieved 14 MB size, Well it is not the original size but a lot better than previous one.&lt;/p&gt;
-&lt;h3 id=&quot;Fixed-CI-pipeline&quot;&gt;Fixed CI pipeline&lt;a class=&quot;anchor-link&quot; href=&quot;#Fixed-CI-pipeline&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The problem with CI pipeline was with authentication, I &amp;amp; my mentors fixed this issue correctly,Now we have used an access token instead of SSH earlier.Data is pushed in master branch of Gitlab repository&lt;/p&gt;
-&lt;h3 id=&quot;Wrote-Unit-tests-of-App&quot;&gt;Wrote Unit tests of App&lt;a class=&quot;anchor-link&quot; href=&quot;#Wrote-Unit-tests-of-App&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;I worked a lot on this during this week, I have used flutter's two popular packages,&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://pub.dev/packages/bloc_test&quot;&gt;bloc_test&lt;/a&gt;  This is very useful for testing blocx which are used in BLoC architecture.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://pub.dev/packages/mockito&quot;&gt;mockito&lt;/a&gt; - Used flutter's mockito package which is used for mocking repository, I used it for testing mocking all repository &amp;amp; all API clients&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Wrote Unit Tests for&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Home Screen&lt;/li&gt;
-&lt;li&gt;Download CDM screen,&lt;/li&gt;
-&lt;li&gt;Saved CDM Screen&lt;/li&gt;
-&lt;li&gt;View CDM&lt;/li&gt;
-&lt;li&gt;Search Screen&lt;/li&gt;
-&lt;li&gt;View CDM Statewise screen&lt;/li&gt;
-&lt;li&gt;Compare Hospital Screen&lt;/li&gt;
-&lt;li&gt;Also Wrote unit tests for Overpass API, GitLab API, Medicare Hospital Compare API&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;Completing-README.md-for-App&quot;&gt;Completing README.md for App&lt;a class=&quot;anchor-link&quot; href=&quot;#Completing-README.md-for-App&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Readme of app is now completed, I have also modified readme of scraper as suggested by Mentor Mua to display links of hospitals in a table. I viewed a lot of Open Source projects Repositories to get idea.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://gitlab.com/Darshpreet2000/lh-toolkit-cost-of-care-app-data-scraper/-/blob/fix-issue/README.md&quot;&gt;https://gitlab.com/Darshpreet2000/lh-toolkit-cost-of-care-app-data-scraper/-/blob/fix-issue/README.md&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;What-do-I-plan-to-do-next-week?&quot;&gt;What do I plan to do next week?&lt;a class=&quot;anchor-link&quot; href=&quot;#What-do-I-plan-to-do-next-week?&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;I need to test app more to ensure each &amp;amp; every component is working correctly&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Finding &amp;amp; fixing bugs in app.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Discussing with @mua_rachmann for REST server, App icon, Intro slides&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Completing Unit tests for other screens&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;

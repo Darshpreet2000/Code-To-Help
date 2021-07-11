@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Coding Period: Week 5 July 5 To July 11 | GSoC Journey</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Coding Period: Week 5 July 5 To July 11" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Classifying Baby Health, Stage - 2 Assessments Capture, Notifications showing feature, Unit testing phase - 1, Search/Sort list of babies screen" />
+<meta property="og:description" content="Classifying Baby Health, Stage - 2 Assessments Capture, Notifications showing feature, Unit testing phase - 1, Search/Sort list of babies screen" />
+<link rel="canonical" href="https://darshpreet2000.github.io/My-Blog/2021/07/11/Week-5-July-5-To-July-11.html" />
+<meta property="og:url" content="https://darshpreet2000.github.io/My-Blog/2021/07/11/Week-5-July-5-To-July-11.html" />
+<meta property="og:site_name" content="GSoC Journey" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-07-11T00:00:00-05:00" />
+<script type="application/ld+json">
+{"description":"Classifying Baby Health, Stage - 2 Assessments Capture, Notifications showing feature, Unit testing phase - 1, Search/Sort list of babies screen","headline":"Coding Period: Week 5 July 5 To July 11","dateModified":"2021-07-11T00:00:00-05:00","datePublished":"2021-07-11T00:00:00-05:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://darshpreet2000.github.io/My-Blog/2021/07/11/Week-5-July-5-To-July-11.html"},"url":"https://darshpreet2000.github.io/My-Blog/2021/07/11/Week-5-July-5-To-July-11.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/My-Blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://darshpreet2000.github.io/My-Blog/feed.xml" title="GSoC Journey" /><link rel="shortcut icon" type="image/x-icon" href="/My-Blog/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Coding Period: Week 5 July 5 To July 11 | GSoC Journey</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Coding Period: Week 5 July 5 To July 11" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Classifying Baby Health, Stage - 2 Assessments Capture, Notifications showing feature, Unit testing phase - 1, Search/Sort list of babies screen" />
+<meta property="og:description" content="Classifying Baby Health, Stage - 2 Assessments Capture, Notifications showing feature, Unit testing phase - 1, Search/Sort list of babies screen" />
+<link rel="canonical" href="https://darshpreet2000.github.io/My-Blog/2021/07/11/Week-5-July-5-To-July-11.html" />
+<meta property="og:url" content="https://darshpreet2000.github.io/My-Blog/2021/07/11/Week-5-July-5-To-July-11.html" />
+<meta property="og:site_name" content="GSoC Journey" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-07-11T00:00:00-05:00" />
+<script type="application/ld+json">
+{"description":"Classifying Baby Health, Stage - 2 Assessments Capture, Notifications showing feature, Unit testing phase - 1, Search/Sort list of babies screen","headline":"Coding Period: Week 5 July 5 To July 11","dateModified":"2021-07-11T00:00:00-05:00","datePublished":"2021-07-11T00:00:00-05:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://darshpreet2000.github.io/My-Blog/2021/07/11/Week-5-July-5-To-July-11.html"},"url":"https://darshpreet2000.github.io/My-Blog/2021/07/11/Week-5-July-5-To-July-11.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"><link type="application/atom+xml" rel="alternate" href="https://darshpreet2000.github.io/My-Blog/feed.xml" title="GSoC Journey" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head><body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/My-Blog/">GSoC Journey</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/My-Blog/about/">About Me</a><a class="page-link" href="/My-Blog/search/">Search</a><a class="page-link" href="/My-Blog/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Coding Period: Week 5 July 5 To July 11</h1><p class="page-description">Classifying Baby Health, Stage - 2 Assessments Capture, Notifications showing feature, Unit testing phase - 1, Search/Sort list of babies screen</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-07-11T00:00:00-05:00" itemprop="datePublished">
+        Jul 11, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      2 min read
+    
+</span></p>
+
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h4 id="stage-2-assessments-capture-with-classification">Stage 2 Assessments Capture with Classification</h4>
+
+<ul>
+  <li>Created stage-2 assessments capture with clasifying baby’s health using program rules</li>
+  <li>Health is classified in three categories (Normal, Problem, Danger)</li>
+  <li>App takes all data entered by user in stage 2 &amp; then evaluate program rules for classifying health</li>
+  <li>After classifying health the color of assessments screen changes according to the category</li>
+</ul>
+
+<h4 id="stage-2-notifications-showing-feature">Stage 2 Notifications showing feature</h4>
+
+<ul>
+  <li>Used <a href="https://pub.dev/packages/awesome_notifications">awesome_notifications</a> package for displaying notification</li>
+  <li>Displaying scheduled notifications reminder if user has not completed assessments</li>
+  <li>Displaying notification on stage assessments opening</li>
+  <li>Created Offline Notification showing functionality
+    <ol>
+      <li>Showing notification when baby is registered to complete phase -1  assessments</li>
+      <li>If user forgets to do phase 1 assessment then reminding by notification again after 60 minutes</li>
+      <li>Notification feature works offline using scheduled notification featur</li>
+      <li>Package used for showing notification https://pub.dev/packages/awesome_notifications</li>
+    </ol>
+  </li>
+</ul>
+
+<h3 id="screenshots-of-notifications">Screenshots of notifications</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>on register baby notification</th>
+      <th>reminder after 60 minutes</th>
+      <th>reminder after 60 minutes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/494aaa7f344e5e1bf33d0014ad4056d5/Screenshot_1625675204.png" width="300" /></td>
+      <td><img src="https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/ff8b3c74f1478fcce18f16830c6c3689/Screenshot_1625674080.png" width="300" /></td>
+      <td><img src="https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/cf060d2501960c3aa0b6a9dbaa7fb953/Screenshot_1625674090.png" width="300" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="unit-testing-assessments-bloc-client-repository-phase-1">Unit testing assessments bloc, client, repository, phase-1</h4>
+<p>Test Cases</p>
+
+<ul>
+  <li>Flutter Assessment BloC test
+    <ul>
+      <li>Test Cases</li>
+      <li>yield AssessmentsInitial on successful fetching of data</li>
+      <li>yields AssessmentsError on unsuccessful fetching of data</li>
+      <li>yields AssessmentsAdded on successful adding of phase 1</li>
+      <li>yields AssessmentsError when ward name is empty while adding of phase 1 assessments</li>
+      <li>yields AssessmentsError when assessments are not completed while adding of phase 1 assessments
+<br /></li>
+    </ul>
+  </li>
+  <li>AssessmentsRepository testing
+    <ul>
+      <li>Test Cases</li>
+      <li>Throws exception if wardname is empty</li>
+      <li>Throws exception if assessments are incomplete</li>
+      <li>Marks phase-1 as complete if everything is correctly filled</li>
+      <li>Adds stage-1 assessments if list is empty
+<br /></li>
+    </ul>
+  </li>
+  <li>Assessment Client Test
+    <ul>
+      <li>Test Cases</li>
+      <li>returns response with 200 code on successful fetching of assessments</li>
+      <li>throws fetch data exception on no internet connection</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="searching--sorting-functionality-on-list-of-babies-screen">Searching &amp; sorting functionality on list of babies screen</h4>
+
+<h4 id="sort-list-of-babies-by">Sort List of babies by</h4>
+<ul>
+  <li>Time (Birth Time)</li>
+  <li>Status ( Classificiation - Normal, Problem, Danger ) (Danger &amp; Problem have high priority)</li>
+  <li>Location ( Ward Name)</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>By Birth Time</th>
+      <th>By Status</th>
+      <th>By Location</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/fc83bc45c8d404a4dd52adeb89377f93/Screenshot_1625831445.png" alt="Screenshot_1625831445" /></td>
+      <td><img src="https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/ee65c0679d6c38b6ad4d9904be912437/Screenshot_1625831527.png" alt="Screenshot_1625831527" /></td>
+      <td><img src="https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/ea78d27d5a92f6cddbba69be7720eb9e/Screenshot_1625831549.png" alt="Screenshot_1625831549" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="search-list-of-babies-by-mothers-name">Search List of babies by mother’s name</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Search Oni</th>
+      <th>Search test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/48bbcab698dbc6610f1556f6c41b2cd5/Screenshot_1625831565.png" width="300" /></td>
+      <td><img src="https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/65c9af1c4bc3a95455b5eade5abfdda1/Screenshot_1625831575.png" width="300" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="what-progress-have-you-made-this-week">What progress have you made this week?</h4>
+
+<ul>
+  <li>Adding Search, Sort Functionality in List Of Babies screen</li>
+  <li>Unit Testing Assessments Bloc, Client, Repository, Phase 1</li>
+  <li>Created Phase-1 Notifications showing functionality</li>
+  <li>Created Phase-2 Assessments Capture with notifications</li>
+</ul>
+
+<h4 id="what-do-i-plan-to-do-next-week">What do I plan to do next week?</h4>
+
+<ul>
+  <li>Phase - 3, 4  assessments capturing functionality</li>
+  <li>Showing summary in Home Screen</li>
+  <li>Developing settings screen of app</li>
+  <li>Unit Testing phase - 2 , 3 , 4</li>
+</ul>
+
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="Darshpreet2000/My-Blog"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/My-Blog/2021/07/11/Week-5-July-5-To-July-11.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/My-Blog/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/My-Blog/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/My-Blog/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Blogs For My Coding Journey</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/fastai" title="fastai"><svg class="svg-icon grey"><use xlink:href="/My-Blog/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/fastdotai" title="fastdotai"><svg class="svg-icon grey"><use xlink:href="/My-Blog/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
