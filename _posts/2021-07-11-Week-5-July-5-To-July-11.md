@@ -34,24 +34,18 @@ layout: post
 
 ### Screenshots of notifications
 
-<table  style="width:100%">
-<thead>
-<tr>
-<th>on register baby notification</th>
-<th>reminder after 60 minutes</th>
-<th>reminder after 60 minutes</th>
+
+<table style="width:100%">
+  <tr>
+<img src="https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/494aaa7f344e5e1bf33d0014ad4056d5/Screenshot_1625675204.png" width="300"> 
+ </tr>
+  <tr>
+<img src="https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/ff8b3c74f1478fcce18f16830c6c3689/Screenshot_1625674080.png" width="300">  
 </tr>
-</thead>
-<tbody>
-<tr>
-<td><img src="https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/494aaa7f344e5e1bf33d0014ad4056d5/Screenshot_1625675204.png" width="300"></td>
-<td><img src="https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/ff8b3c74f1478fcce18f16830c6c3689/Screenshot_1625674080.png" width="300"></td>
-<td><img src="https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/cf060d2501960c3aa0b6a9dbaa7fb953/Screenshot_1625674090.png" width="300"></td>
-</tr>
-</tbody>
+  <tr>
+<img src="https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/cf060d2501960c3aa0b6a9dbaa7fb953/Screenshot_1625674090.png" width="300">
+  </tr>
 </table>
-
-
 #### Unit testing assessments bloc, client, repository, phase-1
 Test Cases 
 
