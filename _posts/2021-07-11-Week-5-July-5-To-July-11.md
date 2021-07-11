@@ -84,11 +84,9 @@ Test Cases
 
 <table>
 <thead>
-<tr>
 <th>By Birth Time</th>
 <th>By Status</th>
 <th>By Location</th>
-</tr>
 </thead>
 <tbody>
 
@@ -101,14 +99,11 @@ Test Cases
 
 #### Search List of babies by mother's name
 
-<h4 id="search-list-of-babies-by-mother-s-name">Search List of babies by mother&#39;s name</h4>
 
 <table style="width:100%">
 <thead>
-<tr>
 <th>Search Oni</th>
 <th>Search test</th>
-</tr>
 </thead>
 <tbody>
 <tr>
