@@ -82,10 +82,21 @@ Test Cases
 
 
 
+<table>
+<thead>
+<tr>
+<th>By Birth Time</th>
+<th>By Status</th>
+<th>By Location</th>
+</tr>
+</thead>
+<tbody>
 
-| By Birth Time| By Status |  By Location |
-| ------ | ------ | ------ |
-| ![Screenshot_1625831445](https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/fc83bc45c8d404a4dd52adeb89377f93/Screenshot_1625831445.png)| ![Screenshot_1625831527](https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/ee65c0679d6c38b6ad4d9904be912437/Screenshot_1625831527.png)| ![Screenshot_1625831549](https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/ea78d27d5a92f6cddbba69be7720eb9e/Screenshot_1625831549.png)|
+<tr><img src="https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/fc83bc45c8d404a4dd52adeb89377f93/Screenshot_1625831445.png" width="300"></tr>
+<tr><img src="https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/ee65c0679d6c38b6ad4d9904be912437/Screenshot_1625831527.png" alt="Screenshot_1625831527"></tr>
+<tr><img src="https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/ea78d27d5a92f6cddbba69be7720eb9e/Screenshot_1625831549.png" width="300"></tr>
+</tbody>
+</table>
 
 
 #### Search List of babies by mother's name
