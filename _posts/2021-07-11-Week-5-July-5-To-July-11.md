@@ -87,13 +87,28 @@ Test Cases
 | ------ | ------ | ------ |
 | ![Screenshot_1625831445](https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/fc83bc45c8d404a4dd52adeb89377f93/Screenshot_1625831445.png)| ![Screenshot_1625831527](https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/ee65c0679d6c38b6ad4d9904be912437/Screenshot_1625831527.png)| ![Screenshot_1625831549](https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/ea78d27d5a92f6cddbba69be7720eb9e/Screenshot_1625831549.png)|
 
+
 #### Search List of babies by mother's name
 
+<h4 id="search-list-of-babies-by-mother-s-name">Search List of babies by mother&#39;s name</h4>
 
+<table style="width:100%">
+<thead>
+<tr>
+<th>Search Oni</th>
+<th>Search test</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<img src="https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/48bbcab698dbc6610f1556f6c41b2cd5/Screenshot_1625831565.png" width="300">
+</tr>
+<tr>
+<img src="https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/65c9af1c4bc3a95455b5eade5abfdda1/Screenshot_1625831575.png" width="300">
+</tr>
 
-| Search Oni| Search test |
-| ------ | ------ |
-| <img src="https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/48bbcab698dbc6610f1556f6c41b2cd5/Screenshot_1625831565.png" width="300">| <img src="https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/65c9af1c4bc3a95455b5eade5abfdda1/Screenshot_1625831575.png" width="300">|
+</tbody>
+</table>
 
 
 #### What progress have you made this week?
