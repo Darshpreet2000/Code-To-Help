@@ -22,13 +22,10 @@ layout: post
       3. yields SettingsState on toggle of notifications
 
 <table>
-<tbody>
-<tr class="odd">
-<td align="left"><img src="https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/257337fc39bccc50b11aec0f1b59b0a8/Screenshot_1626603574.png" width="300"></td>
-<td align="left"><img src="https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/7c2fd97371e106fbf70a8386e25bc83e/Screenshot_1626603578.png" width="300"></td>
-<td align="left"><img src="https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/f3a56b728e9506dbbcdd85d9699817c1/Screenshot_1626603588.png" width="300"></td>
-</tr>
-</tbody>
+<tr align="left"><img src="https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/257337fc39bccc50b11aec0f1b59b0a8/Screenshot_1626603574.png" width="300"></tr>
+<tr align="left"><img src="https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/7c2fd97371e106fbf70a8386e25bc83e/Screenshot_1626603578.png" width="300"></tr>
+<tr align="left"><img src="https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/f3a56b728e9506dbbcdd85d9699817c1/Screenshot_1626603588.png" width="300"></tr>
+
 </table>
 
 
@@ -50,12 +47,9 @@ layout: post
 <th align="left">Classifying as Problem after stage 2 assessments</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td align="left"><img src="https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/7079f679b2ecd23675fb4af30d41b43e/danger.gif" width="300"></td>
-<td align="left"><img src="https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/224cdc2a57c09e671e043e0aa2d1a633/problem.gif" width="300"></td>
-</tr>
-</tbody>
+<tr align="left"><img src="https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/7079f679b2ecd23675fb4af30d41b43e/danger.gif" width="300"></tr>
+<tr align="left"><img src="https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/224cdc2a57c09e671e043e0aa2d1a633/problem.gif" width="300"></tr>
+
 </table>
 
 
