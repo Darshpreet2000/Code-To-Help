@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://darshpreet2000.github.io/My-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darshpreet2000.github.io/My-Blog/" rel="alternate" type="text/html" /><updated>2021-07-18T12:44:09-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/feed.xml</id><title type="html">GSoC Journey</title><subtitle>Blogs For My Coding Journey</subtitle><entry><title type="html">Coding Period: Week 6 July 12 To July 18</title><link href="https://darshpreet2000.github.io/My-Blog/2021/07/18/Week-6-July-12-To-July-18.html" rel="alternate" type="text/html" title="Coding Period: Week 6 July 12 To July 18" /><published>2021-07-18T00:00:00-05:00</published><updated>2021-07-18T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/07/18/Week-6-July-12-To-July-18</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/07/18/Week-6-July-12-To-July-18.html">&lt;h4 id=&quot;settings-drawer-to-toggle-settings-with-unit-test&quot;&gt;Settings drawer to toggle settings with unit test&lt;/h4&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://darshpreet2000.github.io/My-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darshpreet2000.github.io/My-Blog/" rel="alternate" type="text/html" /><updated>2021-07-18T12:47:26-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/feed.xml</id><title type="html">GSoC Journey</title><subtitle>Blogs For My Coding Journey</subtitle><entry><title type="html">Coding Period: Week 6 July 12 To July 18</title><link href="https://darshpreet2000.github.io/My-Blog/2021/07/18/Week-6-July-12-To-July-18.html" rel="alternate" type="text/html" title="Coding Period: Week 6 July 12 To July 18" /><published>2021-07-18T00:00:00-05:00</published><updated>2021-07-18T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/07/18/Week-6-July-12-To-July-18</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/07/18/Week-6-July-12-To-July-18.html">&lt;h4 id=&quot;settings-drawer-to-toggle-settings-with-unit-test&quot;&gt;Settings drawer to toggle settings with unit test&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Created end drawer to toggle settings&lt;/li&gt;
@@ -11,13 +11,10 @@
 &lt;/ul&gt;
 
 &lt;table&gt;
-&lt;tbody&gt;
-&lt;tr class=&quot;odd&quot;&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/257337fc39bccc50b11aec0f1b59b0a8/Screenshot_1626603574.png&quot; width=&quot;300&quot; /&gt;&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/7c2fd97371e106fbf70a8386e25bc83e/Screenshot_1626603578.png&quot; width=&quot;300&quot; /&gt;&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/f3a56b728e9506dbbcdd85d9699817c1/Screenshot_1626603588.png&quot; width=&quot;300&quot; /&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+&lt;tr align=&quot;left&quot;&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/257337fc39bccc50b11aec0f1b59b0a8/Screenshot_1626603574.png&quot; width=&quot;300&quot; /&gt;&lt;/tr&gt;
+&lt;tr align=&quot;left&quot;&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/7c2fd97371e106fbf70a8386e25bc83e/Screenshot_1626603578.png&quot; width=&quot;300&quot; /&gt;&lt;/tr&gt;
+&lt;tr align=&quot;left&quot;&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/f3a56b728e9506dbbcdd85d9699817c1/Screenshot_1626603588.png&quot; width=&quot;300&quot; /&gt;&lt;/tr&gt;
+
 &lt;/table&gt;
 
 &lt;h4 id=&quot;stage-3-assessments-capture-functionality&quot;&gt;Stage 3 Assessments Capture functionality&lt;/h4&gt;
@@ -42,12 +39,9 @@
 &lt;th align=&quot;left&quot;&gt;Classifying as Problem after stage 2 assessments&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr class=&quot;odd&quot;&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/7079f679b2ecd23675fb4af30d41b43e/danger.gif&quot; width=&quot;300&quot; /&gt;&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/224cdc2a57c09e671e043e0aa2d1a633/problem.gif&quot; width=&quot;300&quot; /&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+&lt;tr align=&quot;left&quot;&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/7079f679b2ecd23675fb4af30d41b43e/danger.gif&quot; width=&quot;300&quot; /&gt;&lt;/tr&gt;
+&lt;tr align=&quot;left&quot;&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/224cdc2a57c09e671e043e0aa2d1a633/problem.gif&quot; width=&quot;300&quot; /&gt;&lt;/tr&gt;
+
 &lt;/table&gt;
 
 &lt;h4 id=&quot;stage-2-unit-testing&quot;&gt;Stage 2 Unit testing&lt;/h4&gt;
