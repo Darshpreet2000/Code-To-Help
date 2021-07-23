@@ -1,4 +1,116 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://darshpreet2000.github.io/My-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darshpreet2000.github.io/My-Blog/" rel="alternate" type="text/html" /><updated>2021-07-18T12:47:26-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/feed.xml</id><title type="html">GSoC Journey</title><subtitle>Blogs For My Coding Journey</subtitle><entry><title type="html">Coding Period: Week 6 July 12 To July 18</title><link href="https://darshpreet2000.github.io/My-Blog/2021/07/18/Week-6-July-12-To-July-18.html" rel="alternate" type="text/html" title="Coding Period: Week 6 July 12 To July 18" /><published>2021-07-18T00:00:00-05:00</published><updated>2021-07-18T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/07/18/Week-6-July-12-To-July-18</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/07/18/Week-6-July-12-To-July-18.html">&lt;h4 id=&quot;settings-drawer-to-toggle-settings-with-unit-test&quot;&gt;Settings drawer to toggle settings with unit test&lt;/h4&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://darshpreet2000.github.io/My-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darshpreet2000.github.io/My-Blog/" rel="alternate" type="text/html" /><updated>2021-07-23T12:42:14-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/feed.xml</id><title type="html">GSoC Journey</title><subtitle>Blogs For My Coding Journey</subtitle><entry><title type="html">Coding Period: Week 7 July 19 To July 23</title><link href="https://darshpreet2000.github.io/My-Blog/2021/07/23/Week-7-July-19-To-July-23.html" rel="alternate" type="text/html" title="Coding Period: Week 7 July 19 To July 23" /><published>2021-07-23T00:00:00-05:00</published><updated>2021-07-23T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/07/23/Week-7-July-19-To-July-23</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/07/23/Week-7-July-19-To-July-23.html">&lt;p&gt;Week 7 Of coding period is completed, I worked on adding on call doctors viewing feature, I completed notifcation showing functionality on risk assessments and monitoring alerts&lt;/p&gt;
+
+&lt;h4 id=&quot;added-on-call-doctors-viewing-functionality-in-app-with-unit-tests&quot;&gt;Added On-Call Doctors Viewing Functionality in App with Unit tests&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fetching events from on call doctors program&lt;/li&gt;
+  &lt;li&gt;displaying on call doctors&lt;/li&gt;
+  &lt;li&gt;displaying images with cache&lt;/li&gt;
+  &lt;li&gt;saving the list to local storage&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;unit-tests&quot;&gt;Unit tests&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;yield OnCallDoctorLoaded on successful fetching of data&lt;/li&gt;
+  &lt;li&gt;yields OnCallDoctorLoaded on unsuccessful fetching of data by getting from hive&lt;/li&gt;
+  &lt;li&gt;returns response with 200 code on successful fetching of on call doctors&lt;/li&gt;
+  &lt;li&gt;throws fetch data exception on no internet connection&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+&lt;tr align=&quot;left&quot;&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/6074243f3d0f264958faf54ecd311cda/Screenshot_1626859610.png&quot; width=&quot;300&quot; /&gt;&lt;/tr&gt;
+&lt;tr align=&quot;left&quot;&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/a4bdcd27fc4fcb94c18930f121d3d9e0/Screenshot_1626859590.png&quot; width=&quot;300&quot; /&gt;&lt;/tr&gt;
+&lt;tr align=&quot;left&quot;&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/5751fe9fcdc74830adaf28446bc116f1/Screenshot_1626859593.png&quot; width=&quot;300&quot; /&gt;&lt;/tr&gt;
+
+&lt;/table&gt;
+
+&lt;p&gt;GIF Showing on Call Doctors slider&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/042c0945a9df7bd51c64522b2c2d16eb/on_call_doctors.gif&quot; width=&quot;300&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;completed-notification-screen-risk-assessment-monitoring-alerts-tab-with-unit-tests&quot;&gt;Completed Notification screen (Risk Assessment, Monitoring Alerts Tab) with Unit tests&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Created notification screen bloc&lt;/li&gt;
+  &lt;li&gt;Created repository with methods to get risk assessments and monitoring alerts&lt;/li&gt;
+  &lt;li&gt;on tap of the list item the child assessments are opened&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;unit-tests-1&quot;&gt;Unit tests&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Flutter Notifcation BloC test&lt;/li&gt;
+  &lt;li&gt;Test Cases&lt;/li&gt;
+  &lt;li&gt;yield NotificationLoaded on Fetch Nofitication Of Babies&lt;/li&gt;
+  &lt;li&gt;Flutter Notifcation Repository test&lt;/li&gt;
+  &lt;li&gt;Test Cases&lt;/li&gt;
+  &lt;li&gt;Risk Assessments Test cases&lt;/li&gt;
+  &lt;li&gt;status changed normal to danger&lt;/li&gt;
+  &lt;li&gt;status changed problem to danger&lt;/li&gt;
+  &lt;li&gt;status changed normal to problem&lt;/li&gt;
+  &lt;li&gt;status changed danger to problem&lt;/li&gt;
+  &lt;li&gt;Monitoring Alerts Test cases&lt;/li&gt;
+  &lt;li&gt;stage-4 assessments next&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+&lt;tr align=&quot;left&quot;&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/b51a91d3d9d5e6a0d4cefea170cb5f5f/Screenshot_1626954594.png&quot; width=&quot;300&quot; /&gt;&lt;/tr&gt;
+&lt;tr align=&quot;left&quot;&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/230caf2b0f3d400c2b2fad7016c0c411/Screenshot_1626954596.png&quot; width=&quot;300&quot; /&gt;&lt;/tr&gt;
+
+&lt;/table&gt;
+
+&lt;h4 id=&quot;unit-tests-phase-4&quot;&gt;Unit tests Phase 4&lt;/h4&gt;
+
+&lt;h5 id=&quot;assessmentsrepository-test-cases&quot;&gt;AssessmentsRepository Test Cases&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Throws exception if assesments are done before 180 mins from birth&lt;/li&gt;
+  &lt;li&gt;Throws exception if assessments are incomplete&lt;/li&gt;
+  &lt;li&gt;Marks phase-4 as complete if everything is correctly filled&lt;/li&gt;
+  &lt;li&gt;Adds stage-4 assessments if list is empty&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;assessmentsbloc-test-cases&quot;&gt;AssessmentsBloc Test Cases&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;yields AssessmentsAdded on successful adding of phase 4&lt;/li&gt;
+  &lt;li&gt;yields AssessmentsError when assessments are incomplete while adding of phase 4 assessments&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;phase-3-assessments-unit-testing&quot;&gt;Phase 3 Assessments Unit testing&lt;/h4&gt;
+&lt;p&gt;Test Cases&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Throws exception if Stage3 Normal assessments are incomplete&lt;/li&gt;
+  &lt;li&gt;Throws exception if Stage3 Problem assessments are incomplete&lt;/li&gt;
+  &lt;li&gt;Throws exception if Stage3 Danger assessments are incomplete&lt;/li&gt;
+  &lt;li&gt;Marks Stage3 Normal as complete if everything is correctly filled&lt;/li&gt;
+  &lt;li&gt;Marks Stage3 Problem as complete if everything is correctly filled&lt;/li&gt;
+  &lt;li&gt;Marks Stage3 Danger as complete if everything is correctly filled&lt;/li&gt;
+  &lt;li&gt;Adds Stage3 Normal assessments if list size is 2 and classification is normal&lt;/li&gt;
+  &lt;li&gt;Adds Stage3 Problem assessments if list size is 2 and classification is problem&lt;/li&gt;
+  &lt;li&gt;Adds Stage3 Danger assessments if list size is 2 and classification is danger&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;bloc-test&quot;&gt;Bloc Test&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;yields AssessmentsAdded on successful adding of phase 3&lt;/li&gt;
+  &lt;li&gt;yields AssessmentsError when assessments are incomplete while adding of phase 3 assessments&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;what-progress-have-you-made-this-week&quot;&gt;What progress have you made this week?&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Added On-Call Doctors Viewing Functionality in App&lt;/li&gt;
+  &lt;li&gt;Completed Notification screen (Risk Assessment, Monitoring Alerts Tab)&lt;/li&gt;
+  &lt;li&gt;Phase - 3,4 Unit testing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;what-do-i-plan-to-do-next-week&quot;&gt;What do I plan to do next week?&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Fetching &amp;amp; displaying doctor’s schedule in App with unit tests&lt;/li&gt;
+  &lt;li&gt;Making messaging/Notifications viewing functionality in App with unit tests&lt;/li&gt;
+  &lt;li&gt;Creating share App report bug features&lt;/li&gt;
+  &lt;li&gt;Creating Stage 5 (Discharge) Stage with unit tests&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">Week 7 Of coding period is completed, I worked on adding on call doctors viewing feature, I completed notifcation showing functionality on risk assessments and monitoring alerts</summary></entry><entry><title type="html">Coding Period: Week 6 July 12 To July 18</title><link href="https://darshpreet2000.github.io/My-Blog/2021/07/18/Week-6-July-12-To-July-18.html" rel="alternate" type="text/html" title="Coding Period: Week 6 July 12 To July 18" /><published>2021-07-18T00:00:00-05:00</published><updated>2021-07-18T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/07/18/Week-6-July-12-To-July-18</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/07/18/Week-6-July-12-To-July-18.html">&lt;h4 id=&quot;settings-drawer-to-toggle-settings-with-unit-test&quot;&gt;Settings drawer to toggle settings with unit test&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Created end drawer to toggle settings&lt;/li&gt;
@@ -773,214 +885,6 @@ I want to specially thank mentor &lt;a href=&quot;https://gitlab.com/muarachmann
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Final Report</title><link href="https://darshpreet2000.github.io/My-Blog/2020/08/28/Final-Report-Aug-23-To-Aug-28.html" rel="alternate" type="text/html" title="Final Report" /><published>2020-08-28T00:00:00-05:00</published><updated>2020-08-28T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2020/08/28/Final-Report-Aug-23-To-Aug-28</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2020/08/28/Final-Report-Aug-23-To-Aug-28.html">&lt;!--
-#################################################
-### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
-#################################################
-# file to edit: _notebooks/2020-08-28-Final-Report-Aug-23-To-Aug-28.ipynb
---&gt;
-
-&lt;div class=&quot;container&quot; id=&quot;notebook-container&quot;&gt;
-        
-    
-    
-&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
-
-&lt;/div&gt;
-    
-
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
-&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;table&gt;
-&lt;figure&gt;
-  
-    &lt;img class=&quot;docimage&quot; src=&quot;https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/gist_images/gsoc_logo.png&quot; alt=&quot;&quot; /&gt;
-    
-    
-&lt;/figure&gt;
-
-&lt;figure&gt;
-  
-    &lt;img class=&quot;docimage&quot; src=&quot;https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/gist_images/librehealth.png&quot; alt=&quot;&quot; /&gt;
-    
-    
-&lt;/figure&gt;
-
-&lt;/table&gt;&lt;h2 id=&quot;Organization---LibreHealth&quot;&gt;Organization - LibreHealth&lt;a class=&quot;anchor-link&quot; href=&quot;#Organization---LibreHealth&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;h2 id=&quot;Project---Develop-an-Android,-IOS-mobile-application-to-show-patient-friendly-costs-of-care.&quot;&gt;Project - Develop an Android, IOS mobile application to show patient friendly costs of care.&lt;a class=&quot;anchor-link&quot; href=&quot;#Project---Develop-an-Android,-IOS-mobile-application-to-show-patient-friendly-costs-of-care.&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;h2 id=&quot;Student---Darshpreet-Singh&quot;&gt;Student - Darshpreet Singh&lt;a class=&quot;anchor-link&quot; href=&quot;#Student---Darshpreet-Singh&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;h3 id=&quot;Goal&quot;&gt;Goal&lt;a class=&quot;anchor-link&quot; href=&quot;#Goal&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Recent changes in Medicare’s payment policies under the inpatient prospective payment system (PPS) and the long-term care hospital PPS required that the CDM be made available in a machine-readable format by January 1, 2019 . These formats are in XML or CSV and while machine readable do not make sense for a patient who is comparing the prices&lt;/p&gt;
-&lt;p&gt;The Goal of this Cost Of Care Project is to provide patient friendly costs of care, to help patients get better cost estimates for medical procedures of US Hospitals. User can view the chargemaster, search for a particular procedure in multiple hospitals chargemasters &amp;amp; can sort data by Category or sort by price in ascending or descending order. App downloads hospitals chargemaster from GitLab Repository and save it to local storage of phone in SQL database. Users can also compare hospitals based on ratings &amp;amp; patients experience to get idea about hospital services. This App can work offline and can update downloaded data.&lt;/p&gt;
-&lt;h3 id=&quot;Links&quot;&gt;Links&lt;a class=&quot;anchor-link&quot; href=&quot;#Links&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;h4 id=&quot;Librehealth-Project-Repository&quot;&gt;Librehealth Project Repository&lt;a class=&quot;anchor-link&quot; href=&quot;#Librehealth-Project-Repository&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Cost Of Care Mobile Application Project   &lt;a href=&quot;https://gitlab.com/librehealth/toolkit/cost-of-care/lh-toolkit-cost-of-care-app&quot;&gt;https://gitlab.com/librehealth/toolkit/cost-of-care/lh-toolkit-cost-of-care-app&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Cost Of Care Data Scraper Project &lt;a href=&quot;https://gitlab.com/librehealth/toolkit/cost-of-care/lh-toolkit-cost-of-care-app-data-scraper&quot;&gt;https://gitlab.com/librehealth/toolkit/cost-of-care/lh-toolkit-cost-of-care-app-data-scraper&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&quot;My-Forked-Repository&quot;&gt;My Forked Repository&lt;a class=&quot;anchor-link&quot; href=&quot;#My-Forked-Repository&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Cost Of Care Mobile Application Project  &lt;a href=&quot;https://gitlab.com/Darshpreet2000/lh-toolkit-cost-of-care-app&quot;&gt;https://gitlab.com/Darshpreet2000/lh-toolkit-cost-of-care-app&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Cost Of Care Data Scraper Project &lt;a href=&quot;https://gitlab.com/Darshpreet2000/lh-toolkit-cost-of-care-app-data-scraper&quot;&gt;https://gitlab.com/Darshpreet2000/lh-toolkit-cost-of-care-app-data-scraper&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&quot;Mobile-App&quot;&gt;Mobile App&lt;a class=&quot;anchor-link&quot; href=&quot;#Mobile-App&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;Link to mobile app &lt;a href=&quot;https://drive.google.com/file/d/1B2dF-6heXmpB7svkZNLsglojiLl3zSWo/view?usp=sharing&quot;&gt;https://drive.google.com/file/d/1B2dF-6heXmpB7svkZNLsglojiLl3zSWo/view?usp=sharing&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;What-was-done:&quot;&gt;What was done:&lt;a class=&quot;anchor-link&quot; href=&quot;#What-was-done:&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;During these three months, I have:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Used Scrapy &amp;amp; selenium to implement a web scraper in python which scraps US hospitals ChargeMasters&lt;/li&gt;
-&lt;li&gt;Developed a Flutter Application from scratch which shows these CDM &amp;amp; provides many other functionalities&lt;/li&gt;
-&lt;li&gt;Created a CI pipeline in Data Scraper Repo to scrap &amp;amp; push data every month.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;Merge-Requests&quot;&gt;Merge Requests&lt;a class=&quot;anchor-link&quot; href=&quot;#Merge-Requests&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;h3 id=&quot;Cost-Of-Care-Mobile-Application-Project&quot;&gt;Cost Of Care Mobile Application Project&lt;a class=&quot;anchor-link&quot; href=&quot;#Cost-Of-Care-Mobile-Application-Project&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;&lt;a href=&quot;https://gitlab.com/librehealth/toolkit/cost-of-care/lh-toolkit-cost-of-care-app/-/merge_requests/2&quot;&gt;Merge Request !2&lt;/a&gt; -  Created UI with Dummy Data - status:-&lt;strong&gt;Merged&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;Developed UI Screens of App with Dummy Data&lt;/li&gt;
-&lt;li&gt;Created Navigation Drawer,Bottom Navigation, Home, Search, Settings, Saved ChargeMasters,View CDM Screens&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&quot;https://gitlab.com/librehealth/toolkit/cost-of-care/lh-toolkit-cost-of-care-app/-/merge_requests/12&quot;&gt;Merge Request !12&lt;/a&gt; -  Worked on home,download cdm,saved cdm screens backend, Added Download Progress Indicator - status:-&lt;strong&gt;Merged&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;Added GeoLocator &amp;amp; Location package to get user Location&lt;/li&gt;
-&lt;li&gt;Used overpass API to fetch nearby hospitals&lt;/li&gt;
-&lt;li&gt;Used GitLab API to download CDM&lt;/li&gt;
-&lt;li&gt;Showed a progress when CDMs are downloading&lt;/li&gt;
-&lt;li&gt;Created SQL Database in App&lt;/li&gt;
-&lt;li&gt;Woked on Saved screen which shows all tables from SQL &lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&quot;https://gitlab.com/librehealth/toolkit/cost-of-care/lh-toolkit-cost-of-care-app/-/merge_requests/13&quot;&gt;Merge Request !13&lt;/a&gt; -  Worked on Compare Hospitals UI, View CDM Statewise Screen - status:-&lt;strong&gt;Merged&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;Made UI with Dummy Data for compare hospitals screen&lt;/li&gt;
-&lt;li&gt;Used Gitlab API for view CDM statewise screen&lt;/li&gt;
-&lt;li&gt;Showed CDM for each state from GitLab Data Scraper Repository&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&quot;https://gitlab.com/librehealth/toolkit/cost-of-care/lh-toolkit-cost-of-care-app/-/merge_requests/15&quot;&gt;Merge Request !15&lt;/a&gt; -  Working on Search functionality &amp;amp; fixing issues in App - status:-&lt;strong&gt;Merged&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;Added Search Functionality in View CDM Screen&lt;/li&gt;
-&lt;li&gt;Used Flutter Cache Manager to store downloaded CDM before inserting to SQL&lt;/li&gt;
-&lt;li&gt;Fixed issues in App - CDMs not displayed immediately after downloading&lt;/li&gt;
-&lt;li&gt;Improved hospital CDM list tile UI&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&quot;https://gitlab.com/librehealth/toolkit/cost-of-care/lh-toolkit-cost-of-care-app/-/merge_requests/20&quot;&gt;Merge Request !20&lt;/a&gt; -  Created Unit tests,Added alert dialog, search by price, added location choose feature, Used LH theme- status:-&lt;strong&gt;Under Review&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;Completed readme.md&lt;/li&gt;
-&lt;li&gt;Added Unit tests&lt;/li&gt;
-&lt;li&gt;completed readme.md&lt;/li&gt;
-&lt;li&gt;Fixed dart analysis&lt;/li&gt;
-&lt;li&gt;added license&lt;/li&gt;
-&lt;li&gt;fixed bugs&lt;/li&gt;
-&lt;li&gt;Worked on share,about screens of app&lt;/li&gt;
-&lt;li&gt;Search by price&lt;/li&gt;
-&lt;li&gt;unit tests passed&lt;/li&gt;
-&lt;li&gt;Splash screen created&lt;/li&gt;
-&lt;li&gt;Used LH colors for theme&lt;/li&gt;
-&lt;li&gt;Created table in readme.md for screenshots of App&lt;/li&gt;
-&lt;li&gt;Added intro slides in App&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;Cost-Of-Care-Data-Scraper-Project&quot;&gt;Cost Of Care Data Scraper Project&lt;a class=&quot;anchor-link&quot; href=&quot;#Cost-Of-Care-Data-Scraper-Project&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;&lt;a href=&quot;https://gitlab.com/librehealth/toolkit/cost-of-care/lh-toolkit-cost-of-care-app-data-scraper/-/merge_requests/10&quot;&gt;Merge Request !10&lt;/a&gt; -  Scraped &amp;amp; Processed Medicare data- status:-&lt;strong&gt;Merged&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;Used scrapy for web scraping&lt;/li&gt;
-&lt;li&gt;Used Selenium to automate web browser interaction from Python. With Selenium webdriver this scraper can also scrap dynamic websites.&lt;/li&gt;
-&lt;li&gt;Scraped &amp;amp; Processed CDM of Alaska&lt;/li&gt;
-&lt;li&gt;Scraped &amp;amp; Processed CDM of California&lt;/li&gt;
-&lt;li&gt;Scraped &amp;amp; Processed CDM of Indiana&lt;/li&gt;
-&lt;li&gt;Scraped &amp;amp; Processed Medicare Data&lt;/li&gt;
-&lt;li&gt;Wrote process scripts for each hospital&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&quot;https://gitlab.com/librehealth/toolkit/cost-of-care/lh-toolkit-cost-of-care-app-data-scraper/-/merge_requests/12&quot;&gt;Merge Request !12&lt;/a&gt; -  Trigger Pipeline- status:-&lt;strong&gt;Merged&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;Created CI(Continous Integration) pipeline which scraps, process cdm &amp;amp; then push to GitLab Repository&lt;/li&gt;
-&lt;li&gt;Tested CI pipeline on my forked repo&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&quot;https://gitlab.com/librehealth/toolkit/cost-of-care/lh-toolkit-cost-of-care-app-data-scraper/-/merge_requests/27&quot;&gt;Merge Request !27&lt;/a&gt; -  Fixing issues - status:-&lt;strong&gt;Merged&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;Completed readme.md&lt;/li&gt;
-&lt;li&gt;added license&lt;/li&gt;
-&lt;li&gt;Made Repository size small with BFG Repo Cleaner&lt;/li&gt;
-&lt;li&gt;Used lowercase for naming directories&lt;/li&gt;
-&lt;li&gt;Fixed problems in Adventist Hospital&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;What-after-GSoC&quot;&gt;What after GSoC&lt;a class=&quot;anchor-link&quot; href=&quot;#What-after-GSoC&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;I will continue to contribute to LibreHealth for this project. I will assist the new members who are willing to contribute for this project. I will actively take part in the discussions and I will contribute by creating, Solving issues and adding improvements to this app.&lt;/p&gt;
-&lt;p&gt;I would be happy if I get chance to become mentor for next year GSoC.&lt;/p&gt;
-&lt;h2 id=&quot;Thanks-to-Almighty-Lord&quot;&gt;Thanks to Almighty Lord&lt;a class=&quot;anchor-link&quot; href=&quot;#Thanks-to-Almighty-Lord&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;p&gt;I am thankful to god that I was able to complete this project during this COVID pandemic, may everyone prosper &amp;amp; be in peace that's what I pray.&lt;/p&gt;
-&lt;p&gt;&quot;In the remembrance of God, the filth of the mind is removed &amp;amp; one's works are accomplished.&quot; By Guru Arjan Dev Ji&lt;/p&gt;
-&lt;h2 id=&quot;Thanks-to-my-mentors&quot;&gt;Thanks to my mentors&lt;a class=&quot;anchor-link&quot; href=&quot;#Thanks-to-my-mentors&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;p&gt;I would like to thank my mentors, &lt;strong&gt;Mua N. Laurent, Saptarshi Purkayastha, Robby O Connor, Judy Gichoya&lt;/strong&gt; for being so nice and helpful. I have learnt a lot in the past 4 months and it has been a great experience to be a part of this wonderful organisation.&lt;/p&gt;
-&lt;p&gt;I am very much thankful to &lt;strong&gt;Mua N. Laurent&lt;/strong&gt;, I highly appreciate your mentoring &amp;amp; guidance, I am very grateful to you, this was all possible because of your encouragement, advice, and support that you’ve given me. You have been incredibly generous with your time and energy, Your words of encouragement brightened me &amp;amp; helped sharpen my skills.&lt;/p&gt;
-&lt;h3 id=&quot;Screenshots&quot;&gt;Screenshots&lt;a class=&quot;anchor-link&quot; href=&quot;#Screenshots&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
-&lt;thead&gt;&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/gist_images/home.png&quot; align=&quot;top&quot; /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/gist_images/settings.png&quot; align=&quot;top&quot; /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/gist_images/search_procedure.png&quot; align=&quot;top&quot; /&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Home screen displaying nearby hospitals &amp;amp; user location&lt;/td&gt;
-&lt;td&gt;Settings screen to filter nearby hospitals &amp;amp; change location&lt;/td&gt;
-&lt;td&gt;Search screen - Searching by procedure&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/gist_images/search_price.png&quot; align=&quot;top&quot; /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/gist_images/filter.png&quot; align=&quot;top&quot; /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/gist_images/drawer.png&quot; align=&quot;top&quot; /&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Search screen - Searching by price&lt;/td&gt;
-&lt;td&gt;Bottom sheet to filter searching in CDM&lt;/td&gt;
-&lt;td&gt;Navigation drawer - Navigate to different app screens.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/gist_images/compare.png&quot; align=&quot;top&quot; /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/gist_images/compare_screen.png&quot; align=&quot;top&quot; /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/gist_images/compare_screen_detail.png&quot; align=&quot;top&quot; /&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Choose any two hospitals to compare them&lt;/td&gt;
-&lt;td&gt;Compare screen - Comparing general information&lt;/td&gt;
-&lt;td&gt;Compare screen - Comparing patient experience&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/gist_images/download_cdm.png&quot; align=&quot;top&quot; /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/gist_images/view_cdm.png&quot; align=&quot;top&quot; /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/gist_images/view_cdm_statewise.png&quot; align=&quot;top&quot; /&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Download CDM - Download ChargeMaster of your nearby hospitals&lt;/td&gt;
-&lt;td&gt;View CDM - Viewing individual CDM with search functionality.&lt;/td&gt;
-&lt;td&gt;View CDM Statewise - View CDM of other states of US.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/gist_images/saved_cdm.png&quot; align=&quot;top&quot; /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/gist_images/about.png&quot; align=&quot;top&quot; /&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Saved ChargeMasters - CDMs Saved in SQL database of app&lt;/td&gt;
-&lt;td&gt;About us page of the project in the app.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&quot;Communication&quot;&gt;Communication&lt;a class=&quot;anchor-link&quot; href=&quot;#Communication&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The Cost Of Care &lt;a href=&quot;https://forums.librehealth.io/t/project-develop-an-android-mobile-application-to-show-patient-friendly-costs-of-care/3685/132&quot;&gt;chat channel&lt;/a&gt; is on Librehealth Forums, my entire communication with my mentors can be seen there.&lt;/p&gt;
-&lt;h3 id=&quot;Blog-posts-during-GSoC&quot;&gt;Blog posts during GSoC&lt;a class=&quot;anchor-link&quot; href=&quot;#Blog-posts-during-GSoC&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://darshpreet2000.github.io/My-Blog/&quot;&gt;https://darshpreet2000.github.io/My-Blog/&lt;/a&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
