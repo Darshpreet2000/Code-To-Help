@@ -1,4 +1,61 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://darshpreet2000.github.io/My-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darshpreet2000.github.io/My-Blog/" rel="alternate" type="text/html" /><updated>2021-07-30T13:08:38-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/feed.xml</id><title type="html">GSoC Journey</title><subtitle>Blogs For My Coding Journey</subtitle><entry><title type="html">Coding Period: Week 8 July 24 To July 30</title><link href="https://darshpreet2000.github.io/My-Blog/2021/07/30/Week-8-July-24-To-July-30.html" rel="alternate" type="text/html" title="Coding Period: Week 8 July 24 To July 30" /><published>2021-07-30T00:00:00-05:00</published><updated>2021-07-30T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/07/30/Week-8-July-24-To-July-30</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/07/30/Week-8-July-24-To-July-30.html">&lt;p&gt;Week 8 Of coding period is completed, I worked on adding on call doctors schedule showing screen, I created stage 5 assessments capture feature&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://darshpreet2000.github.io/My-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darshpreet2000.github.io/My-Blog/" rel="alternate" type="text/html" /><updated>2021-08-06T11:47:05-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/feed.xml</id><title type="html">GSoC Journey</title><subtitle>Blogs For My Coding Journey</subtitle><entry><title type="html">Coding Period: Week 9 July 31 To August 06</title><link href="https://darshpreet2000.github.io/My-Blog/2021/08/06/Week-9-July-31-To-August-06.html" rel="alternate" type="text/html" title="Coding Period: Week 9 July 31 To August 06" /><published>2021-08-06T00:00:00-05:00</published><updated>2021-08-06T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/08/06/Week-9-July-31-To-August-06</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/08/06/Week-9-July-31-To-August-06.html">&lt;p&gt;Week 9 Of coding period is completed, I worked on adding notification count, About app, Share app feature, Load more notifications functionality&lt;/p&gt;
+
+&lt;h4 id=&quot;notification-count&quot;&gt;Notification count&lt;/h4&gt;
+
+&lt;p&gt;I created notifications count in bottom app bar, It displays the count of new notifications in app, After fetching data from dhis2, app check if it has the message id , if it doesn’t have the id then count is incremented.&lt;/p&gt;
+
+&lt;p&gt;When user visits the profile page then count becomes 0 as the messages are read by the user now.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;tr align=&quot;left&quot;&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/2b4969eaddfc0d881716bb0b56b198c1/Screenshot_1628246331.png&quot; width=&quot;300&quot; /&gt;&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;about-app&quot;&gt;About app&lt;/h4&gt;
+
+&lt;p&gt;It displays about the project with a button to visit the project, This screen will be useful for promoting LibreHealth organization to users who are using this application.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;tr align=&quot;left&quot;&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/7a61c37793badc423295fa3696513231/Screenshot_1628246692.png&quot; width=&quot;300&quot; /&gt;&lt;/tr&gt;
+&lt;tr align=&quot;left&quot;&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/101b5f08043a8f1d0abacbaa8497b74f/Screenshot_1628246715.png&quot; width=&quot;300&quot; /&gt;&lt;/tr&gt;
+
+&lt;/table&gt;
+
+&lt;h4 id=&quot;load-more-notifications&quot;&gt;Load more notifications&lt;/h4&gt;
+
+&lt;p&gt;When user click on load more button then it fetches the next 5 notifications, It calls api with next page number &amp;amp; save the data to hive storage.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;tr align=&quot;left&quot;&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/69eeea895126b0fb3f64f2cddb533e3f/Screenshot_1628246667.png&quot; width=&quot;300&quot; /&gt;&lt;/tr&gt;
+&lt;tr align=&quot;left&quot;&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/ea68d5171975a11660fd735f2d14ac30/Screenshot_1628247062.png&quot; width=&quot;300&quot; /&gt;&lt;/tr&gt;
+
+&lt;/table&gt;
+
+&lt;h4 id=&quot;link-to-merge-request-httpsgitlabcomlibrehealthincubating-projectsmhbslh-mhbs-eceb-merge_requests24&quot;&gt;Link to merge request https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/-/merge_requests/24&lt;/h4&gt;
+
+&lt;h4 id=&quot;what-progress-have-you-made-this-week&quot;&gt;What progress have you made this week?&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;New notifications count viewing on bottom bar&lt;/li&gt;
+  &lt;li&gt;About App, Share App, Report bug menus in drawer&lt;/li&gt;
+  &lt;li&gt;Added Load more feature on notifications&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;what-do-i-plan-to-do-next-week&quot;&gt;What do I plan to do next week?&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Prepare Documentation/Readme for App &amp;amp; how to setup&lt;/li&gt;
+  &lt;li&gt;Creating screen to add server url&lt;/li&gt;
+  &lt;li&gt;Individual/facility login&lt;/li&gt;
+  &lt;li&gt;Creating App Icon, Splash screen, Intro Slides&lt;/li&gt;
+  &lt;li&gt;fetching program rules for classification function&lt;/li&gt;
+  &lt;li&gt;Updating metadata for both programs&lt;/li&gt;
+  &lt;li&gt;Finding &amp;amp; fixing bugs&lt;/li&gt;
+  &lt;li&gt;Deploy to F-Droid&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;have-you-had-any-blockers-or-issues-that-are-impeding-your-project&quot;&gt;Have you had any blockers or issues that are impeding your project?&lt;/h4&gt;
+
+&lt;p&gt;No&lt;/p&gt;</content><author><name></name></author><summary type="html">Week 9 Of coding period is completed, I worked on adding notification count, About app, Share app feature, Load more notifications functionality</summary></entry><entry><title type="html">Coding Period: Week 8 July 24 To July 30</title><link href="https://darshpreet2000.github.io/My-Blog/2021/07/30/Week-8-July-24-To-July-30.html" rel="alternate" type="text/html" title="Coding Period: Week 8 July 24 To July 30" /><published>2021-07-30T00:00:00-05:00</published><updated>2021-07-30T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/07/30/Week-8-July-24-To-July-30</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/07/30/Week-8-July-24-To-July-30.html">&lt;p&gt;Week 8 Of coding period is completed, I worked on adding on call doctors schedule showing screen, I created stage 5 assessments capture feature&lt;/p&gt;
 
 &lt;h4 id=&quot;added-on-call-doctors-schedule-showing-feature&quot;&gt;Added On-Call Doctors Schedule Showing feature&lt;/h4&gt;
 
@@ -463,7 +520,62 @@
   &lt;li&gt;Adding Search, Sort Functionality in List Of Babies screen&lt;/li&gt;
   &lt;li&gt;Adding sort functionality , settings UI, activity logs in profile screen&lt;/li&gt;
   &lt;li&gt;Update functionality in profile screen&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Stage 1 Assessments Capture Functionality</summary></entry><entry><title type="html">Coding Period: Week 2 June 12 To June 18</title><link href="https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-2-June-12-To-June-18.html" rel="alternate" type="text/html" title="Coding Period: Week 2 June 12 To June 18" /><published>2021-06-18T00:00:00-05:00</published><updated>2021-06-18T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-2-June-12--To-June-18</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-2-June-12-To-June-18.html">&lt;h3 id=&quot;creating-login-user-functionality&quot;&gt;Creating Login User functionality&lt;/h3&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Stage 1 Assessments Capture Functionality</summary></entry><entry><title type="html">Coding Period: Week 3 June 19 To June 27</title><link href="https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-3-June-19-To-June-27.html" rel="alternate" type="text/html" title="Coding Period: Week 3 June 19 To June 27" /><published>2021-06-18T00:00:00-05:00</published><updated>2021-06-18T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-3-June-19--To-June-27</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-3-June-19-To-June-27.html">&lt;h3 id=&quot;internationalized-flutter-app-by-adding-support-for-other-languages&quot;&gt;Internationalized Flutter app by adding support for other languages&lt;/h3&gt;
+
+&lt;p&gt;Created .arb (Application Resource Bundle) file which contains key-value pair strings, I localized all the string text using till now in app.
+For now I have added translations for 3 languages only&lt;/p&gt;
+
+&lt;h3 id=&quot;added-metadata-of-eceb--on-call-doctors-programs&quot;&gt;Added metadata of ECEB &amp;amp; on call doctors programs&lt;/h3&gt;
+
+&lt;p&gt;DHIS2 provides a metadata repository containing metadata packages with various content. A metadata package is a DHIS2-compliant JSON document which describes a set of metadata objects. I exported this metadata for the ECEB &amp;amp; On call doctors program. Users who will use this app will need to import this metadata in their dhis2.&lt;/p&gt;
+
+&lt;h3 id=&quot;unit-testing-for-authentication-screen&quot;&gt;Unit testing for authentication screen&lt;/h3&gt;
+
+&lt;p&gt;Unit tests are handy for verifying the behavior of a single function, method, or class. I created unit test for the auth functionality.&lt;/p&gt;
+
+&lt;p&gt;Test Cases for Hive Storage&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;User loggedIn return true&lt;/li&gt;
+  &lt;li&gt;Not LoggedIn return false&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Flutter BloC test cases&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;yield AuthenticationLoaded on successful login&lt;/li&gt;
+  &lt;li&gt;yield AuthenticationError on unsuccessful login&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Auth Client Test Cases&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;response code 200 - successful login&lt;/li&gt;
+  &lt;li&gt;response code 401 - unauthorized (wrong credentials)&lt;/li&gt;
+  &lt;li&gt;Socket Exception - no internet connection&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;register-baby-screen-functionality&quot;&gt;Register Baby screen functionality&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Baby able to get registered using app &amp;amp; their data is stored using api in DHIS2.&lt;/li&gt;
+  &lt;li&gt;This feature works offline also, data is synced when user is online next time&lt;/li&gt;
+  &lt;li&gt;Created a refresh bloc for state management&lt;/li&gt;
+  &lt;li&gt;Added Snackbars for showing info related to syncing&lt;/li&gt;
+  &lt;li&gt;stored the list in hive storage&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;what-progress-i-made-this-week&quot;&gt;What progress I made this week?&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Internationalized Flutter app by adding support for other languages&lt;/li&gt;
+  &lt;li&gt;Added metadata of ECEB &amp;amp; on call doctors programs&lt;/li&gt;
+  &lt;li&gt;Unit testing for authentication screen&lt;/li&gt;
+  &lt;li&gt;Register Baby screen functionality (using DHIS2 API)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;what-do-i-plan-to-do-next-week&quot;&gt;What do I plan to do next week?&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Implementing User Profile Screen functionality&lt;/li&gt;
+  &lt;li&gt;Baby Health Assessments Capture Functionality&lt;/li&gt;
+  &lt;li&gt;Fetching List Of Babies screen in App using API&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Internationalized Flutter app by adding support for other languages</summary></entry><entry><title type="html">Coding Period: Week 2 June 12 To June 18</title><link href="https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-2-June-12-To-June-18.html" rel="alternate" type="text/html" title="Coding Period: Week 2 June 12 To June 18" /><published>2021-06-18T00:00:00-05:00</published><updated>2021-06-18T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-2-June-12--To-June-18</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-2-June-12-To-June-18.html">&lt;h3 id=&quot;creating-login-user-functionality&quot;&gt;Creating Login User functionality&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Used flutter Bloc architecture for state management&lt;/li&gt;
@@ -559,62 +671,7 @@
   &lt;li&gt;Register Baby screen functionality (using DHIS2 API)&lt;/li&gt;
   &lt;li&gt;Implementing User Profile Screen functionality (using DHIS2 API)&lt;/li&gt;
   &lt;li&gt;Making the above features work also when user is offline and sending data when user is online next time&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Creating Login User functionality</summary></entry><entry><title type="html">Coding Period: Week 3 June 19 To June 27</title><link href="https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-3-June-19-To-June-27.html" rel="alternate" type="text/html" title="Coding Period: Week 3 June 19 To June 27" /><published>2021-06-18T00:00:00-05:00</published><updated>2021-06-18T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-3-June-19--To-June-27</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/06/18/Week-3-June-19-To-June-27.html">&lt;h3 id=&quot;internationalized-flutter-app-by-adding-support-for-other-languages&quot;&gt;Internationalized Flutter app by adding support for other languages&lt;/h3&gt;
-
-&lt;p&gt;Created .arb (Application Resource Bundle) file which contains key-value pair strings, I localized all the string text using till now in app.
-For now I have added translations for 3 languages only&lt;/p&gt;
-
-&lt;h3 id=&quot;added-metadata-of-eceb--on-call-doctors-programs&quot;&gt;Added metadata of ECEB &amp;amp; on call doctors programs&lt;/h3&gt;
-
-&lt;p&gt;DHIS2 provides a metadata repository containing metadata packages with various content. A metadata package is a DHIS2-compliant JSON document which describes a set of metadata objects. I exported this metadata for the ECEB &amp;amp; On call doctors program. Users who will use this app will need to import this metadata in their dhis2.&lt;/p&gt;
-
-&lt;h3 id=&quot;unit-testing-for-authentication-screen&quot;&gt;Unit testing for authentication screen&lt;/h3&gt;
-
-&lt;p&gt;Unit tests are handy for verifying the behavior of a single function, method, or class. I created unit test for the auth functionality.&lt;/p&gt;
-
-&lt;p&gt;Test Cases for Hive Storage&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;User loggedIn return true&lt;/li&gt;
-  &lt;li&gt;Not LoggedIn return false&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Flutter BloC test cases&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;yield AuthenticationLoaded on successful login&lt;/li&gt;
-  &lt;li&gt;yield AuthenticationError on unsuccessful login&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Auth Client Test Cases&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;response code 200 - successful login&lt;/li&gt;
-  &lt;li&gt;response code 401 - unauthorized (wrong credentials)&lt;/li&gt;
-  &lt;li&gt;Socket Exception - no internet connection&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;register-baby-screen-functionality&quot;&gt;Register Baby screen functionality&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Baby able to get registered using app &amp;amp; their data is stored using api in DHIS2.&lt;/li&gt;
-  &lt;li&gt;This feature works offline also, data is synced when user is online next time&lt;/li&gt;
-  &lt;li&gt;Created a refresh bloc for state management&lt;/li&gt;
-  &lt;li&gt;Added Snackbars for showing info related to syncing&lt;/li&gt;
-  &lt;li&gt;stored the list in hive storage&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;what-progress-i-made-this-week&quot;&gt;What progress I made this week?&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Internationalized Flutter app by adding support for other languages&lt;/li&gt;
-  &lt;li&gt;Added metadata of ECEB &amp;amp; on call doctors programs&lt;/li&gt;
-  &lt;li&gt;Unit testing for authentication screen&lt;/li&gt;
-  &lt;li&gt;Register Baby screen functionality (using DHIS2 API)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;what-do-i-plan-to-do-next-week&quot;&gt;What do I plan to do next week?&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Implementing User Profile Screen functionality&lt;/li&gt;
-  &lt;li&gt;Baby Health Assessments Capture Functionality&lt;/li&gt;
-  &lt;li&gt;Fetching List Of Babies screen in App using API&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Internationalized Flutter app by adding support for other languages</summary></entry><entry><title type="html">Coding Period: Week 1 June 07 To June 11</title><link href="https://darshpreet2000.github.io/My-Blog/2021/06/11/Week-1-June-07-To-June-11.html" rel="alternate" type="text/html" title="Coding Period: Week 1 June 07 To June 11" /><published>2021-06-11T00:00:00-05:00</published><updated>2021-06-11T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/06/11/Week-1-June-07--To-June-11</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/06/11/Week-1-June-07-To-June-11.html">&lt;h3 id=&quot;developing-ui-of-register-baby-screen&quot;&gt;Developing UI of Register Baby Screen&lt;/h3&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Creating Login User functionality</summary></entry><entry><title type="html">Coding Period: Week 1 June 07 To June 11</title><link href="https://darshpreet2000.github.io/My-Blog/2021/06/11/Week-1-June-07-To-June-11.html" rel="alternate" type="text/html" title="Coding Period: Week 1 June 07 To June 11" /><published>2021-06-11T00:00:00-05:00</published><updated>2021-06-11T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/06/11/Week-1-June-07--To-June-11</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/06/11/Week-1-June-07-To-June-11.html">&lt;h3 id=&quot;developing-ui-of-register-baby-screen&quot;&gt;Developing UI of Register Baby Screen&lt;/h3&gt;
 
 &lt;p&gt;I worked on creating UI of register baby screen, I have used the following packages&lt;/p&gt;
 
@@ -720,60 +777,4 @@ For now I have added translations for 3 languages only&lt;/p&gt;
   &lt;li&gt;Developing Assessments Screen UI of App&lt;/li&gt;
   &lt;li&gt;Adding Dark Mode in App&lt;/li&gt;
   &lt;li&gt;Adding navigation drawer in app with menus ( Doctor’s Schedule, Messaging, Share App, Report Bug)&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Community Bonding Period June 1 to June 6</summary></entry><entry><title type="html">Community Bonding Period May 18 to 1 June</title><link href="https://darshpreet2000.github.io/My-Blog/2021/06/01/Community-Bonding-Period-May-18-to-1-June.html" rel="alternate" type="text/html" title="Community Bonding Period May 18 to 1 June" /><published>2021-06-01T00:00:00-05:00</published><updated>2021-06-01T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/06/01/Community-Bonding-Period-May-18-to-1-June</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/06/01/Community-Bonding-Period-May-18-to-1-June.html">&lt;h2 id=&quot;community-bonding-period-may-18-to-1-june&quot;&gt;Community Bonding Period May 18 to 1 June&lt;/h2&gt;
-
-&lt;p&gt;Hello Everyone,&lt;/p&gt;
-
-&lt;p&gt;I am very happy to start my Google Summer of Code journey with LibreHealth, I will be working on Mobile App Development Project, I am very much Thankful to LibreHealth &amp;amp; Google for selecting me again. I have also successfully completed GSoC previous year &amp;amp; have worked on &lt;a href=&quot;https://gitlab.com/librehealth/toolkit/cost-of-care&quot;&gt;Cost of Care&lt;/a&gt; project of LibreHealth.&lt;/p&gt;
-
-&lt;h2 id=&quot;about-project&quot;&gt;About Project&lt;/h2&gt;
-
-&lt;p&gt;To develop an Android &amp;amp; IOS application to provide clinical decision-support for nurses and doctors delivering essential newborn care interventions during the first day of life. This application provides knowledge, skills, and competencies to nurses and doctors in low/middle-income settings so that they can provide life-saving care to newborns from birth through 24 hours postnatal. App uses DHIS2 as backend &amp;amp; can be setup for any hospital/organization&lt;/p&gt;
-
-&lt;p&gt;The Goals of this project are&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Ability to track multiple babies at a time;&lt;/li&gt;
-  &lt;li&gt;Time-stamping births to generate an essential newborn care clock for each baby being tracked in the app;&lt;/li&gt;
-  &lt;li&gt;Automated classification of babies health status, based on results from observations and assessments that are conducted during the first 2 hours after birth;&lt;/li&gt;
-  &lt;li&gt;Automated advice on management of babies, based on their classification; Reminders/alerts to provide recommended essential newborn care interventions;&lt;/li&gt;
-  &lt;li&gt;If particular interventions are not delivered on time, or at all, capture of information regarding why this essential newborn care was late, or missed&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;about-community-bonding-period&quot;&gt;About Community Bonding Period&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://darshpreet2000.github.io/My-Blog/assets/img/2020-05-08-Community-Bonding-May-4-to-May-8/media/image2.jpeg&quot; width=&quot;50%&quot; style=&quot;display: block; margin-left: auto; margin-right: auto; width: 50%;&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Community Bonding Period in which you get to know your community and get familiar with their code base and work style.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Ask for resources, required by you, to gain your knowledge for the parts of your project you don’t know.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Discuss and plan your GSoC work with your mentor.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Discuss and plan your time-table for your summer.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;my-progress&quot;&gt;My Progress&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;During the community bonding I have introduced myself to mentors &amp;amp; mentors are very much welcoming.&lt;/li&gt;
-  &lt;li&gt;I recieved access to DHIS2 for the application development, I have discussed with them about creating Programs, Stages, Attributes in DHIS2.&lt;/li&gt;
-  &lt;li&gt;I read the documentation of DHIS2 Tracker API, Creating Program/Stages.&lt;/li&gt;
-  &lt;li&gt;I have created a program for On-Call-Doctors &amp;amp; I have to discuss it with mentors.&lt;/li&gt;
-  &lt;li&gt;I resolved my doubts related to modifying the already created program in DHIS2.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;tasks-for-next-week&quot;&gt;Tasks For Next Week&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Completely setting up DHIS2 with all Programs/Stages/Attributes&lt;/li&gt;
-  &lt;li&gt;Finalising weekly tasks &amp;amp; creating milestones&lt;/li&gt;
-  &lt;li&gt;Reading Documentation&lt;/li&gt;
-  &lt;li&gt;Discussing &amp;amp; showing mentors the programs I will modify in DHIS2&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Community Bonding Period May 18 to 1 June</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Community Bonding Period June 1 to June 6</summary></entry></feed>
