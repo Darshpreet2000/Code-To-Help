@@ -1,4 +1,53 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://darshpreet2000.github.io/My-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darshpreet2000.github.io/My-Blog/" rel="alternate" type="text/html" /><updated>2021-08-17T06:40:29-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/feed.xml</id><title type="html">GSoC Journey</title><subtitle>Blogs For My Coding Journey</subtitle><entry><title type="html">Coding Period: Week 9 July 31 To August 06</title><link href="https://darshpreet2000.github.io/My-Blog/2021/08/06/Week-9-July-31-To-August-06.html" rel="alternate" type="text/html" title="Coding Period: Week 9 July 31 To August 06" /><published>2021-08-06T00:00:00-05:00</published><updated>2021-08-06T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/08/06/Week-9-July-31-To-August-06</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/08/06/Week-9-July-31-To-August-06.html">&lt;p&gt;Week 9 Of coding period is completed, I worked on adding notification count, About app, Share app feature, Load more notifications functionality&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://darshpreet2000.github.io/My-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darshpreet2000.github.io/My-Blog/" rel="alternate" type="text/html" /><updated>2021-08-18T04:43:04-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/feed.xml</id><title type="html">GSoC Journey</title><subtitle>Blogs For My Coding Journey</subtitle><entry><title type="html">Coding Period: Week 10 August 07 To August 16</title><link href="https://darshpreet2000.github.io/My-Blog/2021/08/17/Week-10-August-07-To-August-16.html" rel="alternate" type="text/html" title="Coding Period: Week 10 August 07 To August 16" /><published>2021-08-17T00:00:00-05:00</published><updated>2021-08-17T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/08/17/Week-10-August-07-To-August-16</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/08/17/Week-10-August-07-To-August-16.html">&lt;p&gt;Week 10 Of coding period is completed, I worked on adding Creating sphinx Documentation, Splash Screen, App Icons, Updating program rules, enter server textfield
+Created Documentation using sphinx
+Deployed documentation on Gitlab pages
+Created App Icon
+Created Splash Screen
+Updated metadata
+Created CI script to build documentation
+Added link to docs in README.md&lt;/p&gt;
+
+&lt;h2 id=&quot;link-to-documentation-on-gitlab-pages&quot;&gt;Link to documentation on GitLab Pages&lt;/h2&gt;
+&lt;p&gt;https://darshpreet2000.gitlab.io/lh-mhbs-eceb/&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/17fdb60925e9526302f90e3b91ca8af2/docs.png&quot; alt=&quot;docs&quot; /&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Splash Screen&lt;/th&gt;
+      &lt;th&gt;App Icon&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/252d1fe53b51900fcc905d430862e684/splash.png&quot; alt=&quot;splash&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/uploads/4a1895c2ec41f6a2f52bc9115ec01b67/app_icon.png&quot; alt=&quot;app_icon&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;link-to-merge-request-httpsgitlabcomlibrehealthincubating-projectsmhbslh-mhbs-eceb-merge_requests25&quot;&gt;Link to merge request https://gitlab.com/librehealth/incubating-projects/mhbs/lh-mhbs-eceb/-/merge_requests/25&lt;/h4&gt;
+
+&lt;h4 id=&quot;what-progress-have-you-made-this-week&quot;&gt;What progress have you made this week?&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Prepared Documentation/Readme for App &amp;amp; how to setup&lt;/li&gt;
+  &lt;li&gt;Created App Icon, Splash screen, Intro Slides&lt;/li&gt;
+  &lt;li&gt;Updating metadata for both programs&lt;/li&gt;
+  &lt;li&gt;Finding &amp;amp; fixing bugs&lt;/li&gt;
+  &lt;li&gt;Presentation with mentors&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;what-do-i-plan-to-do-next-week&quot;&gt;What do I plan to do next week?&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Deploy to F-Droid&lt;/li&gt;
+  &lt;li&gt;Finding &amp;amp; Fixing bugs&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;have-you-had-any-blockers-or-issues-that-are-impeding-your-project&quot;&gt;Have you had any blockers or issues that are impeding your project?&lt;/h4&gt;
+&lt;p&gt;No&lt;/p&gt;</content><author><name></name></author><summary type="html">Week 10 Of coding period is completed, I worked on adding Creating sphinx Documentation, Splash Screen, App Icons, Updating program rules, enter server textfield Created Documentation using sphinx Deployed documentation on Gitlab pages Created App Icon Created Splash Screen Updated metadata Created CI script to build documentation Added link to docs in README.md</summary></entry><entry><title type="html">Coding Period: Week 9 July 31 To August 06</title><link href="https://darshpreet2000.github.io/My-Blog/2021/08/06/Week-9-July-31-To-August-06.html" rel="alternate" type="text/html" title="Coding Period: Week 9 July 31 To August 06" /><published>2021-08-06T00:00:00-05:00</published><updated>2021-08-06T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/08/06/Week-9-July-31-To-August-06</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/08/06/Week-9-July-31-To-August-06.html">&lt;p&gt;Week 9 Of coding period is completed, I worked on adding notification count, About app, Share app feature, Load more notifications functionality&lt;/p&gt;
 
 &lt;h4 id=&quot;notification-count&quot;&gt;Notification count&lt;/h4&gt;
 
@@ -732,49 +781,4 @@ For now I have added translations for 3 languages only&lt;/p&gt;
   &lt;li&gt;Developing Assessments Screen UI for all stages&lt;/li&gt;
   &lt;li&gt;Using Sliver App Bar for floating app bars&lt;/li&gt;
   &lt;li&gt;Adding Dark Mode in App&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Developing UI of Register Baby Screen</summary></entry><entry><title type="html">Community Bonding Period June 1 to June 6</title><link href="https://darshpreet2000.github.io/My-Blog/2021/06/06/Community-Bonding-Period-June-01-to-June-06.html" rel="alternate" type="text/html" title="Community Bonding Period June 1 to June 6" /><published>2021-06-06T00:00:00-05:00</published><updated>2021-06-06T00:00:00-05:00</updated><id>https://darshpreet2000.github.io/My-Blog/2021/06/06/Community-Bonding-Period-June-01-to-June-06</id><content type="html" xml:base="https://darshpreet2000.github.io/My-Blog/2021/06/06/Community-Bonding-Period-June-01-to-June-06.html">&lt;h2 id=&quot;community-bonding-period-june-1-to-june-6&quot;&gt;Community Bonding Period June 1 to June 6&lt;/h2&gt;
-
-&lt;p&gt;Coding period is about to begin tomorrow &amp;amp; I have done preparations to start coding, During this week I had completely set up DHIS2 with program rules/Stages&lt;/p&gt;
-
-&lt;p&gt;Few thing I want to Discuss&lt;/p&gt;
-
-&lt;h3 id=&quot;baby-classification-logic&quot;&gt;Baby Classification Logic&lt;/h3&gt;
-
-&lt;p&gt;Earlier I thought to do Classification in app only , but now I learned about program rules which run automatically and can classify baby easily, Moreover these rules are very much configurable so users can configure these according to their requirements&lt;/p&gt;
-
-&lt;p&gt;Currently I used ECEB Action plan to classify Baby’s health in 3 categories - Normal/Problem/Danger&lt;/p&gt;
-
-&lt;p&gt;Example of Classification Logic For Danger&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;#{ECEB_Severe_Jaundice} || #{ECEB_Assess_Temperature}&amp;lt;= 35.5 || #{ECEB_Assess_Temperature} &amp;gt;= 37.5  || #{ECEB_Weight} &amp;lt; 1500 || #{ECEB_Chest_Indrawing} ||#{ECEB_Not_Feeding} || #{ECEB_Fast_Breathing} || #{ECEB_Convulsions}&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;If any of the above condition is true then the health is in danger.&lt;/p&gt;
-
-&lt;p&gt;The program rule has an acion - It classifies health by filling data element ECEB_Classification after evaluating the above expressions.&lt;/p&gt;
-
-&lt;h3 id=&quot;creating-an-initial-screen-to-fetch-all-data-elementsprogram-ids-from-dhis2&quot;&gt;Creating an Initial Screen to fetch all data elements/program ids from dhis2&lt;/h3&gt;
-
-&lt;p&gt;For doing API call related to a program/event we need its unique id beforehand, As these ids are not constant on every DHIS2 , I need to first design a screen which fetches all the variables/Stage/Programs ID from the dhis2. Then the user will be able to use the app.&lt;/p&gt;
-
-&lt;h3 id=&quot;on-call-doctors-program&quot;&gt;On Call Doctor’s Program&lt;/h3&gt;
-
-&lt;p&gt;This is an Event Program, Doctor’s schedule is added as an event with data elements name, date, start time, end time, Doctor’s Image.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Darshpreet2000/My-Blog/master/images/on_call_doctors.png&quot; width=&quot;60%&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;what-progress-i-made-this-week&quot;&gt;What progress I made this week?&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Created program rules for Normal/Problem/Danger&lt;/li&gt;
-  &lt;li&gt;Created On Call Doctor’s Program&lt;/li&gt;
-  &lt;li&gt;Created Stage 4 &amp;amp; Stage 5 in DHIS2 &amp;amp; modified previous stages according to ECEB action plan&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;what-i-have-planned-to-do-next-week&quot;&gt;What I have planned to do next week?&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Developing Register baby screen UI&lt;/li&gt;
-  &lt;li&gt;Developing Assessments Screen UI of App&lt;/li&gt;
-  &lt;li&gt;Adding Dark Mode in App&lt;/li&gt;
-  &lt;li&gt;Adding navigation drawer in app with menus ( Doctor’s Schedule, Messaging, Share App, Report Bug)&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Community Bonding Period June 1 to June 6</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Developing UI of Register Baby Screen</summary></entry></feed>
